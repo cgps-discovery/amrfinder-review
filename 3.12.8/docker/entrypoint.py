@@ -129,12 +129,15 @@ def main():
     parsed_amrfinder_json = parse_output(amrfinder_results_path, args.working_dir, args.verbose)
     # Final Output
     result = {'fileId':fileid,'task':TASK,'version':amrfinder_version,'stdlib_version':stdlib_version,'results':parsed_amrfinder_json}
+
     # Print results
-    print( json.dumps(result ))
-    # # Save as gzipped json
-    # gzjson_result = dict_to_gzjson(result,args.working_dir,args.verbose)
-    # # Upload result to digital ocean
-    # upload_s3( get_upload_path(args.output_s3_path,fileid,jsongz_extension), gzjson_result, "application/json",args.verbose)
+    if args.output_s3_path is None:
+        print(json.dumps(result))
+    else:
+        # Save as gzipped json
+        gzjson_result = dict_to_gzjson(result,args.working_dir,args.verbose)
+        # Upload result to digital ocean
+        upload_s3(get_upload_path(args.output_s3_path,fileid,jsongz_extension), gzjson_result, "application/json",args.verbose)
 
 if __name__ == '__main__':
     main()
