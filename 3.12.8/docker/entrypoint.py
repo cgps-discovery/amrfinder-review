@@ -92,7 +92,7 @@ def parse_output(amrfinder_result_path, working_dir, is_verbose):
             #print( str(data) )
             #print( data )
             mod_list.append( data )        
-        result = "[" + ",".join([str(x) for x in mod_list]) + "]"   
+        result = json.dumps(mod_list) 
     except Exception as e:
         result = ""
         return e
