@@ -1,6 +1,6 @@
 process AMRFINDERPLUS1 {
     label 'AMRFINDRPLUS_TEST'
-    label 'process_low'
+    label 'process_single'
     tag {"AMR Prediction $sample"}
     publishDir "${params.outdir}/amrfinder_test", mode: 'copy'
 
@@ -10,11 +10,11 @@ process AMRFINDERPLUS1 {
     script:
      if (species =~ /None/){ // Species is not defined
     """
-    amrfinder -n $fasta > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
+    amrfinder --plus --threads $task.cpus -n $fasta > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
     """
       } else { // files with _1 and _2
     """
-    amrfinder -n $fasta --organism $species > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
+    amrfinder --plus --threads $task.cpus  -n $fasta --organism $species > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
     """ 
     }    
     output:
@@ -30,7 +30,7 @@ process AMRFINDERPLUS1 {
 
 process AMRFINDERPLUS2 {
     label 'AMRFINDRPLUS_ORIGINAL'
-    label 'process_low'
+    label 'process_single'
     tag {"AMR Prediction $sample"}
     publishDir "${params.outdir}/amrfinder_ori", mode: 'copy'
 
@@ -40,11 +40,11 @@ process AMRFINDERPLUS2 {
     script:
      if (species =~ /None/){ // Species is not defined
     """
-    amrfinder -n $fasta > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
+    amrfinder --plus --threads $task.cpus  -n $fasta > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
     """
       } else { // files with _1 and _2
     """
-    amrfinder -n $fasta --organism $species > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
+    amrfinder --plus --threads $task.cpus -n $fasta --organism $species > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
     """ 
     }    
     output:

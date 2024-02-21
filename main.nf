@@ -48,6 +48,6 @@ workflow {
 
     // Running the ETOKI module
    AMRFINDERPLUS2(FASTA) // This is the official one
-   // AMRFINDERPLUS1(FASTA) // This is the one we are testing 
+   AMRFINDERPLUS1(FASTA) // This is the one we are testing 
 }
 

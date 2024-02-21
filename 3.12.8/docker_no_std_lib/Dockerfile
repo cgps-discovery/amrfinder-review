@@ -3,7 +3,7 @@ FROM --platform=linux/x86_64 python:3.7-slim
 LABEL authors="julio.diaz@cgps.group"
 
 RUN apt update && \
-    apt install -y -q --no-install-recommends git curl ca-certificates gcc hmmer libcurl4 wget && \
+    apt install -y -q --no-install-recommends git curl ca-certificates gcc hmmer libcurl4 wget procps && \
     rm -rf /var/lib/apt/lists/* && \
     apt clean
 
@@ -25,7 +25,6 @@ RUN echo "Using BLAST version: ${BLAST_VERSION}" && \
 #    rm -r ftp.ncbi.nlm.nih.gov
 COPY 2021-12-21.1 /2021-12-21.1
 
-
 RUN mkdir amrfinder && \
     cd amrfinder && \
     wget https://github.com/ncbi/amr/releases/download/amrfinder_v3.10.23/amrfinder_binaries_v3.10.23.tar.gz && \
@@ -35,26 +34,8 @@ RUN mkdir amrfinder && \
     mv amrfinder /opt/.
 
 
-RUN apt update && \
-    apt install -y -q --no-install-recommends python3-pip python3-dev && \
-    pip3 install requests py-fasta-validator boto3 && \
-    apt clean && \
-    rm -rf /var/lib/apt/lists/*
-
-ARG STDLIB_VERSION=v0.0.13
-ENV STDLIB_VERSION ${STDLIB_VERSION}
-RUN git clone --depth 1 --branch ${STDLIB_VERSION} https://github.com/cgps-discovery/discovery_stdlib.git && \
-    mkdir /amrfinder && \
-    mv discovery_stdlib /amrfinder/.
-
-#ADD DRR021826.fasta /DRR021826.fasta
-#ADD DRR031245.fasta /DRR031245.fasta
-
 WORKDIR /amrfinder
 
 ENV PATH="/opt/amrfinder/:${PATH}" 
-
-RUN apt update && \
-    apt install -y -q --no-install-recommends procps && \
-    apt clean && \
-    rm -rf /var/lib/apt/lists/*
+ENV AMRFINDER_DB=/2021-12-21.1
+ENV BLAST_BIN=/bin
