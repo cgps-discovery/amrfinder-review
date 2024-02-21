@@ -15,7 +15,7 @@ RUN echo "Using BLAST version: ${BLAST_VERSION}" && \
     mkdir /opt/blast \
     && curl ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/${BLAST_VERSION}/ncbi-blast-${BLAST_VERSION}+-x64-linux.tar.gz | tar -zxC /tmp/blast --strip-components=1 \
     && cd /tmp/blast/bin \
-    && mv blastn makeblastdb tblastn /bin/ \
+    && mv blastn makeblastdb tblastn blastx blastp tblastx /bin/ \
     && cd .. \
     && rm -rf /tmp/blast
 
