@@ -15,7 +15,7 @@ docker build --platform linux/amd64 --pull . -t juliofdiaz/amrfinder:alpha
 * `--working_dir` : working directory (optional)
 * `--verbose` : prints progress messages (optional)
 * `--debug` : prints everything (optional)
-* `--tax_id 287` : NCBI taxonomy id of input genome (optiona)
+* `--tax_id 287` : NCBI taxonomy id of input genome (optional)
 
 ### Works providing the tax_id, except for E. coli
 
@@ -27,6 +27,6 @@ docker run --platform linux/amd64 -e SPACES_KEY='${DO_KEY}' -e SPACES_SECRET='${
 
 ## TO ADDRESS:
 
-- It doesnt work when the tex id is Escherichia.
+- It doesnt work when the tax id is Escherichia.
 - When a tax_id is given
 - Improve documentation.
