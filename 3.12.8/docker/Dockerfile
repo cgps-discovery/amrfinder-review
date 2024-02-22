@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM --platform=linux/x86_64 python:3.7-slim
 
 LABEL authors="julio.diaz@cgps.group"
 
