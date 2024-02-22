@@ -10,7 +10,7 @@ import sys
 import subprocess
 from argparse import ArgumentParser
 import amrfinder_taxid
-
+import json
 
 TASK = "amrfinder"
 GET_VERSION_CMD = '/opt/amrfinder/amrfinder --version'
@@ -87,12 +87,9 @@ def parse_output(amrfinder_result_path, working_dir, is_verbose):
         mod_list = []
         for i in range(1, len(result_lines)):  # Skip the first item
             info = result_lines[i].split("\t")
-            #print(result_lines[i])
             data = {"protein_identifier": info[0], "contig_id": info[1], "start": info[2], "stop": info[3], "strand": info[4], "gene_symbol": info[5],"sequence_name": info[6], "scope": info[7], "element_type": info[8], "element_subtype": info[9], "class": info[10], "subclass": info[11], "method": info[12], "target_length": info[13], "ref_seq_length": info[14], "percent_cov_of_ref_seq": info[15], "percent_id_to_ref_seq": info[16], 'alignment_length': info[17], "acc_of_closest_sequence": info[18], "name_of_closest_sequence": info[19], "hmm_id": info[20], "hmm_description": info[21]}
-            #print( str(data) )
-            #print( data )
             mod_list.append( data )        
-        result = "[" + ",".join([str(x) for x in mod_list]) + "]"   
+        result = json.dumps(mod_list) 
     except Exception as e:
         result = ""
         return e
@@ -107,7 +104,7 @@ def main():
     
     argparser.add_argument('--fasta_s3_path', type=str, help='Fasta assembly s3 path')
     argparser.add_argument('--tax_id', type=str, help='tax id of the genome')
-    argparser.add_argument('--output_s3_path', type=str, help='Output s3 path', required=True)
+    argparser.add_argument('--output_s3_path', type=str, help='Output s3 path')
     argparser.add_argument('--id', type=str, help='label of the genome')
     argparser.add_argument('--working_dir', type=str, default='/tmp')
     argparser.add_argument('--verbose', action='store_true')
@@ -129,12 +126,15 @@ def main():
     parsed_amrfinder_json = parse_output(amrfinder_results_path, args.working_dir, args.verbose)
     # Final Output
     result = {'fileId':fileid,'task':TASK,'version':amrfinder_version,'stdlib_version':stdlib_version,'results':parsed_amrfinder_json}
+
     # Print results
-    print( result )
-    # Save as gzipped json
-    gzjson_result = dict_to_gzjson(result,args.working_dir,args.verbose)
-    # Upload result to digital ocean
-    upload_s3( get_upload_path(args.output_s3_path,fileid,jsongz_extension), gzjson_result, "application/json",args.verbose)
+    if args.output_s3_path is None:
+        print(json.dumps(result))
+    else:
+        # Save as gzipped json
+        gzjson_result = dict_to_gzjson(result,args.working_dir,args.verbose)
+        # Upload result to digital ocean
+        upload_s3(get_upload_path(args.output_s3_path,fileid,jsongz_extension), gzjson_result, "application/json",args.verbose)
 
 if __name__ == '__main__':
     main()
