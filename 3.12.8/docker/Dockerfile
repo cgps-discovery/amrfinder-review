@@ -47,12 +47,11 @@ RUN git clone --depth 1 --branch ${STDLIB_VERSION} https://github.com/cgps-disco
     mkdir /amrfinder && \
     mv discovery_stdlib /amrfinder/.
 
-#ADD DRR021826.fasta /DRR021826.fasta
-#ADD DRR031245.fasta /DRR031245.fasta
 
-ADD entrypoint.py /amrfinder/
-ADD amrfinder_taxid.py /amrfinder/
+ADD entrypoint.sh /amrfinder/
+ADD convert_output.py /amrfinder/
+ADD convert_taxid.py /amrfinder/
 WORKDIR /amrfinder
 
 
-ENTRYPOINT ["python3","entrypoint.py"]
+ENTRYPOINT ["bash","entrypoint.sh"]
