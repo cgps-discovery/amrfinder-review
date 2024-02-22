@@ -2,6 +2,27 @@ import subprocess
 import json
 import sys
 
+info = {
+'470':'Acinetobacter_baumannii',
+'562':'Escherichia',
+'354276':'Enterobacter_cloacae',
+'573':'Klebsiella_pneumoniae',
+'287':'Pseudomonas_aeruginosa',
+'194':'Campylobacter',
+'1352':'Enterococcus_faecium',
+'485':'Neisseria_gonorrhoeae',
+'1280':'Staphylococcus_aureus',
+'149539':'Salmonella',
+'90370':'Salmonella',
+'90371':'Salmonella',
+'727':None,
+'1313':'Streptococcus_pneumoniae',
+'620':'Escherichia',
+None:None
+}
+
+
+
 def parse_output(amrfinder_result_path):
     """
     Captures the essential output from Quast
@@ -34,7 +55,20 @@ if not lines_of_data:
     sys.exit(1)
 in_file.write(''.join(lines_of_data))
 in_file.close()
+
+import argparse
+
+parser = argparse.ArgumentParser() 
+parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=False) 
+args = parser.parse_args()
+tax_id = args.tax_id
+
+organism = info[tax_id]
+
 # Run amrfinder command
-amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', '/input.fasta', '-o', 'amrfinder_output.tsv'], capture_output=True)
+if organism:
+    amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', '/input.fasta', '-o', 'amrfinder_output.tsv', '-O', organism], capture_output=True)
+else:
+    amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', '/input.fasta', '-o', 'amrfinder_output.tsv'], capture_output=True)
 print(parse_output('amrfinder_output.tsv'))
 
