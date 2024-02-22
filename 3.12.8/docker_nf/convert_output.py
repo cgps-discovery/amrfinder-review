@@ -1,4 +1,5 @@
-import subprocess
+#!/usr/bin/python3
+
 import json
 import sys
 
@@ -26,15 +27,8 @@ def parse_output(amrfinder_result_path):
 
     return result
 
-in_file = open('/input.fasta', 'w')
-lines_of_data = sys.stdin.read() 
-if not lines_of_data:
-    print('No input data received')
-    print('If this is Docker did you remember to use --interative?')
-    sys.exit(1)
-in_file.write(''.join(lines_of_data))
-in_file.close()
-# Run amrfinder command
-amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', '/input.fasta', '-o', 'amrfinder_output.tsv'], capture_output=True)
-print(parse_output('amrfinder_output.tsv'))
+def main():
+    print(parse_output(sys.argv[1]))
 
+if __name__ == "__main__":
+    main()

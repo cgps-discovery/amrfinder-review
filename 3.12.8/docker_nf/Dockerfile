@@ -53,5 +53,9 @@ ENTRYPOINT ["python3","entrypoint.py"]
 FROM base as runtime
 
 ADD run.py /amrfinder/
+ADD convert_output.py /amrfinder/
+ADD convert_taxid.py /amrfinder/
 WORKDIR /amrfinder
+
+
 ENTRYPOINT ["python3","run.py"]
