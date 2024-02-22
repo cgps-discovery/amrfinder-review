@@ -1,0 +1,9 @@
+test/ 
+.vscode
+.nextflow.log*
+work/
+test_ass/
+outdir/
+ftp*
+.nextflow/
+.venv/

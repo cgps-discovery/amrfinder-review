@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://raw.githubusercontent.com/./master/nextflow_schema.json",
+  "title": ". pipeline parameters",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "index": {
+      "type": "string",
+      "description": "File of sample files",
+      "format": "file-path"
+    },
+    "help": {
+      "type": "string",
+      "description": "Prints help message"
+    },
+    "outdir": {
+      "type": "string",
+      "default": "/Users/nfareed/code/nf-mashup/outdir"
+    },
+    "tracedir": {
+      "type": "string",
+      "default": "/Users/nfareed/code/nf-mashup/outdir/pipeline_info"
+    },
+    "reference": {
+      "type": "boolean"
+    },
+    "max_memory": {
+      "type": "string",
+      "default": "16.GB"
+    },
+    "max_cpus": {
+      "type": "integer",
+      "default": 8
+    },
+    "max_time": {
+      "type": "string",
+      "default": "10.h"
+    }
+  },
+  "required": ["index"]
+}

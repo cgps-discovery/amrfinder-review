@@ -11,7 +11,7 @@ docker build --platform linux/amd64 --pull . -t juliofdiaz/amrfinder:alpha
 This container takes up to two files passed as stdout of tar.
 
 1. `sequence.fasta` is the input assembly file in fasta format
-2. `taxid.txt` a text file containing only the texonomic id of the inpiut genome (optional)
+2. `taxid.txt` a text file containing only the texonomic id of the input genome (optional)
 
 These two files should be passed to docker using `tar -c`. The docker container would untar these files.
 
