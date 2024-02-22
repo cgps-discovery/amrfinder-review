@@ -1,0 +1,3 @@
+[submodule "3.12.8/docker_nf/discovery_stdlib"]
+	path = 3.12.8/docker_nf/discovery_stdlib
+	url = git@github.com:cgps-discovery/discovery_stdlib.git

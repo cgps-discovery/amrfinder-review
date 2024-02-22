@@ -48,5 +48,10 @@ ADD entrypoint.py /amrfinder/
 ADD amrfinder_taxid.py /amrfinder/
 WORKDIR /amrfinder
 
-
 ENTRYPOINT ["python3","entrypoint.py"]
+
+FROM base as runtime
+
+ADD run.py /amrfinder/
+WORKDIR /amrfinder
+ENTRYPOINT ["python3","run.py"]

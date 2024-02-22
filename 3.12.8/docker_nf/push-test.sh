@@ -2,3 +2,4 @@ python 3.12.8/docker_nf/deploy.py --docker-image-version amrfinder-1.0.0 --docke
 python 3.12.8/docker_nf/deploy.py --docker-image-version amrfinder-1.0.0 --docker-repo happykhan/amrfinder  --docker-dir 3.12.8/docker_nf --image-target base test
 python 3.12.8/docker_nf/deploy.py --docker-image-version amrfinder-1.0.0 --docker-repo happykhan/amrfinder --docker-dir 3.12.8/docker_nf  --image-target base build --push
 python 3.12.8/docker_nf/deploy.py --docker-image-version amrfinder-1.0.0 --docker-repo happykhan/amrfinder --docker-dir 3.12.8/docker_nf  --image-target aws build --push
+python 3.12.8/docker_nf/deploy.py --docker-image-version amrfinder-1.0.0 --docker-repo happykhan/amrfinder --docker-dir 3.12.8/docker_nf  --image-target runtime build --push
