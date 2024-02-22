@@ -16,7 +16,7 @@ def versionMessage(){
 // Importing required functions from 'plugin/nf-validation'
 include { validateParameters; paramsHelp; paramsSummaryLog; } from 'plugin/nf-validation'
 
-include {   AMRFINDERPLUS1; AMRFINDERPLUS2 } from './modules/amrfindr'
+include {   AMRFINDERPLUS1; AMRFINDERPLUS2; AMRFINDERPLUS3} from './modules/amrfindr'
 
 // Setting the default value for params.help
 params.help = false
@@ -49,5 +49,6 @@ workflow {
     // Running the ETOKI module
    AMRFINDERPLUS2(FASTA) // This is the official one
    AMRFINDERPLUS1(FASTA) // This is the one we are testing 
+   AMRFINDERPLUS3(FASTA) // This is the RUNTIME (stdin version)
 }
 

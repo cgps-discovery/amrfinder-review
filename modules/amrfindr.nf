@@ -57,3 +57,34 @@ process AMRFINDERPLUS2 {
         """
 
 }
+
+
+process AMRFINDERPLUS3 {
+    label 'AMRFINDRPLUS_RUNTIME'
+    label 'process_single'
+    tag {"AMR Prediction $sample"}
+    publishDir "${params.outdir}/amrfinder_ori", mode: 'copy'
+
+    input:
+    tuple val(sample), file(fasta), val(species)
+
+    script:
+     if (species =~ /None/){ // Species is not defined
+    """
+    < $fasta > ${sample}_amrfinder.json
+    """
+      } else { // files with _1 and _2
+    """
+    < $fasta > ${sample}_amrfinder.json
+    """ 
+    }    
+    output:
+    tuple val(sample), file("${sample}_amrfinder.json")
+
+    stub:
+        """
+        touch ${sample}_amrfinder.txt
+        touch ${sample}_amrfinder.err
+        """
+
+}

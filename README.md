@@ -1,10 +1,14 @@
 # Docker container for amrfinder
 
-## Build locally
+## Build locally and run 
 
 ```bash
-docker build --platform linux/amd64 --pull . -t juliofdiaz/amrfinder:alpha
+docker build -t amrfinder --target runtime 3.12.8/docker_nf && docker run -i  amrfinder < test_ass/ERR4626366.fasta --tax-id 1280
 ```
+
+## 
+
+
 
 ## USAGE
 

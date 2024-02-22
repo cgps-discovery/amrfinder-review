@@ -30,7 +30,7 @@ ENV PATH="/opt/amrfinder/:/opt/blast/bin:${PATH}"
 ENV AMRFINDER_DB=/opt/2021-12-21.1
 ENV BLAST_BIN=/opt/blast/bin
 
-FROM base as aws
+FROM --platform=linux/x86_64 base as aws
 
 RUN apt update && \
     apt install -y -q --no-install-recommends python3-pip python3-dev && \
@@ -50,7 +50,7 @@ WORKDIR /amrfinder
 
 ENTRYPOINT ["python3","entrypoint.py"]
 
-FROM base as runtime
+FROM --platform=linux/x86_64 base as runtime
 
 ADD run.py /amrfinder/
 ADD convert_output.py /amrfinder/

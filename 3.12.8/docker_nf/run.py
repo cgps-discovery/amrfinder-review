@@ -2,22 +2,35 @@ import subprocess
 import json
 import sys
 
+
+# Available --organism options: Acinetobacter_baumannii, Campylobacter, 
+# Clostridioides_difficile, Enterococcus_faecalis, Enterococcus_faecium, 
+# Escherichia, Klebsiella, Neisseria, Pseudomonas_aeruginosa, Salmonella, 
+# Staphylococcus_aureus, Staphylococcus_pseudintermedius, Streptococcus_agalactiae, 
+# Streptococcus_pneumoniae, Streptococcus_pyogenes, Vibrio_cholerae
+
 info = {
 '470':'Acinetobacter_baumannii',
 '562':'Escherichia',
-'354276':'Enterobacter_cloacae',
-'573':'Klebsiella_pneumoniae',
+'1496': 'Clostridioides_difficile',
+'354276': None,
+'573':'Klebsiella',
 '287':'Pseudomonas_aeruginosa',
 '194':'Campylobacter',
+'1351':'Enterococcus_faecalis',
 '1352':'Enterococcus_faecium',
-'485':'Neisseria_gonorrhoeae',
+'485':'Neisseria',
 '1280':'Staphylococcus_aureus',
+'283734': 'Staphylococcus_pseudintermedius',
+'1311':'Streptococcus_agalactiae',
 '149539':'Salmonella',
 '90370':'Salmonella',
 '90371':'Salmonella',
-'727':None,
+'1314':'Streptococcus_pyogenes',
+'727': None,
 '1313':'Streptococcus_pneumoniae',
 '620':'Escherichia',
+'666': 'Vibrio_cholerae',
 None:None
 }
 
@@ -63,7 +76,7 @@ parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=False)
 args = parser.parse_args()
 tax_id = args.tax_id
 
-organism = info[tax_id]
+organism = info.get(tax_id, None)
 
 # Run amrfinder command
 if organism:
