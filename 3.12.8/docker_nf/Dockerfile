@@ -24,7 +24,7 @@ RUN mkdir amrfinder && \
     tar -xzf amrfinder_binaries_v3.10.23.tar.gz && \
     rm amrfinder_binaries_v3.10.23.tar.gz && \
     cd .. && \
-    mv amrfinder /opt/.
+    mv amrfinder /opt/
 
 ENV PATH="/opt/amrfinder/:/opt/blast/bin:${PATH}" 
 ENV AMRFINDER_DB=/opt/2021-12-21.1
@@ -53,9 +53,6 @@ ENTRYPOINT ["python3","entrypoint.py"]
 FROM --platform=linux/x86_64 base as runtime
 
 ADD run.py /amrfinder/
-ADD convert_output.py /amrfinder/
-ADD convert_taxid.py /amrfinder/
 WORKDIR /amrfinder
 
-
-ENTRYPOINT ["python3","run.py"]
+CMD ["python3","/amrfinder/run.py"]

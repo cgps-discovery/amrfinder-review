@@ -1,7 +1,7 @@
 process AMRFINDERPLUS1 {
     label 'AMRFINDRPLUS_TEST'
     label 'process_single'
-    tag {"AMR Prediction $sample"}
+    tag {"AMR Prediction test $sample"}
     publishDir "${params.outdir}/amrfinder_test", mode: 'copy'
 
     input:
@@ -31,7 +31,8 @@ process AMRFINDERPLUS1 {
 process AMRFINDERPLUS2 {
     label 'AMRFINDRPLUS_ORIGINAL'
     label 'process_single'
-    tag {"AMR Prediction $sample"}
+    tag {"AMR Prediction ori $sample"}
+
     publishDir "${params.outdir}/amrfinder_ori", mode: 'copy'
 
     input:
@@ -58,33 +59,28 @@ process AMRFINDERPLUS2 {
 
 }
 
-
 process AMRFINDERPLUS3 {
     label 'AMRFINDRPLUS_RUNTIME'
     label 'process_single'
-    tag {"AMR Prediction $sample"}
-    publishDir "${params.outdir}/amrfinder_ori", mode: 'copy'
+    tag {"AMR Prediction run $sample"}
+
+    publishDir "${params.outdir}/amrfinder_run", mode: 'copy'
 
     input:
     tuple val(sample), file(fasta), val(species)
 
     script:
-     if (species =~ /None/){ // Species is not defined
     """
-    < $fasta > ${sample}_amrfinder.json
+    python3 /amrfinder/run.py < $fasta > ${sample}_amrfinder.json 2> ${sample}_amrfinder.err
     """
-      } else { // files with _1 and _2
-    """
-    < $fasta > ${sample}_amrfinder.json
-    """ 
-    }    
+
     output:
-    tuple val(sample), file("${sample}_amrfinder.json")
+    tuple val(sample), file("${sample}_amrfinder.json"), file("${sample}_amrfinder.err")
 
     stub:
         """
-        touch ${sample}_amrfinder.txt
-        touch ${sample}_amrfinder.err
+        touch ${sample}_amrfinder.json
+        touch ${sample}_amrfinder.errs
         """
 
 }

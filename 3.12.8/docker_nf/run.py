@@ -64,7 +64,7 @@ in_file = open('/input.fasta', 'w')
 lines_of_data = sys.stdin.read() 
 if not lines_of_data:
     print('No input data received')
-    print('If this is Docker did you remember to use --interative?')
+    print('If this is Docker did you remember to use --interactive?')
     sys.exit(1)
 in_file.write(''.join(lines_of_data))
 in_file.close()

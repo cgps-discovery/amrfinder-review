@@ -68,6 +68,7 @@ def docker_build(docker_dir, docker_repo, docker_image_version, image_type='aws'
         push (bool, optional): Whether to push the built image to the repository. Defaults to False.
     """
     image_cache = f'{docker_repo}:{docker_image_version}-{image_type}'
+    os.environ["DOCKER_BUILDKIT"] = "1"
     cmd = ['docker', 'build', '--target', image_type, '--build-arg', 'BUILDKIT_INLINE_CACHE=1', f'--cache-from={image_cache}', '--tag', image_cache, docker_dir]
     logging.info(f"Running command: {' '.join(cmd)}")
     subprocess.run(cmd, check=True)
