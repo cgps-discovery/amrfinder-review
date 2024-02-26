@@ -44,7 +44,7 @@ workflow {
         // Splitting the CSV file into rows with headers
         | splitCsv(header:true) \
         // Mapping each row to a tuple with sample and fasta file
-        | map { row-> tuple(row.sample, file(row.fasta), row.species) } 
+        | map { row-> tuple(row.sample, file(row.fasta), row.species, row.taxid) } 
 
     // Running the ETOKI module
   //  AMRFINDERPLUS2(FASTA) // This is the official one

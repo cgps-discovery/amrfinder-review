@@ -67,11 +67,11 @@ process AMRFINDERPLUS3 {
     publishDir "${params.outdir}/amrfinder_run", mode: 'copy'
 
     input:
-    tuple val(sample), file(fasta), val(species)
+    tuple val(sample), file(fasta), val(species), val(taxid)
 
     script:
     """
-    python3 /amrfinder/run.py < $fasta > ${sample}_amrfinder.json 2> ${sample}_amrfinder.err
+    python3 /amrfinder/run.py --tax-id $taxid < $fasta > ${sample}_amrfinder.json 2> ${sample}_amrfinder.err
     """
 
     output:

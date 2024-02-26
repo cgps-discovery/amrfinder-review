@@ -54,5 +54,6 @@ FROM --platform=linux/x86_64 base as runtime
 
 ADD run.py /amrfinder/
 WORKDIR /amrfinder
+RUN mkdir /amrfinder/temp
 
 CMD ["python3","/amrfinder/run.py"]
