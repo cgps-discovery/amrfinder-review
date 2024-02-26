@@ -47,10 +47,9 @@ workflow {
         | map { row-> tuple(row.sample, file(row.fasta), row.species, row.taxid) } 
 
     // Running the ETOKI module
-  //  AMRFINDERPLUS2(FASTA) // This is the official one
-  //  AMRFINDERPLUS1(FASTA) // This is the one we are testing 
-
-    AMRFINDERPLUS3(FASTA) // This is the one we are testing 
+    AMRFINDERPLUS2(FASTA) // This is the official one
+    AMRFINDERPLUS1(FASTA) // This is the one we are testing 
+    AMRFINDERPLUS3(FASTA) // This is the one we are running 
 
 }
 
