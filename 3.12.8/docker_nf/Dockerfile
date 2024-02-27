@@ -56,4 +56,12 @@ ADD run.py /amrfinder/
 WORKDIR /amrfinder
 RUN mkdir /amrfinder/temp
 
+ENTRYPOINT ["python3","/amrfinder/run.py"]
+
+FROM --platform=linux/x86_64 base as nextflow
+
+ADD run.py /amrfinder/
+WORKDIR /amrfinder
+RUN mkdir /amrfinder/temp
+
 CMD ["python3","/amrfinder/run.py"]

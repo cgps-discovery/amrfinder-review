@@ -181,7 +181,7 @@ if __name__ == "__main__":
     parser.add_argument('--docker-dir', help='Directory containing Dockerfile', default="3.12.8/docker")
     parser.add_argument('--docker-repo', help='Docker repository name', default="happykhan/amrfinder")
     parser.add_argument('--docker-image-version', help='Docker image version', default="amrfinder-latest")
-    parser.add_argument('--image-target', help='Docker image target', choices=['base', 'aws', 'runtime'], default='aws')
+    parser.add_argument('--image-target', help='Docker image target', choices=['base', 'aws', 'runtime', 'nextflow'], default='aws')
 
     subparsers = parser.add_subparsers(dest='command')
 
