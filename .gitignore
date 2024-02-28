@@ -7,3 +7,4 @@ outdir/
 ftp*
 .nextflow/
 .venv/
+amrfinder_*/
