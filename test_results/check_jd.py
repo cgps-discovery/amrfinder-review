@@ -3,7 +3,7 @@ import subprocess
 import csv
 
 def get_tax_id(accession):
-    with open('large_sample_data.csv', 'r') as csvfile:
+    with open('enterobacter_neisseria_data.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         tax_id = [(row['taxid'], row['ori_species']) for row in reader if row['sample'] == accession] 
         if tax_id: 
@@ -22,8 +22,21 @@ def get_real_results(accession, tax_id):
         else:
             return None
 
-print('accession', 'species','taxid', 'drug', 'expected', 'actual', 'passed', sep='\t')
-with open('short', 'r') as amr_finder_filtered:
+import json 
+
+def check_mappings(input_genes): 
+    raw_genes = input_genes.split(';')
+    correct_rules = json.loads(open(f'test_results/rules/{tax_id}_amr.js').read())
+    final_mapping = None 
+    for rule in correct_rules:
+        if raw_genes == rule[3]:
+            final_mapping = rule[2]
+    if not final_mapping:
+        final_mapping = 'none'
+    return final_mapping
+
+print('accession', 'species','taxid', 'drug', 'expected', 'actual', 'cleaned', 'passed', sep='\t')
+with open('test_results/entero-nei-short', 'r') as amr_finder_filtered:
     reader = csv.DictReader(amr_finder_filtered)
     for record in reader:
         accession = record['accession_id'].split('_')[0]
@@ -33,7 +46,9 @@ with open('short', 'r') as amr_finder_filtered:
             if real_results:
                 ori_accession = real_results.pop('accession_id')
                 for key, value in real_results.items():
-                    passed = record[key] == value
-                    print(accession, species, tax_id, key, value, record[key], passed, sep='\t')
+                    if record.get(key): 
+                        final_prediction = check_mappings(record[key])
+                        passed = record[key] == value
+                        print(accession, species, tax_id, key, value, record[key], final_prediction, passed, sep='\t')
 
             

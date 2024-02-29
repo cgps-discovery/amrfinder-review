@@ -23,7 +23,7 @@ def main(args):
     SIMPLE_OUT = args.SIMPLE_OUT
 
     # List of files in that directory
-    file_names = [f for f in listdir(INPUT_DIR) if isfile(join(INPUT_DIR, f))]
+    file_names = [f for f in listdir(INPUT_DIR) if isfile(join(INPUT_DIR, f)) and f.endswith('.txt')]
 
     # Create dataframe from each AMRFinder result
     frames = []

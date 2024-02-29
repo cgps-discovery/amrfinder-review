@@ -21,6 +21,7 @@ info = {
 '195':'Campylobacter', # campylobacter_coli
 '197':'Campylobacter', # campylobacter_jejuni
 '547': None, # enterobacter
+'354276': None, # Enterobacter cloacae complex
 '727': None, # hinfluenzae
 '210': None, # hpylori
 '1773': None, # mtuberculosis
