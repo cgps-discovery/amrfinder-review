@@ -11,6 +11,7 @@
     [ "1280", "METHICILLIN", "mecC2", ["mecC2", "mecR", "mecI"]],
     [ "1280", "METHICILLIN", "mecC2", ["mecC2", "mecR"]],
     [ "1280", "METHICILLIN", "mecC2", ["mecC2", "mecI"]],
+    
     [ "1280", "VANCOMYCIN", "vanA", [ "vanA" ] ],
     [ "1280", "VANCOMYCIN", "vanH-A", [ "vanA", "vanH-A" ] ],
     [ "1280", "VANCOMYCIN", "vanR-A", [ "vanA", "vanR-A" ] ],
@@ -18,6 +19,14 @@
     [ "1280", "VANCOMYCIN", "vanX-A", [ "vanA", "vanX-A" ] ],
     [ "1280", "VANCOMYCIN", "vanY-A", [ "vanA", "vanY-A" ] ],
     [ "1280", "VANCOMYCIN", "vanZ-A", [ "vanA", "vanZ-A" ] ],
+
+    [ "1280", "VANCOMYCIN", "vanB", [ "vanB" ]],
+    [ "1280", "VANCOMYCIN", "vanH-B", ["vanB", "vanH-B"]],
+    [ "1280", "VANCOMYCIN", "vanR-B", ["vanB", "vanR-B"]],
+    [ "1280", "VANCOMYCIN", "vanS-B", ["vanB", "vanS-B"]],
+    [ "1280", "VANCOMYCIN", "vanX-B", ["vanB", "vanX-B"]],
+    [ "1280", "VANCOMYCIN", "vanY-B", ["vanB", "vanY-B"]],
+    [ "1280", "VANCOMYCIN", "vanZ-B", ["vanB", "vanZ-B"]],  
   
     [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaOXA-23" ] ],
     [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaNDM-1", "blaOXA-23" ] ],
