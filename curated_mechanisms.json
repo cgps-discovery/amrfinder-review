@@ -11,6 +11,15 @@
     [ "1280", "METHICILLIN", "mecC2", ["mecC2", "mecR", "mecI"]],
     [ "1280", "METHICILLIN", "mecC2", ["mecC2", "mecR"]],
     [ "1280", "METHICILLIN", "mecC2", ["mecC2", "mecI"]],
+
+    [ "1280", "METHICILLIN", "mecA", ["mecA", "mecR1", "mecI"]],
+    [ "1280", "METHICILLIN", "mecA", ["mecA", "mecR1"]],
+    [ "1280", "METHICILLIN", "mecC", ["mecC", "mecR1", "mecI"]],
+    [ "1280", "METHICILLIN", "mecC", ["mecC", "mecR1"]],
+    [ "1280", "METHICILLIN", "mecC2", ["mecC2", "mecR1", "mecI"]],
+    [ "1280", "METHICILLIN", "mecC2", ["mecC2", "mecR1", "mecI"]],
+    [ "1280", "METHICILLIN", "mecC2", ["mecC2", "mecR1"]],
+
     
     [ "1280", "VANCOMYCIN", "vanA", [ "vanA" ] ],
     [ "1280", "VANCOMYCIN", "vanH-A", [ "vanA", "vanH-A" ] ],
