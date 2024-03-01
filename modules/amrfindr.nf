@@ -10,7 +10,7 @@ process AMRFINDERPLUS1 {
     script:
      if (species =~ /None/){ // Species is not defined
     """
-    amrfinder --plus --threads $task.cpus -n $fasta > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
+    amrfinder --plus --threads $task.cpus -n $fasta > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err 
     """
       } else { // files with _1 and _2
     """
