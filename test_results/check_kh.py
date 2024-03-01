@@ -70,11 +70,11 @@ def main():
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--old_version', type=bool, default=False,
                         help='A boolean switch to use old version')
-    parser.add_argument('--sample_sheet', type=str, default='enterobacter_neisseria_data.csv',
+    parser.add_argument('--sample_sheet', type=str, default='all_sample_data.csv',
                         help='Sample sheet from the amrfinder run')
-    parser.add_argument('--results_dir', type=str, default='test_enterogono_data/amrfinder_run',
+    parser.add_argument('--results_dir', type=str, default='test_amr/amrfinder_run',
                         help='Json from the amrfinder run')
-    parser.add_argument('--tax_ids', type=str, nargs='+', default=['354276'])
+    parser.add_argument('--tax_ids', type=str, nargs='+', default=['287', '1280', '354276'])
     args = parser.parse_args()
     run(args)
 

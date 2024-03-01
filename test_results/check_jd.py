@@ -28,12 +28,12 @@ def check_mappings(input_genes, tax_id):
     raw_genes = input_genes.split(';')
     final_mapping = None
     correct_rules = json.loads(open(f'curated_mechanisms.json').read())
-    count_tax_id = len([rule[0] for rule in correct_rules])
+    count_tax_id = len([rule[0] for rule in correct_rules if tax_id == rule[0]])
     if count_tax_id == 0:
         final_mapping = 'No rulesheet'
     else:
         for rule in correct_rules:
-            if raw_genes == rule[3] and tax_id == rule[0]:
+            if set(raw_genes) == set(rule[3]) and tax_id == rule[0]:
                 final_mapping = rule[2]
     if not final_mapping:
         final_mapping = 'none'
@@ -41,7 +41,7 @@ def check_mappings(input_genes, tax_id):
 
 
 def main(args):
-    print('accession', 'species','taxid', 'drug', 'expected', 'actual', 'cleaned', 'passed', sep='\t')
+    print('accession', 'species','taxid', 'drug', 'expected', 'actual', 'passed', 'raw', sep='\t')
     with open(args.file, 'r') as amr_finder_filtered:
         reader = csv.DictReader(amr_finder_filtered)
         for record in reader:
@@ -54,8 +54,8 @@ def main(args):
                     for key, value in real_results.items():
                         if record.get(key): 
                             final_prediction = check_mappings(record[key], tax_id)
-                            passed = record[key] == value
-                            print(accession, species, tax_id, key, value, record[key], final_prediction, passed, sep='\t')
+                            passed = final_prediction == value
+                            print(accession, species, tax_id, key, value, final_prediction, passed, record[key], sep='\t')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
