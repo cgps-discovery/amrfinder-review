@@ -12,7 +12,8 @@ banned_methods = [
     "INTERNAL_STOP",
 ]
 
-TAX_IDS = ['354276', '485', '287', '470', '1280']
+# TAX_IDS = ['354276', '485', '287', '470', '1280']
+TAX_IDS = ['354276']
 
 def filter_amr_elements(lst):
     filtered = []
@@ -76,6 +77,7 @@ def generate_output(curated_mechanisms, result_list, tax_id):
     groups = group_by_subclass(amr_elements)
     hits_by_subclass = extract_genes_from_groups(groups)
     output = {}
+    found_hits = ''
     rules = get_curated_mechanisms(tax_id, curated_mechanisms)
     for rule in rules:
         subclass, gene, mechanisms = rule['subclass'], rule['gene'], rule['mechanisms']
@@ -111,18 +113,21 @@ def main(args):
                     if not output.get(drug_class):
                         this_prediction = 'none'
                     else:
-                        this_prediction = output.get(drug_class)[0]
+                        this_prediction = ';'.join(output.get(drug_class))
                     passed = this_prediction == genes
-                    print('accession', 'species','taxid', 'drug_class', 'expected', 'actual', 'passed', 'found_matches', sep='\t')
-                    print(accession, species, tax_id, drug_class, genes, this_prediction, passed, found_matches, sep='\t')
-
+                    if args.failed_only:
+                        if not passed:
+                            print(accession, species, tax_id, drug_class, genes, this_prediction, passed, found_matches, sep='\t')
+                    else:
+                        print(accession, species, tax_id, drug_class, genes, this_prediction, passed, found_matches, sep='\t')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--file', type=str, help='The path to a folder of amrfinder (runtime results)', default='test_amr/amrfinder_run')
     parser.add_argument('--sample_sheet', type=str, help='The path to the samplesheet, with taxids', default='all_sample_data.csv')
     parser.add_argument('--curated', type=str, help='The path curated mechanisms filter as a json', default='curated_mechanisms.json')
-
+    parser.add_argument('--failed_only', type=str, help='Show only failed results', default=True)
+    
     args = parser.parse_args()
     main(args)
 
