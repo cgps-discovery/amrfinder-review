@@ -12,7 +12,7 @@ banned_methods = [
     "INTERNAL_STOP",
 ]
 
-TAX_IDS = "1280    1313    1352    149539     194     287     354276  470     485     562     573     620     727     90370   90371".split()
+TAX_IDS = ['354276', '485']
 
 def filter_amr_elements(lst):
     filtered = []
@@ -104,8 +104,10 @@ def main(args):
             if original_results:
                 accession = original_results.pop('accession_id')
                 for drug_class, genes in original_results.items():
-                    found_matches = ';'.join(list(found_hits.keys()))
-                    if genes == 'none' and not output.get(drug_class):
+                    found_matches = ''
+                    if found_hits:
+                        found_matches = ';'.join(list(found_hits.keys()))
+                    if not output.get(drug_class):
                         this_prediction = 'none'
                     else:
                         this_prediction = output.get(drug_class)[0]

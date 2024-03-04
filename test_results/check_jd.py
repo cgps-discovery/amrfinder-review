@@ -3,8 +3,7 @@ import json
 import argparse
 import os 
 
-
-TAX_IDS = ['354276', '485']
+TAX_IDS = "1280    1313    1352    149539     194     287     354276  470     485     562     573     620     727     90370   90371".split()
 
 def get_tax_id(accession, samplesheet):
     with open(samplesheet, 'r') as csvfile:
