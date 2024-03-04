@@ -46,6 +46,26 @@ info = {
 None:None
 }
 
+rename = {
+    '485' : [
+                ('QUINOLONE','FLUOROQUINOLONE'),
+                ('AZITHROMYCIN/CEPHALOSPORIN/TETRACYCLINE','CEPHALOSPORIN')
+            ]
+}
+
+def evaluate_subclass(subclass, tax_id):
+    """
+    Evaluates the subclass and tax_id to determine if the subclass should be renamed
+    :param subclass: The subclass to evaluate
+    :param tax_id: The tax_id to evaluate
+    """
+    if tax_id in rename:
+        rename_list = rename[tax_id]
+        for r in rename_list:
+            if subclass == r[0]:
+                subclass = r[1]
+        
+    return subclass
 
 def get_random_string(length=10):
     # choose from all lowercase letter
@@ -53,10 +73,11 @@ def get_random_string(length=10):
     result_str = ''.join(random.choice(letters) for i in range(length))
     return result_str
 
-def parse_output(amrfinder_result_path):
+def parse_output(amrfinder_result_path, tax_id):
     """
     Captures the essential output from Quast
     :param quast_result_path: Path to the AMRFinder output file
+    :param tax_id: The tax_id to evaluate
     """
 
     try:
@@ -68,6 +89,7 @@ def parse_output(amrfinder_result_path):
         mod_list = []
         for i in range(1, len(result_lines)):  # Skip the first item
             info = result_lines[i].split("\t")
+            info[11] = evaluate_subclass(info[11], tax_id)
             data = {"protein_identifier": info[0], "contig_id": info[1], "start": info[2], "stop": info[3], "strand": info[4], "gene_symbol": info[5],"sequence_name": info[6], "scope": info[7], "element_type": info[8], "element_subtype": info[9], "class": info[10], "subclass": info[11], "method": info[12], "target_length": info[13], "ref_seq_length": info[14], "percent_cov_of_ref_seq": info[15], "percent_id_to_ref_seq": info[16], 'alignment_length': info[17], "acc_of_closest_sequence": info[18], "name_of_closest_sequence": info[19], "hmm_id": info[20], "hmm_description": info[21]}
             mod_list.append( data )        
         result = json.dumps(mod_list) 
@@ -94,7 +116,6 @@ def main(args):
 
     tax_id = args.tax_id
     organism = info.get(tax_id, None)
-
     # Run amrfinder command
     if organism:
         amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o',output_file_path, '-O', organism], capture_output=True)
