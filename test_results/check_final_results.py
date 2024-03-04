@@ -117,9 +117,9 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('--file', type=str, help='The path to the short file to process, use convert_amr_finder', default='test_amr/amrfinder_run')
+    parser.add_argument('--file', type=str, help='The path to a folder of amrfinder (runtime results)', default='test_amr/amrfinder_run')
     parser.add_argument('--sample_sheet', type=str, help='The path to the samplesheet, with taxids', default='all_sample_data.csv')
-    parser.add_argument('--curated', type=str, help='The path to the samplesheet, with taxids', default='curated_mechanisms.json')
+    parser.add_argument('--curated', type=str, help='The path curated mechanisms filter as a json', default='curated_mechanisms.json')
 
     args = parser.parse_args()
     main(args)
