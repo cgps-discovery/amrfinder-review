@@ -12,7 +12,7 @@ banned_methods = [
     "INTERNAL_STOP",
 ]
 
-TAX_IDS = ['354276', '485']
+TAX_IDS = ['354276', '485', '287', '470', '1280']
 
 def filter_amr_elements(lst):
     filtered = []
@@ -93,6 +93,7 @@ def generate_output(curated_mechanisms, result_list, tax_id):
 
 def main(args):
     curated_mechanisms = json.load(open(args.curated))
+    print('accession', 'species','taxid', 'drug_class', 'expected', 'actual', 'passed', 'found_matches', sep='\t')
 
     for result_file in [os.path.join(args.file, x) for x in os.listdir(args.file) if x.endswith('.json')]:
         result_list = json.load(open(result_file))
@@ -112,6 +113,7 @@ def main(args):
                     else:
                         this_prediction = output.get(drug_class)[0]
                     passed = this_prediction == genes
+                    print('accession', 'species','taxid', 'drug_class', 'expected', 'actual', 'passed', 'found_matches', sep='\t')
                     print(accession, species, tax_id, drug_class, genes, this_prediction, passed, found_matches, sep='\t')
 
 
