@@ -20,7 +20,7 @@ def test(args):
     logging.info("Testing Docker image")
     logging.info(f"Arguments: {args}")    
 
-    test_docker_run(args.docker_repo + ':' + args.docker_image_version + f"-{args.target}", args.test_dir)
+    test_docker_run(args.docker_repo + ':' + args.docker_image_version + f"-{args.image_target}", args.test_dir)
 
 def describe(args):
     arg_versions, labels, python_requirements = docker_describe(args.docker_dir)
@@ -68,6 +68,7 @@ def docker_build(docker_dir, docker_repo, docker_image_version, image_type='aws'
         push (bool, optional): Whether to push the built image to the repository. Defaults to False.
     """
     image_cache = f'{docker_repo}:{docker_image_version}-{image_type}'
+    os.environ["DOCKER_BUILDKIT"] = "1"
     cmd = ['docker', 'build', '--target', image_type, '--build-arg', 'BUILDKIT_INLINE_CACHE=1', f'--cache-from={image_cache}', '--tag', image_cache, docker_dir]
     logging.info(f"Running command: {' '.join(cmd)}")
     subprocess.run(cmd, check=True)
@@ -180,7 +181,7 @@ if __name__ == "__main__":
     parser.add_argument('--docker-dir', help='Directory containing Dockerfile', default="3.12.8/docker")
     parser.add_argument('--docker-repo', help='Docker repository name', default="happykhan/amrfinder")
     parser.add_argument('--docker-image-version', help='Docker image version', default="amrfinder-latest")
-    parser.add_argument('--image-target', help='Docker image target', choices=['base', 'aws'], default='aws')
+    parser.add_argument('--image-target', help='Docker image target', choices=['base', 'aws', 'runtime', 'nextflow'], default='aws')
 
     subparsers = parser.add_subparsers(dest='command')
 

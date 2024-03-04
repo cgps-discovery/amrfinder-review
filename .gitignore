@@ -7,3 +7,5 @@ outdir/
 ftp*
 .nextflow/
 .venv/
+amrfinder_*/
+test_enterogono_data/

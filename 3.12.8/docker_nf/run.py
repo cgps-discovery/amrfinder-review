@@ -1,23 +1,48 @@
 import subprocess
 import json
 import sys
+import random 
+import string
+import argparse
+
+# Available --organism options: Acinetobacter_baumannii, Campylobacter, 
+# Clostridioides_difficile, Enterococcus_faecalis, Enterococcus_faecium, 
+# Escherichia, Klebsiella, Neisseria, Pseudomonas_aeruginosa, Salmonella, 
+# Staphylococcus_aureus, Staphylococcus_pseudintermedius, Streptococcus_agalactiae, 
+# Streptococcus_pneumoniae, Streptococcus_pyogenes, Vibrio_cholerae
 
 info = {
 '470':'Acinetobacter_baumannii',
 '562':'Escherichia',
-'354276':'Enterobacter_cloacae',
-'573':'Klebsiella_pneumoniae',
+'1496': 'Clostridioides_difficile',
+'354276': None,
+'573':'Klebsiella', # Klebsiella is split between pneumoniae and oxytoca in one version, and kept as a single Klebsiella database in another
 '287':'Pseudomonas_aeruginosa',
 '194':'Campylobacter',
+'195':'Campylobacter', # campylobacter_coli
+'197':'Campylobacter', # campylobacter_jejuni
+'547': None, # enterobacter
+'354276': None, # Enterobacter cloacae complex
+'727': None, # hinfluenzae
+'210': None, # hpylori
+'1773': None, # mtuberculosis
+'1351':'Enterococcus_faecalis',
 '1352':'Enterococcus_faecium',
-'485':'Neisseria_gonorrhoeae',
+'485':'Neisseria',
 '1280':'Staphylococcus_aureus',
-'149539':'Salmonella',
-'90370':'Salmonella',
-'90371':'Salmonella',
-'727':None,
+'283734': 'Staphylococcus_pseudintermedius',
+'1311':'Streptococcus_agalactiae',
+'149539':'Salmonella', # salmonella_enteritidis
+'90370':'Salmonella', # styphi
+'90371':'Salmonella', # salmonella_typhimurium
+'590':'Salmonella',
+'1314':'Streptococcus_pyogenes',
+'727': None,
 '1313':'Streptococcus_pneumoniae',
-'620':'Escherichia',
+'620':'Escherichia', #shigella
+'623':'Escherichia', #shigella_flexneri
+'624':'Escherichia', #shigella_sonnei
+'666': 'Vibrio_cholerae',
 None:None
 }
 
@@ -42,6 +67,11 @@ def evaluate_subclass(subclass, tax_id):
         
     return subclass
 
+def get_random_string(length=10):
+    # choose from all lowercase letter
+    letters = string.ascii_lowercase
+    result_str = ''.join(random.choice(letters) for i in range(length))
+    return result_str
 
 def parse_output(amrfinder_result_path, tax_id):
     """
@@ -69,28 +99,35 @@ def parse_output(amrfinder_result_path, tax_id):
 
     return result
 
-in_file = open('/input.fasta', 'w')
-lines_of_data = sys.stdin.read() 
-if not lines_of_data:
-    print('No input data received')
-    print('If this is Docker did you remember to use --interative?')
-    sys.exit(1)
-in_file.write(''.join(lines_of_data))
-in_file.close()
 
-import argparse
+def main(args):
+    file_name = get_random_string()
+    input_file_path = f'/amrfinder/temp/{file_name}.fasta'
+    output_file_path = f'/amrfinder/temp/{file_name}_output.tsv'
 
-parser = argparse.ArgumentParser() 
-parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=False) 
-args = parser.parse_args()
-tax_id = args.tax_id
+    in_file = open(input_file_path, 'w')
+    lines_of_data = sys.stdin.read() 
+    if not lines_of_data:
+        print('No input data received')
+        print('If this is Docker did you remember to use --interactive?')
+        sys.exit(1)
+    in_file.write(''.join(lines_of_data))
+    in_file.close()
 
-organism = info[tax_id]
+    tax_id = args.tax_id
+    organism = info.get(tax_id, None)
+    # Run amrfinder command
+    if organism:
+        amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o',output_file_path, '-O', organism], capture_output=True)
+    else:
+        amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o', output_file_path], capture_output=True)
+    
+    
+    print(parse_output(output_file_path))
 
-# Run amrfinder command
-if organism:
-    amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', '/input.fasta', '-o', 'amrfinder_output.tsv', '-O', organism], capture_output=True)
-else:
-    amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', '/input.fasta', '-o', 'amrfinder_output.tsv'], capture_output=True)
-print(parse_output('amrfinder_output.tsv', tax_id))
-
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser() 
+    parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=False) 
+    parser.add_argument('--uncurated', help='Show uncurated results', action='store_true', required=False) 
+    args = parser.parse_args()
+    main(args)

@@ -24,13 +24,13 @@ RUN mkdir amrfinder && \
     tar -xzf amrfinder_binaries_v3.10.23.tar.gz && \
     rm amrfinder_binaries_v3.10.23.tar.gz && \
     cd .. && \
-    mv amrfinder /opt/.
+    mv amrfinder /opt/
 
 ENV PATH="/opt/amrfinder/:/opt/blast/bin:${PATH}" 
 ENV AMRFINDER_DB=/opt/2021-12-21.1
 ENV BLAST_BIN=/opt/blast/bin
 
-FROM base as aws
+FROM --platform=linux/x86_64 base as aws
 
 RUN apt update && \
     apt install -y -q --no-install-recommends python3-pip python3-dev && \
@@ -50,12 +50,18 @@ WORKDIR /amrfinder
 
 ENTRYPOINT ["python3","entrypoint.py"]
 
-FROM base as runtime
+FROM --platform=linux/x86_64 base as runtime
 
 ADD run.py /amrfinder/
-ADD convert_output.py /amrfinder/
-ADD convert_taxid.py /amrfinder/
 WORKDIR /amrfinder
+RUN mkdir /amrfinder/temp
 
+ENTRYPOINT ["python3","/amrfinder/run.py"]
 
-ENTRYPOINT ["python3","run.py"]
+FROM --platform=linux/x86_64 base as nextflow
+
+ADD run.py /amrfinder/
+WORKDIR /amrfinder
+RUN mkdir /amrfinder/temp
+
+CMD ["python3","/amrfinder/run.py"]
