@@ -3,6 +3,7 @@ import json
 import sys
 import random 
 import string
+import argparse
 
 # Available --organism options: Acinetobacter_baumannii, Campylobacter, 
 # Clostridioides_difficile, Enterococcus_faecalis, Enterococcus_faecium, 
@@ -75,32 +76,37 @@ def parse_output(amrfinder_result_path):
         return e
 
     return result
-file_name = get_random_string()
-input_file_path = f'/amrfinder/temp/{file_name}.fasta'
-output_file_path = f'/amrfinder/temp/{file_name}_output.tsv'
 
-in_file = open(input_file_path, 'w')
-lines_of_data = sys.stdin.read() 
-if not lines_of_data:
-    print('No input data received')
-    print('If this is Docker did you remember to use --interactive?')
-    sys.exit(1)
-in_file.write(''.join(lines_of_data))
-in_file.close()
 
-import argparse
+def main(args):
+    file_name = get_random_string()
+    input_file_path = f'/amrfinder/temp/{file_name}.fasta'
+    output_file_path = f'/amrfinder/temp/{file_name}_output.tsv'
 
-parser = argparse.ArgumentParser() 
-parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=False) 
-args = parser.parse_args()
-tax_id = args.tax_id
+    in_file = open(input_file_path, 'w')
+    lines_of_data = sys.stdin.read() 
+    if not lines_of_data:
+        print('No input data received')
+        print('If this is Docker did you remember to use --interactive?')
+        sys.exit(1)
+    in_file.write(''.join(lines_of_data))
+    in_file.close()
 
-organism = info.get(tax_id, None)
+    tax_id = args.tax_id
+    organism = info.get(tax_id, None)
 
-# Run amrfinder command
-if organism:
-    amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o',output_file_path, '-O', organism], capture_output=True)
-else:
-    amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o', output_file_path], capture_output=True)
-print(parse_output(output_file_path))
+    # Run amrfinder command
+    if organism:
+        amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o',output_file_path, '-O', organism], capture_output=True)
+    else:
+        amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o', output_file_path], capture_output=True)
+    
+    
+    print(parse_output(output_file_path))
 
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser() 
+    parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=False) 
+    parser.add_argument('--uncurated', help='Show uncurated results', action='store_true', required=False) 
+    args = parser.parse_args()
+    main(args)

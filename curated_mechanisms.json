@@ -97,6 +97,19 @@
     [ "470", "CARBAPENEM", "blaOXA-565",  [ "blaIMP-4", "blaOXA-565" ] ],
     [ "470", "CARBAPENEM", "blaOXA-96",  [ "blaIMP-4", "blaOXA-96" ] ],
     [ "470", "CARBAPENEM", "blaNDM-9",  [ "blaNDM-9", "blaOXA-58" ] ],
+
+    [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaOXA-23", "blaOXA-51" ] ],
+    [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaOXA-23", "blaOXA-66" ] ],
+    [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaOXA-23", "blaOXA-64" ] ],
+    [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaOXA-23", "blaOXA-69" ] ],
+    [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaOXA-23", "blaOXA-82" ] ],
+    [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaOXA-23", "blaOXA-66", "ftsI_A515V"] ],
+    [ "470", "CARBAPENEM", "blaOXA-24",  [ "blaOXA-24", "blaOXA-66" ] ],
+    [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaOXA-23", "blaOXA-95" ] ],
+    [ "470", "CARBAPENEM", "blaOXA-23",  [ "blaOXA-23", "blaOXA-9" ] ],
+    [ "470", "CARBAPENEM", "blaOXA-58",  [ "blaOXA-100", "blaOXA-58" ] ],
+    [ "470", "CARBAPENEM", "blaOXA-66",  [ "blaOXA-66", "blaOXA-72" ] ],
+
   
     [ "287", "CARBAPENEM", "blaVIM-2",  [ "blaVIM-2" ] ],
     [ "287", "CARBAPENEM", "blaVIM-2",  [ "blaVIM-2", "oprD_W138STOP" ] ],
@@ -390,6 +403,7 @@
     [ "485", "CEPHALOSPORIN", "rpoD_DDDA92del",  [ "penA_A510V", "penA_A516G", "penA_F504L", "rpoD_DDDA92del", "mtrR_G45D" ] ],
     [ "485", "CEPHALOSPORIN", "rpoD_DDDA92del",  [ "penA_A510V", "penA_A516G", "penA_F504L", "penA_G542S", "rpoD_DDDA92del" ] ],
     [ "485", "CEPHALOSPORIN", "rpoD_E98K",  [ "penA_A510V", "penA_A516G", "penA_F504L", "rpoD_E98K", "mtrR_G45D" ] ],
+  
     [ "354276", "CARBAPENEM", "blaIMP-18",  [ "blaIMP-18", "blaKPC-45" ] ],
     [ "354276", "CARBAPENEM", "blaKPC-45",  [ "blaIMP-18", "blaKPC-45" ] ],
     [ "354276", "CARBAPENEM", "blaVIM-31",  [ "blaOXA-48", "blaVIM-31" ] ],

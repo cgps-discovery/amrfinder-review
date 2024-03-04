@@ -4,7 +4,7 @@ import argparse
 import os 
 
 
-TAX_IDS = "1280    1313    1352    149539     194     287     354276  470     485     562     573     620     727     90370   90371".split()
+TAX_IDS = ['354276', '485']
 
 def get_tax_id(accession, samplesheet):
     with open(samplesheet, 'r') as csvfile:
@@ -37,7 +37,17 @@ def check_mappings(input_genes, tax_id):
                 final_mapping = rule[2]
     if not final_mapping:
         final_mapping = 'none'
+    if final_mapping[0] == ';':
+        final_mapping = final_mapping[1:]
     return final_mapping
+
+
+def RENAME(record, tax_id):
+    if tax_id == '485':
+        record['FLUOROQUINOLONE'] = record['QUINOLONE']
+    return record
+
+
 
 
 def main(args):
@@ -47,8 +57,10 @@ def main(args):
         for record in reader:
             accession = record['accession_id'].split('_')[0]
             tax_id, species = get_tax_id(accession, args.sample_sheet)
-            if tax_id in TAX_IDS:
+            TAX_IDS_z = ['354276']
+            if tax_id in TAX_IDS_z:
                 real_results = get_real_results(accession, tax_id)
+                record = RENAME(record, tax_id)
                 if real_results:
                     ori_accession = real_results.pop('accession_id')
                     for key, value in real_results.items():
