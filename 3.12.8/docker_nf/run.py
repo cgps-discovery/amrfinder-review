@@ -172,7 +172,8 @@ def parse_output(result_lines, tax_id, curated_file, curated=False):
             mod_list.append( data )        
     result = json.dumps(mod_list) 
     if curated: 
-        result = apply_filters(result, tax_id, curated_file)
+        json_ready = json.loads(result)
+        result = json.dumps(apply_filters(json_ready, tax_id, curated_file))
     return result
 
 def main(args):
@@ -204,7 +205,7 @@ def main(args):
         result_file.close()
 
     if args.rawtable:
-        print(amrfinder_results)
+        print('\n'.join(amrfinder_results))
     else:
         print(parse_output(amrfinder_results, args.tax_id,  args.curated_file, args.curated))
 
@@ -213,7 +214,7 @@ if __name__ == "__main__":
     parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=True) 
     parser.add_argument('--curated', help='Show curated results', action='store_true', required=False) 
     parser.add_argument('--curated_file', help='curated_mechanisms json path', type=str, default='curated_mechanisms.json') 
-    parser.add_argument('--existing', help='STDIN is an existing amrfinder table', action='store_true', required=False) 
+    parser.add_argument('--existing', help='STDIN is an existing amrfinder output table (usually fasta)', action='store_true', required=False) 
     parser.add_argument('--rawtable', help='Show original arfinder output table', action='store_true', required=False) 
     args = parser.parse_args()
     main(args)
