@@ -4,6 +4,12 @@ import sys
 import random 
 import string
 import argparse
+import csv
+import json 
+import argparse
+import os 
+from itertools import groupby
+
 
 # Available --organism options: Acinetobacter_baumannii, Campylobacter, 
 # Clostridioides_difficile, Enterococcus_faecalis, Enterococcus_faecium, 
@@ -53,6 +59,14 @@ rename = {
             ]
 }
 
+banned_methods = [
+    "PARTIALX",
+    "PARTIALP",
+    "PARTIAL_CONTIG_ENDX",
+    "PARTIAL_CONTIG_ENDP",
+    "INTERNAL_STOP",
+]
+
 def evaluate_subclass(subclass, tax_id):
     """
     Evaluates the subclass and tax_id to determine if the subclass should be renamed
@@ -73,32 +87,93 @@ def get_random_string(length=10):
     result_str = ''.join(random.choice(letters) for i in range(length))
     return result_str
 
-def parse_output(amrfinder_result_path, tax_id):
+
+def filter_amr_elements(lst):
+    filtered = []
+    for item in lst:
+        if item["element_type"] == "AMR" and item["method"] not in banned_methods:
+            filtered.append(item)
+
+    return filtered
+
+def group_by_subclass(lst):
+    # Sort the list by the 'subclass' key
+    sorted_list = sorted(lst, key=lambda x: x['subclass'])
+    
+    # Group the list by the 'subclass' key
+    groups = {k: list(g) for k, g in groupby(sorted_list, key=lambda x: x['subclass'])}
+
+    return groups
+
+
+def extract_genes_from_groups(groups):
+    output = {}
+
+    for key, lst in groups.items():
+        output[key] = {}
+        for item in lst:
+            output[key][item["gene_symbol"]] = True
+
+    return output
+
+def get_curated_mechanisms(organism, curated_mechanisms):
+    rules = []
+    for tax_id, subclass, gene, mechanisms in curated_mechanisms:
+        if tax_id == organism:
+            rules.append({'subclass': subclass, 'gene': gene, 'mechanisms': mechanisms})
+
+    if len(rules) > 0:
+        return rules
+    else:
+        raise ValueError(f'Invalid organism code {organism}')
+    
+def generate_curated_output(curated_mechanisms, result_list, tax_id): 
+    amr_elements = filter_amr_elements(result_list)
+    groups = group_by_subclass(amr_elements)
+    hits_by_subclass = extract_genes_from_groups(groups)
+    output = {}
+    found_hits = ''
+    rules = get_curated_mechanisms(tax_id, curated_mechanisms)
+    for rule in rules:
+        subclass, gene, mechanisms = rule['subclass'], rule['gene'], rule['mechanisms']
+        found_hits = hits_by_subclass.get(subclass)
+        if found_hits:
+            if all(x in found_hits for x in mechanisms):
+                if subclass not in output:
+                    output[subclass] = set()
+                for item in gene.split(";"):
+                    output[subclass].add(item)
+
+    for subclass, set_ in output.items():
+        output[subclass] = sorted(list(set_))
+    return output, found_hits
+
+def apply_filters(result, tax_id, curated_file):
+    curated_mechanisms = json.load(open(curated_file))
+    TAX_IDS = list(set([x[0] for x in curated_mechanisms]))
+    if tax_id in TAX_IDS:
+        output, found_hits = generate_curated_output(curated_mechanisms, result, tax_id)
+        return output
+    else:
+        return None 
+
+def parse_output(result_lines, tax_id, curated_file, curated=False):
     """
     Captures the essential output from Quast
     :param quast_result_path: Path to the AMRFinder output file
     :param tax_id: The tax_id to evaluate
     """
-
-    try:
-
-        result_file = open(amrfinder_result_path, 'r')
-        result_lines = [x.strip() for x in result_file]
-        result_file.close()
-
-        mod_list = []
-        for i in range(1, len(result_lines)):  # Skip the first item
-            info = result_lines[i].split("\t")
+    mod_list = []
+    for line in result_lines[1:]:  # Skip the first item
+        info = line.split("\t")
+        if len(info) > 21:
             info[11] = evaluate_subclass(info[11], tax_id)
             data = {"protein_identifier": info[0], "contig_id": info[1], "start": info[2], "stop": info[3], "strand": info[4], "gene_symbol": info[5],"sequence_name": info[6], "scope": info[7], "element_type": info[8], "element_subtype": info[9], "class": info[10], "subclass": info[11], "method": info[12], "target_length": info[13], "ref_seq_length": info[14], "percent_cov_of_ref_seq": info[15], "percent_id_to_ref_seq": info[16], 'alignment_length': info[17], "acc_of_closest_sequence": info[18], "name_of_closest_sequence": info[19], "hmm_id": info[20], "hmm_description": info[21]}
             mod_list.append( data )        
-        result = json.dumps(mod_list) 
-    except Exception as e:
-        result = ""
-        return e
-
+    result = json.dumps(mod_list) 
+    if curated: 
+        result = apply_filters(result, tax_id, curated_file)
     return result
-
 
 def main(args):
     file_name = get_random_string()
@@ -108,26 +183,37 @@ def main(args):
     in_file = open(input_file_path, 'w')
     lines_of_data = sys.stdin.read() 
     if not lines_of_data:
-        print('No input data received')
-        print('If this is Docker did you remember to use --interactive?')
+        print('No input data received', file=sys.stderr)
+        print('If this is Docker did you remember to use --interactive?', file=sys.stderr)
         sys.exit(1)
     in_file.write(''.join(lines_of_data))
     in_file.close()
 
     tax_id = args.tax_id
     organism = info.get(tax_id, None)
-    # Run amrfinder command
-    if organism:
-        amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o',output_file_path, '-O', organism], capture_output=True)
+    if args.existing:
+        amrfinder_results = lines_of_data.split('\n')
+    else: 
+        # Run amrfinder command
+        if organism:
+            amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o',output_file_path, '-O', organism], capture_output=True)
+        else:
+            amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o', output_file_path], capture_output=True)
+        result_file = open(output_file_path, 'r')
+        amrfinder_results = [x.strip() for x in result_file]
+        result_file.close()
+
+    if args.rawtable:
+        print(amrfinder_results)
     else:
-        amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o', output_file_path], capture_output=True)
-    
-    
-    print(parse_output(output_file_path))
+        print(parse_output(amrfinder_results, args.tax_id,  args.curated_file, args.curated))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser() 
-    parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=False) 
-    parser.add_argument('--uncurated', help='Show uncurated results', action='store_true', required=False) 
+    parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=True) 
+    parser.add_argument('--curated', help='Show curated results', action='store_true', required=False) 
+    parser.add_argument('--curated_file', help='curated_mechanisms json path', type=str, default='curated_mechanisms.json') 
+    parser.add_argument('--existing', help='STDIN is an existing amrfinder table', action='store_true', required=False) 
+    parser.add_argument('--rawtable', help='Show original arfinder output table', action='store_true', required=False) 
     args = parser.parse_args()
     main(args)

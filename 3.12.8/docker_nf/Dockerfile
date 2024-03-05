@@ -52,7 +52,9 @@ ENTRYPOINT ["python3","entrypoint.py"]
 
 FROM --platform=linux/x86_64 base as runtime
 
+ADD curated_mechanisms.json /amrfinder/
 ADD run.py /amrfinder/
+
 WORKDIR /amrfinder
 RUN mkdir /amrfinder/temp
 
@@ -61,6 +63,7 @@ ENTRYPOINT ["python3","/amrfinder/run.py"]
 FROM --platform=linux/x86_64 base as nextflow
 
 ADD run.py /amrfinder/
+ADD curated_mechanisms.json /amrfinder/
 WORKDIR /amrfinder
 RUN mkdir /amrfinder/temp
 
