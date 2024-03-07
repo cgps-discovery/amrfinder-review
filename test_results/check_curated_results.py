@@ -4,7 +4,7 @@ import os
 import subprocess 
 import sys 
 
-TAX_IDS = ['354276', '287', '470', '1280']
+TAX_IDS = ['354276']  #, '287', '470',  '1280'] # 485
 
 def get_tax_id(accession, filename='species3_sample_data.csv'):
     with open(filename, 'r') as csvfile:
@@ -27,13 +27,16 @@ def get_real_results(accession, tax_id):
 def main(args):
     
     # Pick test data set 
+    import random
     test_data = [x for x in csv.DictReader(open(args.sample_sheet)) if x['taxid'] in TAX_IDS] 
+    if args.subsample < len(test_data):
+        test_data = random.sample(test_data, args.subsample)
     print(f'Loaded {len(test_data)}', file=sys.stderr)
     print('accession', 'species','taxid', 'drug_class', 'expected', 'actual', 'passed', sep='\t')
     for test in test_data:
         results_file = results_file = os.path.join(args.file, test['sample'] + '_amrfinder.txt')
         accession = test['sample']
-        species = test['species']
+        species = test['ori_species']
         tax_id = test['taxid']
         if os.path.exists(results_file):            
             original_results = get_real_results(accession, tax_id)
@@ -66,7 +69,7 @@ if __name__ == "__main__":
     parser.add_argument('--sample_sheet', type=str, help='The path to the samplesheet, with taxids', default='all_sample_data.csv')
     parser.add_argument('--curated', type=str, help='The path curated mechanisms filter as a json', default='curated_mechanisms.json')
     parser.add_argument('--failed_only', type=str, help='Show only failed results', default=False)
-    
+    parser.add_argument('--subsample', type=int, help='Run a subsample', default=100)
     args = parser.parse_args()
     main(args)
 
