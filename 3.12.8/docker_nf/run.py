@@ -178,8 +178,9 @@ def parse_output(result_lines, tax_id, curated_file, curated=False):
 
 def main(args):
     file_name = get_random_string()
-    input_file_path = f'/amrfinder/temp/{file_name}.fasta'
-    output_file_path = f'/amrfinder/temp/{file_name}_output.tsv'
+
+    input_file_path = f'{args.tempdir}/{file_name}.fasta'
+    output_file_path = f'{args.tempdir}/{file_name}_output.tsv'
 
     in_file = open(input_file_path, 'w')
     lines_of_data = sys.stdin.read() 
@@ -216,5 +217,7 @@ if __name__ == "__main__":
     parser.add_argument('--curated_file', help='curated_mechanisms json path', type=str, default='curated_mechanisms.json') 
     parser.add_argument('--existing', help='STDIN is an existing amrfinder output table (usually fasta)', action='store_true', required=False) 
     parser.add_argument('--rawtable', help='Show original arfinder output table', action='store_true', required=False) 
+    parser.add_argument('--tempdir', help='Change tempdir default is /amrfinder/temp/', action='store_true', default='/amrfinder/temp/') 
+
     args = parser.parse_args()
     main(args)
