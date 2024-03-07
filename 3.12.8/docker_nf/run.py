@@ -217,7 +217,7 @@ if __name__ == "__main__":
     parser.add_argument('--curated_file', help='curated_mechanisms json path', type=str, default='curated_mechanisms.json') 
     parser.add_argument('--existing', help='STDIN is an existing amrfinder output table (usually fasta)', action='store_true', required=False) 
     parser.add_argument('--rawtable', help='Show original arfinder output table', action='store_true', required=False) 
-    parser.add_argument('--tempdir', help='Change tempdir default is /amrfinder/temp/', action='store_true', default='/amrfinder/temp/') 
+    parser.add_argument('--tempdir', help='Change tempdir default is /amrfinder/temp/', type=str, default='/amrfinder/temp/') 
 
     args = parser.parse_args()
     main(args)
