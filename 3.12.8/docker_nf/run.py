@@ -8,6 +8,7 @@ import csv
 import json 
 import argparse
 import os 
+import ast
 from itertools import groupby
 
 
@@ -127,16 +128,37 @@ def get_curated_mechanisms(organism, curated_mechanisms):
     else:
         raise ValueError(f'Invalid organism code {organism}')
     
+
+def parse_subclass(subclass):
+    """
+    This function checks if string can be converted to a list, and if so, it returns the list
+    otherwise it returns the string
+    :param subclass: The subclass to evaluate
+    """
+    try:
+        subclass = ast.literal_eval()
+    except:
+        subclass = subclass
+    return subclass        
+
 def generate_curated_output(curated_mechanisms, result_list, tax_id): 
     amr_elements = filter_amr_elements(result_list)
     groups = group_by_subclass(amr_elements)
     hits_by_subclass = extract_genes_from_groups(groups)
     output = {}
-    found_hits = ''
+    found_hits = dict()
     rules = get_curated_mechanisms(tax_id, curated_mechanisms)
     for rule in rules:
-        subclass, gene, mechanisms = rule['subclass'], rule['gene'], rule['mechanisms']
-        found_hits = hits_by_subclass.get(subclass)
+        subclasses, gene, mechanisms = parse_subclass(rule['subclass']), rule['gene'], rule['mechanisms']
+        if isinstance(subclasses, list):
+            for subclass in subclasses:
+                temp_found_hits = hits_by_subclass.get(subclass)
+                if temp_found_hits is not None:
+                    found_hits.update(temp_found_hits)
+                subclass = subclasses[0]
+        else:
+            subclass = subclasses
+            found_hits = hits_by_subclass.get(subclass)
         if found_hits:
             if all(x in found_hits for x in mechanisms):
                 if subclass not in output:
