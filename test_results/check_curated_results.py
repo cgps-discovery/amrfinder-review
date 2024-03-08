@@ -4,16 +4,9 @@ import os
 import subprocess 
 import sys 
 
-TAX_IDS = ['354276']  #, '287', '470',  '1280'] # 485
+TAX_IDS = ['485' ,'354276' '287', '470',  '1280'] 
+TAX_IDS = ['485' ,'354276' ] #'287', '470',  '1280'] 
 
-def get_tax_id(accession, filename='species3_sample_data.csv'):
-    with open(filename, 'r') as csvfile:
-        reader = csv.DictReader(csvfile)
-        tax_id = [(row['taxid'], row['ori_species']) for row in reader if row['sample'] == accession] 
-        if tax_id: 
-            return tax_id[0][0], tax_id[0][1]
-        else:
-            return None, None
 
 def get_real_results(accession, tax_id):
     with open(f'organisms/{tax_id}/amrfinder.csv', 'r') as csvfile:
@@ -51,13 +44,14 @@ def main(args):
                 all_prediction = json.loads(amrfinder_output.stdout.decode('utf-8'))
                 accession = original_results.pop('accession_id')
                 for drug_class, genes in original_results.items():
-                    this_prediction = ';'.join(all_prediction.get(drug_class, ['none']))
-                    passed = this_prediction == genes
+                    this_prediction = ';'.join(sorted(all_prediction.get(drug_class, ['none'])))
+                    sorted_genes = ';'.join(sorted(genes.split(';')))
+                    passed = this_prediction == sorted_genes
                     if args.failed_only:
                         if not passed:
-                            print(accession, species, tax_id, drug_class, genes, this_prediction, passed, sep='\t')
+                            print(accession, species, tax_id, drug_class, sorted_genes, this_prediction, passed, sep='\t')
                     else:
-                        print(accession, species, tax_id, drug_class, genes, this_prediction, passed, sep='\t')
+                        print(accession, species, tax_id, drug_class, sorted_genes, this_prediction, passed, sep='\t')
             else:
                 print(f'No original results for {accession}', file=sys.stderr)
         else:
@@ -69,7 +63,7 @@ if __name__ == "__main__":
     parser.add_argument('--sample_sheet', type=str, help='The path to the samplesheet, with taxids', default='all_sample_data.csv')
     parser.add_argument('--curated', type=str, help='The path curated mechanisms filter as a json', default='curated_mechanisms.json')
     parser.add_argument('--failed_only', type=str, help='Show only failed results', default=False)
-    parser.add_argument('--subsample', type=int, help='Run a subsample', default=100)
+    parser.add_argument('--subsample', type=int, help='Run a subsample', default=1000000)
     args = parser.parse_args()
     main(args)
 
