@@ -5,7 +5,7 @@ import subprocess
 import sys 
 
 TAX_IDS = ['485' ,'354276' '287', '470',  '1280'] 
-TAX_IDS = ['485' ,'354276' ] #'287', '470',  '1280'] 
+TAX_IDS = ['354276' ] 
 
 
 def get_real_results(accession, tax_id):
@@ -35,7 +35,7 @@ def main(args):
             original_results = get_real_results(accession, tax_id)
             #  docker run --interactive test --curated --tax-id 287 --existing  < test_amr/amrfinder_test/DRR021823_amrfinder.txt
             # happykhan/amrfinder:amrfinder-2.2.0-runtime
-            amrfinder_output = subprocess.run(['docker', 'run', '--platform=linux/x86_64', '--interactive', 'happykhan/amrfinder:amrfinder-2.2.0-runtime', '--curated', '--tax-id', tax_id, '--existing' ], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
+            amrfinder_output = subprocess.run(['docker', 'run', '--platform=linux/x86_64', '--interactive', 'happykhan/amrfinder:amrfinder-2.3.0-runtime', '--curated', '--tax-id', tax_id, '--existing' ], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
             if amrfinder_output.stderr:
                 print(f'Something has gone wrong ({accession}, {tax_id}): ', file=sys.stderr)
                 print(amrfinder_output.stderr, file=sys.stderr)

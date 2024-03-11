@@ -109,7 +109,6 @@ def group_by_subclass(lst):
 
 def extract_genes_from_groups(groups):
     output = {}
-
     for key, lst in groups.items():
         output[key] = {}
         for item in lst:
@@ -144,7 +143,13 @@ def parse_subclass(subclass):
 def generate_curated_output(curated_mechanisms, result_list, tax_id): 
     amr_elements = filter_amr_elements(result_list)
     groups = group_by_subclass(amr_elements)
+    if tax_id == '354276' and groups.get('CARBAPENEM'):
+        if groups.get('CEPHALOSPORIN'):
+            groups['CEPHALOSPORIN'] += groups['CARBAPENEM']
+        else:
+            groups['CEPHALOSPORIN'] = groups['CARBAPENEM']
     hits_by_subclass = extract_genes_from_groups(groups)
+
     output = {}
     found_hits = dict()
     rules = get_curated_mechanisms(tax_id, curated_mechanisms)
