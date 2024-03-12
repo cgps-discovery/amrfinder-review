@@ -953,7 +953,59 @@
     [ "354276", "CEPHALOSPORIN", "blaMIR-17",  [ "blaMIR-17" ] ],
     [ "354276", "CEPHALOSPORIN", "blaMIR-19",  [ "blaMIR-19" ] ],
     [ "354276", "CEPHALOSPORIN", "blaNDM-5",  [ "blaNDM-5" ] ],
-    [ "354276", "CEPHALOSPORIN", "blaTEM-15",  [ "blaTEM-15" ] ]
+    [ "354276", "CEPHALOSPORIN", "blaTEM-15",  [ "blaTEM-15" ] ],
   
+    [ "1352", "VANCOMYCIN", "vanA", [ "vanA" ] ],
+    [ "1352", "VANCOMYCIN", "vanH-A", [ "vanA", "vanH-A" ] ],
+    [ "1352", "VANCOMYCIN", "vanR-A", [ "vanA", "vanR-A" ] ],
+    [ "1352", "VANCOMYCIN", "vanS-A", [ "vanA", "vanS-A" ] ],
+    [ "1352", "VANCOMYCIN", "vanX-A", [ "vanA", "vanX-A" ] ],
+    [ "1352", "VANCOMYCIN", "vanY-A", [ "vanA", "vanY-A" ] ],
+    [ "1352", "VANCOMYCIN", "vanZ-A", [ "vanA", "vanZ-A" ] ],
+
+    [ "1352", "VANCOMYCIN", "vanB", [ "vanB" ]],
+    [ "1352", "VANCOMYCIN", "vanH-B", ["vanB", "vanH-B"]],
+    [ "1352", "VANCOMYCIN", "vanR-B", ["vanB", "vanR-B"]],
+    [ "1352", "VANCOMYCIN", "vanS-B", ["vanB", "vanS-B"]],
+    [ "1352", "VANCOMYCIN", "vanW-B", ["vanB", "vanW-B"]],    
+    [ "1352", "VANCOMYCIN", "vanX-B", ["vanB", "vanX-B"]],
+    [ "1352", "VANCOMYCIN", "vanY-B", ["vanB", "vanY-B"]],
+    [ "1352", "VANCOMYCIN", "vanZ-B", ["vanB", "vanZ-B"]],
+
+    [ "727", "BETA-LACTAM", "blaTEM",  [ "blaTEM" ] ],
+    [ "727", "BETA-LACTAM", "blaTEM-1",  [ "blaTEM-1" ] ],
+    [ "727", "BETA-LACTAM", "blaTEM-95",  [ "blaTEM-95" ] ],    
+
+    [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "gyrA_T86I",  [ "gyrA_T86I" ] ],
+    [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "gyrA_D90N",  [ "gyrA_D90N" ] ],
+    [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "gyrA_D90Y",  [ "gyrA_D90Y" ] ],
+    [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "gyrA_T86A",  [ "gyrA_T86A" ] ],
+    [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "gyrA_T86V",  [ "gyrA_T86V" ] ],
+    [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "gyrA_T86K",  [ "gyrA_T86K" ] ],
+    [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "qnrB19",  [ "qnrB19" ] ],
+    [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "qnrD1",  [ "qnrD1" ] ],
+
+    [ "573", "CARBAPENEM", "blaKPC-2",  [ "blaKPC-2" ] ],
+    [ "573", "CARBAPENEM", "blaNDM-1",  [ "blaNDM-1" ] ],      
+    [ "573", "CARBAPENEM", "blaKPC-3",  [ "blaKPC-3" ] ],
+    [ "573", "CARBAPENEM", "blaOXA-48",  [ "blaOXA-48" ] ],      
+    [ "573", "CARBAPENEM", "blaOXA-181",  [ "blaOXA-181" ] ],      
+    [ "573", "CARBAPENEM", "blaOXA-232",  [ "blaOXA-232" ] ],      
+    [ "573", "CARBAPENEM", "blaIMP-1",  [ "blaIMP-1" ] ],      
+    [ "573", "CARBAPENEM", "blaNDM-5",  [ "blaNDM-5" ] ],      
+    [ "573", "CARBAPENEM", "blaNDM-23",  [ "blaNDM-23" ] ],
+
+    [ "573", "CEPHALOSPORIN", "blaNDM-23",  [ "blaNDM-23" ] ],
+    [ "573", "CEPHALOSPORIN", "blaNDM-5",  [ "blaNDM-5" ] ],    
+    [ "573", "CEPHALOSPORIN", "blaIMP-1",  [ "blaIMP-1" ] ],
+    [ "573", "CEPHALOSPORIN", "blaFOX-5",  [ "blaFOX-5" ] ],
+    [ "573", "CEPHALOSPORIN", "blaKPC-2",  [ "blaKPC-2" ] ],
+    [ "573", "CEPHALOSPORIN", "blaCTX-M-15",  [ "blaCTX-M-15" ] ],
+    [ "573", "CEPHALOSPORIN", "blaCTX-M-65",  [ "blaCTX-M-65" ] ],
+    [ "573", "CEPHALOSPORIN", "blaCTX-M-27",  [ "blaCTX-M-27" ] ],    
+    [ "573", "CEPHALOSPORIN", "blaKPC-3",  [ "blaKPC-3" ] ],
+    [ "573", "CEPHALOSPORIN", "blaSHV-12",  [ "blaSHV-12" ] ],
+    [ "573", "CEPHALOSPORIN", "blaNDM-1",  [ "blaNDM-1" ] ]      
+    
   ]
   

@@ -18,7 +18,7 @@ from itertools import groupby
 # Staphylococcus_aureus, Staphylococcus_pseudintermedius, Streptococcus_agalactiae, 
 # Streptococcus_pneumoniae, Streptococcus_pyogenes, Vibrio_cholerae
 
-info = {
+database_info = {
 '470':'Acinetobacter_baumannii',
 '562':'Escherichia',
 '1496': 'Clostridioides_difficile',
@@ -44,13 +44,18 @@ info = {
 '90371':'Salmonella', # salmonella_typhimurium
 '590':'Salmonella',
 '1314':'Streptococcus_pyogenes',
-'727': None,
+'727': None, #hinfl
 '1313':'Streptococcus_pneumoniae',
 '620':'Escherichia', #shigella
 '623':'Escherichia', #shigella_flexneri
 '624':'Escherichia', #shigella_sonnei
 '666': 'Vibrio_cholerae',
 None:None
+}
+
+tax_id_mapping = {
+'195':'194', # campylobacter_coli to Campy genus
+'197':'194', # campylobacter_jejuni to Campy genus
 }
 
 rename = {
@@ -143,7 +148,7 @@ def parse_subclass(subclass):
 def generate_curated_output(curated_mechanisms, result_list, tax_id): 
     amr_elements = filter_amr_elements(result_list)
     groups = group_by_subclass(amr_elements)
-    if tax_id == '354276' and groups.get('CARBAPENEM'):
+    if tax_id in ['354276', '573'] and groups.get('CARBAPENEM'):
         if groups.get('CEPHALOSPORIN'):
             groups['CEPHALOSPORIN'] += groups['CARBAPENEM']
         else:
@@ -201,6 +206,8 @@ def parse_output(result_lines, tax_id, curated_file, curated=False):
     if curated: 
         json_ready = json.loads(result)
         result = json.dumps(apply_filters(json_ready, tax_id, curated_file))
+        if result == 'null':
+            print('Error; no curated rules found' , file=sys.stderr)
     return result
 
 def main(args):
@@ -218,8 +225,8 @@ def main(args):
     in_file.write(''.join(lines_of_data))
     in_file.close()
 
-    tax_id = args.tax_id
-    organism = info.get(tax_id, None)
+    tax_id = tax_id_mapping.get(args.tax_id, args.tax_id)
+    organism = database_info.get(tax_id, None)
     if args.existing:
         amrfinder_results = lines_of_data.split('\n')
     else: 
@@ -235,7 +242,7 @@ def main(args):
     if args.rawtable:
         print('\n'.join(amrfinder_results))
     else:
-        print(parse_output(amrfinder_results, args.tax_id,  args.curated_file, args.curated))
+        print(parse_output(amrfinder_results, tax_id,  args.curated_file, args.curated))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser() 

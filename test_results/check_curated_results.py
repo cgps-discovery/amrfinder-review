@@ -4,9 +4,13 @@ import os
 import subprocess 
 import sys 
 
-TAX_IDS = ['485' ,'354276' '287', '470',  '1280'] 
-TAX_IDS = ['354276' ] 
+TAX_IDS = ['485', '1313', '1352', '149539', '1773', '562', '354276','90370','90371', '620', '573', '287', '470',  '1280', '194', '727', ] 
+TAX_IDS = ['573' ] 
 
+tax_id_mapping = {
+'195':'194', # campylobacter_coli to Campy genus
+'197':'194', # campylobacter_jejuni to Campy genus
+}
 
 def get_real_results(accession, tax_id):
     with open(f'organisms/{tax_id}/amrfinder.csv', 'r') as csvfile:
@@ -32,7 +36,7 @@ def main(args):
         species = test['ori_species']
         tax_id = test['taxid']
         if os.path.exists(results_file):            
-            original_results = get_real_results(accession, tax_id)
+            original_results = get_real_results(accession, tax_id_mapping.get(tax_id, tax_id))
             #  docker run --interactive test --curated --tax-id 287 --existing  < test_amr/amrfinder_test/DRR021823_amrfinder.txt
             # happykhan/amrfinder:amrfinder-2.2.0-runtime
             amrfinder_output = subprocess.run(['docker', 'run', '--platform=linux/x86_64', '--interactive', 'happykhan/amrfinder:amrfinder-2.3.0-runtime', '--curated', '--tax-id', tax_id, '--existing' ], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
@@ -62,7 +66,7 @@ if __name__ == "__main__":
     parser.add_argument('--file', type=str, help='The path to a folder of amrfinder (runtime results)', default='test_amr/amrfinder_test')
     parser.add_argument('--sample_sheet', type=str, help='The path to the samplesheet, with taxids', default='all_sample_data.csv')
     parser.add_argument('--curated', type=str, help='The path curated mechanisms filter as a json', default='curated_mechanisms.json')
-    parser.add_argument('--failed_only', type=str, help='Show only failed results', default=False)
+    parser.add_argument('--failed_only', type=str, help='Show only failed results', default=True)
     parser.add_argument('--subsample', type=int, help='Run a subsample', default=1000000)
     args = parser.parse_args()
     main(args)
