@@ -26,7 +26,6 @@ import os
 import sys 
 
 new_records = [ ] 
-print(f'opening testing dir {samplesheet}' )
 fieldnames = ['sample', 'species', 'database', 'taxid', 'CARBAPENEM','QUINOLONE','CEPHALOSPORIN','FLUOROQUINOLONE','BETA-LACTAM','METHICILLIN','VANCOMYCIN', 'fasta']
 for record in csv.DictReader(open(samplesheet)): 
     taxid = record['taxid']
@@ -36,11 +35,9 @@ for record in csv.DictReader(open(samplesheet)):
         for fold in folder: 
             fasta_file = os.path.join(base_dir, fold,'production', 'fasta_passed_qc', f'{accession}.fasta' )
             if os.path.exists(fasta_file):
-                print(f'found file {fasta_file}' )
                 break; 
     else:
         fasta_file = os.path.join(base_dir, taxid_dict.get(taxid),'production', 'fasta_passed_qc', f'{accession}.fasta' )
-        print(f'found file {fasta_file}' )
     if os.path.exists(fasta_file):
         record['fasta'] = fasta_file 
         new_records.append(record)
