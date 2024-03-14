@@ -16,7 +16,9 @@ def versionMessage(){
 // Importing required functions from 'plugin/nf-validation'
 include { validateParameters; paramsHelp; paramsSummaryLog; } from 'plugin/nf-validation'
 
-include {   AMRFINDERPLUS1; AMRFINDERPLUS2; AMRFINDERPLUS3;  } from './modules/amrfindr'
+include {   AMRFINDERPLUS1; AMRFINDERPLUS3;  } from './modules/amrfindr'
+include {   CHECK_RESULT  } from './modules/compare'
+
 
 // Setting the default value for params.help
 params.help = false
@@ -44,11 +46,10 @@ workflow {
         // Splitting the CSV file into rows with headers
         | splitCsv(header:true) \
         // Mapping each row to a tuple with sample and fasta file
-        | map { row-> tuple(row.sample, file(row.fasta), row.species, row.taxid) } 
-
+        | map { row-> tuple(row.sample, file(row.fasta), row.database, row.taxid) } 
     // Running the AMRFINDER module
-    AMRFINDERPLUS1(FASTA) // This is the one we are testing - this produces the base tsv table 
     JSONOUTPUT = AMRFINDERPLUS3(FASTA) // This is the one we are running - this produces the curated json result 
-    CHECK_RESULT(JSONOUTPUT, params.index)
+    AMRFINDERPLUS1(FASTA) // This is the one we are testing without the wrapper scripts - this produces the base tsv table 
+   // CHECK_RESULT(JSONOUTPUT, params.index)
 }
 

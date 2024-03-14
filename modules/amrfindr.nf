@@ -5,16 +5,16 @@ process AMRFINDERPLUS1 {
     publishDir "${params.outdir}/amrfinder_test", mode: 'copy'
 
     input:
-    tuple val(sample), file(fasta), val(species)
+    tuple val(sample), file(fasta), val(database), val(taxid)
 
     script:
-     if (species =~ /None/){ // Species is not defined
+     if (database =~ /None/ ||  database =~ /^$/){ // Species is not defined
     """
     amrfinder --plus --threads $task.cpus -n $fasta > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err 
     """
       } else { // files with _1 and _2
     """
-    amrfinder --plus --threads $task.cpus  -n $fasta --organism $species > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
+    amrfinder --plus --threads $task.cpus  -n $fasta --organism $database > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
     """ 
     }    
     output:
