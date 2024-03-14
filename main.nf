@@ -49,6 +49,6 @@ workflow {
     // Running the AMRFINDER module
     AMRFINDERPLUS1(FASTA) // This is the one we are testing - this produces the base tsv table 
     JSONOUTPUT = AMRFINDERPLUS3(FASTA) // This is the one we are running - this produces the curated json result 
-    CHECK_RESULT()
+    CHECK_RESULT(JSONOUTPUT, params.index)
 }
 

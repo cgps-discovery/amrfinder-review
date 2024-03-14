@@ -24,8 +24,8 @@ base_dir = "/well/aanensen/projects/amr-landscape/assemblies"
 import csv 
 import os 
 new_records = [ ] 
-fieldnames = ['sample', 'species', 'database', 'taxid', 'CARBAPENEM','QUINOLONE','CEPHALOSPORIN','FLUOROQUINOLONE','BETA-LACTAM','METHICILLIN','VANCOMYCIN', 'fasta']
 
+fieldnames = ['sample', 'species', 'database', 'taxid', 'CARBAPENEM','QUINOLONE','CEPHALOSPORIN','FLUOROQUINOLONE','BETA-LACTAM','METHICILLIN','VANCOMYCIN', 'fasta']
 for record in csv.DictReader(open(samplesheet)): 
     taxid = record['taxid']
     accession = record['sample']

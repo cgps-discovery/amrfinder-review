@@ -13,4 +13,4 @@ pipeline_path=/well/aanensen/shared/nextflow_workflows/amrfinder-review/
 
 module load Java/17.0.4
 # Run Nextflow
-$pipeline_path/nextflow run $pipeline_path/main.nf -profile bmrc --index $pipeline_path/sample_data.csv --outdir test_data
+$pipeline_path/nextflow run $pipeline_path/main.nf -profile bmrc --index $pipeline_path/testing_results/full_samplesheet_fasta.csv --outdir testing_results
