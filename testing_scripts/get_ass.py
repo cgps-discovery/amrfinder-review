@@ -36,9 +36,11 @@ for record in csv.DictReader(open(samplesheet)):
         for fold in folder: 
             fasta_file = os.path.join(base_dir, fold,'production', 'fasta_passed_qc', f'{accession}.fasta' )
             if os.path.exists(fasta_file):
+                print(f'found file {fasta_file}' )
                 break; 
     else:
         fasta_file = os.path.join(base_dir, taxid_dict.get(taxid),'production', 'fasta_passed_qc', f'{accession}.fasta' )
+        print(f'found file {fasta_file}' )
     if os.path.exists(fasta_file):
         record['fasta'] = fasta_file 
         new_records.append(record)
