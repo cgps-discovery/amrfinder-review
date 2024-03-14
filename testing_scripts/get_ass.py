@@ -28,7 +28,7 @@ import sys
 new_records = [ ] 
 print(f'opening testing dir {samplesheet}' )
 fieldnames = ['sample', 'species', 'database', 'taxid', 'CARBAPENEM','QUINOLONE','CEPHALOSPORIN','FLUOROQUINOLONE','BETA-LACTAM','METHICILLIN','VANCOMYCIN', 'fasta']
-for record in csv.DictReader(open(samplesheet)): 
+for record in csv.DictReader(open(samplesheet))[0:10]: 
     taxid = record['taxid']
     accession = record['sample']
     folder = taxid_dict.get(taxid) 
