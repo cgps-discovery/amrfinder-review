@@ -95,10 +95,10 @@ for organism_path, tax_id in [(os.path.join(TESTING_ORI_DIR, x,), x.split('-')[1
         species = taxid_dict.get(tax_id)
         if type(species) == list:
             species = species[0]
-        record = {'accession': genome, 'species': species, 'database': database_info.get(tax_id), 'taxid': tax_id,  **csv_data[genome]  }
+        record = {'sample': genome, 'species': species, 'database': database_info.get(tax_id), 'taxid': tax_id,  **csv_data[genome]  }
         classes = list(set(classes + list(csv_data[genome].keys())))
         final_sample_record.append(record)
 
-sample_sheet = csv.DictWriter(open(f'{TESTING_RESULTS_DIR}/full_samplesheet.csv', 'w'), fieldnames=['accession', 'species', 'database', 'taxid' ] + classes)    
+sample_sheet = csv.DictWriter(open(f'{TESTING_RESULTS_DIR}/full_samplesheet.csv', 'w'), fieldnames=['sample', 'species', 'database', 'taxid' ] + classes)    
 sample_sheet.writeheader()
 sample_sheet.writerows(final_sample_record)
