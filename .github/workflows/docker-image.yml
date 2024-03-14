@@ -15,5 +15,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      working-directory: 3.12.8/docker_nf 
+      working-directory: 3.12.8/docker
       run: docker build . --file Dockerfile --tag happykhan/amrfinder:amrfinder-1.0.0-base

@@ -1,30 +1,20 @@
-FROM --platform=linux/x86_64 python:3.7-slim
-
-LABEL authors="julio.diaz@cgps.group"
+FROM --platform=linux/x86_64 python:3.7-slim AS base
 
 RUN apt update && \
-    apt install -y -q --no-install-recommends git curl ca-certificates gcc hmmer libcurl4 wget && \
+    apt install -y -q --no-install-recommends git curl ca-certificates gcc hmmer libcurl4 wget procps && \
     rm -rf /var/lib/apt/lists/* && \
     apt clean
 
-# INSTALL BLAST VERSION TO MATCH BMRC
+# Fetch legacy database 
+RUN cd / && wget -m https://quadram-bioinfo-amrfinder.s3.climb.ac.uk/amrfinderdb.2021-12-21.1.tar.gz -O amrfinderdb.2021-12-21.1.tar.gz \
+    && tar -xvzf amrfinderdb.2021-12-21.1.tar.gz  && mv 2021-12-21.1/ /opt/
+
+# # INSTALL BLAST VERSION TO MATCH BMRC
 ARG BLAST_VERSION=2.12.0
 ENV BLAST_VERSION ${BLAST_VERSION}
-RUN echo "Using BLAST version: ${BLAST_VERSION}" && \
-    mkdir -p /tmp/blast && \
-    mkdir /opt/blast \
-    && curl ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/${BLAST_VERSION}/ncbi-blast-${BLAST_VERSION}+-x64-linux.tar.gz | tar -zxC /tmp/blast --strip-components=1 \
-    && cd /tmp/blast/bin \
-    && mv blastn makeblastdb tblastn blastx blastp tblastx /bin/ \
-    && cd .. \
-    && rm -rf /tmp/blast
 
-# GETTING DATABASE. IT DOESN'T WORK WITH NCBI's COPY
-#RUN wget -m ftp://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/3.10/2021-12-21.1/ &&\
-#    mv ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/3.10/2021-12-21.1 / && \
-#    rm -r ftp.ncbi.nlm.nih.gov
-COPY 2021-12-21.1 /2021-12-21.1
-
+RUN wget https://quadram-bioinfo-amrfinder.s3.climb.ac.uk/ncbi-blast-${BLAST_VERSION}.tar.gz -O ncbi-blast.tar.gz && tar -xvzf ncbi-blast.tar.gz && mkdir /opt/blast \ 
+    && mv tmp/blast/ /opt/ && rm ncbi-blast.tar.gz
 
 RUN mkdir amrfinder && \
     cd amrfinder && \
@@ -32,26 +22,36 @@ RUN mkdir amrfinder && \
     tar -xzf amrfinder_binaries_v3.10.23.tar.gz && \
     rm amrfinder_binaries_v3.10.23.tar.gz && \
     cd .. && \
-    mv amrfinder /opt/.
+    mv amrfinder /opt/
 
+ENV PATH="/opt/amrfinder/:/opt/blast/bin:${PATH}" 
+ENV AMRFINDER_DB=/opt/2021-12-21.1
+ENV BLAST_BIN=/opt/blast/bin
 
-RUN apt update && \
-    apt install -y -q --no-install-recommends python3-pip python3-dev && \
-    pip3 install requests py-fasta-validator boto3 && \
-    apt clean && \
-    rm -rf /var/lib/apt/lists/*
+FROM --platform=linux/x86_64 base as runtime
 
-ARG STDLIB_VERSION=v0.0.13
-ENV STDLIB_VERSION ${STDLIB_VERSION}
-RUN git clone --depth 1 --branch ${STDLIB_VERSION} https://github.com/cgps-discovery/discovery_stdlib.git && \
-    mkdir /amrfinder && \
-    mv discovery_stdlib /amrfinder/.
+LABEL base.image="python:3.7-slim"
+LABEL software="AMRFinderPlus"
+LABEL software.version="3.12.8"
+LABEL description="AMR"
+LABEL website="https://github.com/cgps-discovery/amrfinder-review"
+LABEL license="https://github.com/cgps-discovery/amrfinder-review/blob/MAIN/LICENSE"
+LABEL maintainer="Nabil-Fareed Alikhan + Julio Diaz Caballero" 
+LABEL maintainer.email="julio.diaz@cgps.group"
 
+ADD curated_mechanisms.json /amrfinder/
+ADD run.py /amrfinder/
 
-ADD entrypoint.sh /amrfinder/
-ADD convert_output.py /amrfinder/
-ADD convert_taxid.py /amrfinder/
 WORKDIR /amrfinder
+RUN mkdir /amrfinder/temp
 
+ENTRYPOINT ["python3","/amrfinder/run.py"]
 
-ENTRYPOINT ["bash","entrypoint.sh"]
+FROM --platform=linux/x86_64 base as nextflow
+
+ADD run.py /amrfinder/
+ADD curated_mechanisms.json /amrfinder/
+WORKDIR /amrfinder
+RUN mkdir /amrfinder/temp
+
+CMD ["python3","/amrfinder/run.py"]

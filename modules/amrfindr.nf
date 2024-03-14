@@ -71,7 +71,7 @@ process AMRFINDERPLUS3 {
 
     script:
     """
-    python3 /amrfinder/run.py --tax-id $taxid < $fasta > ${sample}_amrfinder.json 2> ${sample}_amrfinder.err
+    python3 /amrfinder/run.py --curated --tax-id $taxid < $fasta > ${sample}_amrfinder.json 2> ${sample}_amrfinder.err
     """
 
     output:
