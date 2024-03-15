@@ -50,6 +50,7 @@ workflow {
     // Running the AMRFINDER module
     JSONOUTPUT = AMRFINDERPLUS3(FASTA) // This is the one we are running - this produces the curated json result 
     AMRFINDERPLUS1(FASTA) // This is the one we are testing without the wrapper scripts - this produces the base tsv table 
-   // CHECK_RESULT(JSONOUTPUT, params.index)
+    CHECK_RESULT(JSONOUTPUT, file(params.index)).collectFile(name: "${params.outdir}/test_results.txt", newLine: false) { item -> item[1]}
+
 }
 

@@ -1,0 +1,16 @@
+sample,species,database,taxid,CARBAPENEM,QUINOLONE,CEPHALOSPORIN,FLUOROQUINOLONE,BETA-LACTAM,METHICILLIN,VANCOMYCIN,fasta
+ERR5708690,shigella,Escherichia,620,,,,gyrA_S83L,,,,testing_basic/ERR5708690.fasta
+SRR16089317,campylobacter,Campylobacter,194,,gyrA_T86I,,,,,,testing_basic/SRR16089317.fasta
+SRR14301253,staphylococcus_aureus,Staphylococcus_aureus,1280,,,,,,mecA,none,testing_basic/SRR14301253.fasta
+ERR5490577,pseudomonas_aeruginosa,Pseudomonas_aeruginosa,287,blaGES-5;blaNDM-1,,,,,,,testing_basic/ERR5490577.fasta
+SRR10041126,enterococcus_faecium,Enterococcus_faecium,1352,,,,,,,vanB;vanH-B;vanR-B;vanS-B;vanW-B;vanX-B;vanY-B,testing_basic/SRR10041126.fasta
+SRR18319082,hinfluenzae,,727,,,,,blaTEM-1,,,testing_basic/SRR18319082.fasta
+SRR14231296,salmonella_enteritidis,Salmonella,149539,,,,gyrA_D87Y;qnrS,,,,testing_basic/SRR14231296.fasta
+SRR11904224,neisseria_gonorrhoeae,Neisseria,485,,gyrA_D95G;gyrA_S91F;parC_S87R,penA_A510V;penA_A516G;penA_F504L;penA_G542S,,,,,testing_basic/SRR11904224.fasta
+SRR5939902,enterobacter,,354276,blaNDM-1,,blaACT-16;blaCTX-M-15;blaSHV-31;blaNDM-1,,,,,testing_basic/SRR5939902.fasta
+SRR17383784,acinetobacter_baumannii,Acinetobacter_baumannii,470,blaOXA-72,,,,,,,testing_basic/SRR17383784.fasta
+ERR054556,streptococcus_pneumoniae,Streptococcus_pneumoniae,1313,,,,,pbp1a;pbp2b;pbp2x,,,testing_basic/ERR054556.fasta
+ERR1218594,escherichia_coli,Escherichia,562,none,,blaCTX-M-24,gyrA_D87N;gyrA_S83L;parC_E84G;parC_S80I;parE_I355T;qepA8,,,,testing_basic/ERR1218594.fasta
+SRR5235473,salmonella_typhimurium,Salmonella,90371,,,,gyrA_D87N;parC_S80I;qnrB19,,,,testing_basic/SRR5235473.fasta
+SRR7540311,klebsiella,Klebsiella,573,blaKPC-2;blaNDM-5,,blaCTX-M-65;blaKPC-2;blaNDM-5,,,,,testing_basic/SRR7540311.fasta
+SRR10420562,styphi,Salmonella,90370,,,,gyrA_D87G;gyrA_S83F,,,,testing_basic/SRR10420562.fasta
