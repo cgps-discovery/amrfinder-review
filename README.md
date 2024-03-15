@@ -68,7 +68,7 @@ python3 3.12.8/docker/run.py --tax-id 485  \
 ```
 
 
-# Example 1: I want to run AMRfinder, as is, without any wrapper scripts:
+## Example 1: I want to run AMRfinder, as is, without any wrapper scripts:
 
 You may want to plug this into nextflow pipelines, or for other development. 
 
@@ -79,7 +79,7 @@ docker run -it -v ${PWD}/test:/data/ amrfinder amrfinder --plus --threads 2 -n t
 docker run -it -v ${PWD}/test:/data/ amrfinder --plus --threads 2  -n testing_basic/SRR11904224.fasta --organism Neisseria > SRR11904224_amrfinder.txt 2> SRR11904224_amrfinder.err
 ```
 
-# Example 2: I want to run AMRFinder, with FASTA file piped from stdin and a curated JSON output: 
+## Example 2: I want to run AMRFinder, with FASTA file piped from stdin and a curated JSON output: 
 
 You must specify the tax-id for curated JSON output. 
 
