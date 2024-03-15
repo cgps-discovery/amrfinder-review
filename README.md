@@ -4,7 +4,6 @@ This runs a legacy version of amrfinder. Software versions are:
 
 * AMRFINDER 3.10.23
 * BLAST: 2.12.0
-* Stdlib: v0.0.13
 * AMRFINDER database: 2021-12-21.1 
 
 The database is not exactly the same as the one on the AMRFinderPlus repo. 
@@ -13,8 +12,8 @@ This may give different results if you run the latest version.
 
 ## Curated_mechanisms.json 
 
-`Curated mechanisms.json` is a json file that details rules for filtering and adjusting AMRFinder results. The master copy is in the root of this repo. 
-As part of deployment it is compied to the docker folder, but this is a copy. You should make all changes to `/curated mechanisms.json` only. 
+`curated_mechanisms.json` is a json file that details rules for filtering and adjusting AMRFinder results. The master copy is in the root of this repo. 
+As part of deployment it is compied to the docker folder, but this is a copy. You should make all changes to `/curated_mechanisms.json` only. 
 
 The format of the file is a list of lists, e.g.: 
 
@@ -46,7 +45,9 @@ docker build -t amrfinder-runtime --target runtime 3.12.8/docker
 To use it:
 
 ```bash
-docker run --interactive --platform=linux/x86_64 amrfinder-runtime  --tax-id 485  --curated < testing_basic/SRR11904224.fasta 
+docker run --interactive --platform=linux/x86_64 amrfinder-runtime  \
+--tax-id 485  \
+--curated < testing_basic/SRR11904224.fasta 
 ```
 
 * `--tax-id` is required for `--curated` output
@@ -56,11 +57,14 @@ docker run --interactive --platform=linux/x86_64 amrfinder-runtime  --tax-id 485
 * with `--existing`, you can pipe in an existing amrfinder output table (usually this is the FASTA). This is for debugging purposes, where you already have an AMRFINDER results table
 and you want to check the curated results. 
 * N.B This is supposed to run through the container. There is a tempdir in the container for the streamed FASTA file, which is `/amrfinder/temp/`. If you are running run.py directly
-(i.e. no container), you will need to give another temp dir with `--tempdir`. You may also need to specify the path of `curated_mechanisms.json` as well,  so usage would be: 
+(i.e. no container), you will need to give another temp dir with `--tempdir`. You may also need to specify the path of `curated_mechanisms.json` as well, so usage would be: 
 
 ```bash
 mkdir ~/amrfinder_temp
-python3 3.12.8/docker/run.py --tax-id 485  --curated  --tempdir ~/amrfinder_temp --curated_file 3.12.8/docker/curated_mechanisms.json  < testing_basic/SRR11904224.fasta 
+python3 3.12.8/docker/run.py --tax-id 485  \
+--curated \
+--tempdir ~/amrfinder_temp \
+--curated_file 3.12.8/docker/curated_mechanisms.json  < testing_basic/SRR11904224.fasta 
 ```
 
 
