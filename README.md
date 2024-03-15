@@ -10,7 +10,7 @@ The database is not exactly the same as the one on the AMRFinderPlus repo.
 
 This may give different results if you run the latest version. 
 
-## Curated_mechanisms.json 
+## About Curated_mechanisms.json 
 
 `curated_mechanisms.json` is a json file that details rules for filtering and adjusting AMRFinder results. The master copy is in the root of this repo. 
 As part of deployment it is compied to the docker folder, but this is a copy. You should make all changes to `/curated_mechanisms.json` only. 
@@ -26,7 +26,7 @@ The format of the file is a list of lists, e.g.:
 * Value to report as output.
 * Detected genes (as a list) required to match this profile. Order does not matter.
 
-## Build locally and run 
+## Build locally and usage
 
 The Docker file is set up as a multi-stage build. The correct Dockerfile is in `3.12.8/docker_nf`.  Use `--target` choose the correct stage:
 
@@ -68,7 +68,7 @@ python3 3.12.8/docker/run.py --tax-id 485  \
 ```
 
 
-## Example 1: I want to run AMRfinder, as is, without any wrapper scripts:
+### Example 1: I want to run AMRfinder, as is, without any wrapper scripts:
 
 You may want to plug this into nextflow pipelines, or for other development. 
 
@@ -79,7 +79,7 @@ docker run -it -v ${PWD}/test:/data/ amrfinder amrfinder --plus --threads 2 -n t
 docker run -it -v ${PWD}/test:/data/ amrfinder --plus --threads 2  -n testing_basic/SRR11904224.fasta --organism Neisseria > SRR11904224_amrfinder.txt 2> SRR11904224_amrfinder.err
 ```
 
-## Example 2: I want to run AMRFinder, with FASTA file piped from stdin and a curated JSON output: 
+### Example 2: I want to run AMRFinder, with FASTA file piped from stdin and a curated JSON output: 
 
 You must specify the tax-id for curated JSON output. 
 
@@ -87,3 +87,47 @@ You must specify the tax-id for curated JSON output.
 docker build -t amrfinder-runtime --target runtime 3.12.8/docker
 docker run --interactive --platform=linux/x86_64 amrfinder-runtime  --tax-id 485  --curated < testing_basic/SRR11904224.fasta 
 ```
+
+## Testing
+
+Folders related to testing start with `testing_`. 
+
+* `testing_datasets`: Sample sheets for nextflow of different test datasets
+* `testing_ori`: Original curated amrfinder results to compare with
+* `testing_scripts`: Helper scripts for testing.
+* `testing_basic`: Sample fasta files, described in `testing_datasets/basic_samplesheet_fasta.csv`
+
+The sample sheets in `testing_datasets` include the original curated results and details of the sample e.g.
+
+```
+sample,species,database,taxid,CARBAPENEM,QUINOLONE,CEPHALOSPORIN,FLUOROQUINOLONE,BETA-LACTAM,METHICILLIN,VANCOMYCIN,fasta
+ERR5708690,shigella,Escherichia,620,,,,gyrA_S83L,,,,testing_basic/ERR5708690.fasta
+SRR16089317,campylobacter,Campylobacter,194,,gyrA_T86I,,,,,,testing_basic/SRR16089317.fasta
+```
+
+The testing is done through nextflow. 
+
+```bash
+nextflow run main.nf -resume --index testing_datasets/basic_samplesheet_fasta.csv --outdir testing_results_basic 
+```
+
+This will;
+* run AMRFINDer (base) to get the original AMRFINDER table. 
+* run AMRfinder (nextflow), which is the same as the runtime image, and produces curated JSON output. 
+* run `check_result.py` (in `bin/`), which compares the curated JSON to the expected result. 
+
+The testing output table will be in `test_results.txt`. If you run the command below, this is `testing_results_basic/test_results.txt`.
+
+```
+SRR14231296	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y;qnrS	none	False
+SRR5939902	enterobacter		354276	CARBAPENEM	blaNDM-1	blaNDM-1	True
+```
+
+Other outputs include:
+
+* `amrfinder_run/`:  The curated json output & stderr
+* `amrfinder_test/`:  The raw amrfinder output tables & stderr.         
+* `pipeline_info/`:  execution statistics of the pipeline - resource usage and runtimes. 
+
+
+

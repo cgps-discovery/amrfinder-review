@@ -8,5 +8,5 @@ ftp*
 .nextflow/
 .venv/
 amrfinder_*/
-test_enterogono_data/
 .DS_Store
+testing_results_basic/
