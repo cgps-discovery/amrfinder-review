@@ -44,7 +44,6 @@ database_info = {
 '90371':'Salmonella', # salmonella_typhimurium
 '590':'Salmonella',
 '1314':'Streptococcus_pyogenes',
-'727': None, #hinfl
 '1313':'Streptococcus_pneumoniae',
 '620':'Escherichia', #shigella
 '623':'Escherichia', #shigella_flexneri
@@ -54,8 +53,13 @@ None:None
 }
 
 tax_id_mapping = {
-'195':'194', # campylobacter_coli to Campy genus
-'197':'194', # campylobacter_jejuni to Campy genus
+    '195':'194',    # campylobacter_coli to Campy genus
+    '197':'194',    # campylobacter_jejuni to Campy genus
+    '149539':'590', # salmonella_enteritidis to Salmonella genus 
+    '90370': '590', # styphi to Salmonella genus 
+    '90371': '590', # salmonella_typhimurium to Salmonella genus 
+    '623':'620',    # shigella_flexneri to shigella id
+    '624':'620',    # shigella_sonnei to shigella id
 }
 
 rename = {
