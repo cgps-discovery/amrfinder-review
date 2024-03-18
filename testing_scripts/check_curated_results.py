@@ -40,6 +40,8 @@ def main(args):
                 for drug_class in CLASSES:
                     if test.get(drug_class):
                         genes = test.get(drug_class)
+                        if drug_class == 'FLUOROQUINOLONE':
+                            drug_class = 'QUINOLONE'
                         this_prediction = ';'.join(sorted(all_prediction.get(drug_class, ['none'])))
                         sorted_genes = ';'.join(sorted(genes.split(';')))
                         passed = this_prediction == sorted_genes
