@@ -2,9 +2,9 @@ import csv
 import os 
 
 genes = {}
-taxid = '562'
+taxid = '1352'
 
-file_paths = ['testing_ori/amrfinder-562.csv' ]
+file_paths = ['testing_ori/amrfinder-1352.csv' ]
 records = [] 
 for file_path in file_paths:
     records += [x for x in csv.DictReader(open(file_path))] 
