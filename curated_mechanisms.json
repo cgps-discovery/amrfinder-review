@@ -961,6 +961,8 @@
     ["1352", "VANCOMYCIN", "vanZ-A", ["vanA", "vanZ-A"] ],
     ["1352", "VANCOMYCIN", "vanS-A", ["vanA", "vanS-A"] ],
     ["1352", "VANCOMYCIN", "vanS-B-Delta", ["vanB", "vanS-B-Delta"] ],
+    ["1352", "VANCOMYCIN", "vanS-B", ["vanB", "vanS-B"] ],
+    ["1352", "VANCOMYCIN", "vanR-B", ["vanB", "vanR-B"] ],
     ["1352", "VANCOMYCIN", "vanW-B", ["vanB", "vanW-B"] ],
     ["1352", "VANCOMYCIN", "vanH-B", ["vanB", "vanH-B"] ],
     ["1352", "VANCOMYCIN", "vanX-B", ["vanB", "vanX-B"] ],
