@@ -30,7 +30,9 @@ def main(args):
         if os.path.exists(results_file):            
             #  docker run --interactive test --curated --tax-id 287 --existing  < test_amr/amrfinder_test/DRR021823_amrfinder.txt
             # happykhan/amrfinder:amrfinder-2.3.0-runtime
-            amrfinder_output = subprocess.run(['docker', 'run', '--platform=linux/x86_64', '--interactive', 'happykhan/amrfinder:amrfinder-2.3.0-runtime', '--curated', '--tax-id', tax_id, '--existing' ], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
+            amrfinder_output = subprocess.run(['python', '3.12.8/docker/run.py', '--curated', '--tax-id', tax_id, '--existing', '--tempdir', 'temp/'], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
+            
+#             amrfinder_output = subprocess.run(['docker', 'run', '--platform=linux/x86_64', '--interactive', 'happykhan/amrfinder:amrfinder-2.3.0-runtime', '--curated', '--tax-id', tax_id, '--existing' ], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
             if amrfinder_output.stderr:
                 print(f'Something has gone wrong ({accession}, {tax_id}): ', file=sys.stderr)
                 print(amrfinder_output.stderr, file=sys.stderr)
@@ -45,7 +47,11 @@ def main(args):
                         this_prediction = ';'.join(sorted(all_prediction.get(drug_class, ['none'])))
                         sorted_genes = ';'.join(sorted(genes.split(';')))
                         passed = this_prediction == sorted_genes
-                        print(accession, species, tax_id, drug_class, sorted_genes, this_prediction, passed, sep='\t')
+                        if args.failed:
+                            if not passed:
+                                print(accession, species, tax_id, drug_class, sorted_genes, this_prediction, passed, sep='\t')
+                        else:
+                            print(accession, species, tax_id, drug_class, sorted_genes, this_prediction, passed, sep='\t')
         else:
             print(f'No results file {accession}', file=sys.stderr)
 
@@ -54,7 +60,8 @@ if __name__ == "__main__":
     parser.add_argument('--dir', type=str, help='The path to a folder of amrfinder (table results)', default='testing_results/amrfinder_test')
     parser.add_argument('--sample_sheet', type=str, help='The path to the samplesheet, with taxids', default='testing_datasets/full_samplesheet_fasta.csv')
     parser.add_argument('--curated_file', type=str, help='The path curated mechanisms filter as a json', default='curated_mechanisms.json')
-    parser.add_argument('--taxid', type=str, help='taxid to filter', nargs='+', default=['1352'])
+    parser.add_argument('--taxid', type=str, help='taxid to filter', nargs='+', default=['562'])
+    parser.add_argument('--failed', help='Show failed only', action='store_true', default=True)
     parser.add_argument('--subsample', type=int, help='Run a subsample', default=1000000)
     args = parser.parse_args()
     main(args)
