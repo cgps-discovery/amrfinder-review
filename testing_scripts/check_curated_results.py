@@ -30,9 +30,10 @@ def main(args):
         if os.path.exists(results_file):            
             #  docker run --interactive test --curated --tax-id 287 --existing  < test_amr/amrfinder_test/DRR021823_amrfinder.txt
             # happykhan/amrfinder:amrfinder-2.3.0-runtime
-            amrfinder_output = subprocess.run(['python', '3.12.8/docker/run.py', '--curated', '--tax-id', tax_id, '--existing', '--tempdir', 'temp/'], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
-            
-#             amrfinder_output = subprocess.run(['docker', 'run', '--platform=linux/x86_64', '--interactive', 'happykhan/amrfinder:amrfinder-2.3.0-runtime', '--curated', '--tax-id', tax_id, '--existing' ], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
+            if args.script_only:
+                amrfinder_output = subprocess.run(['python', '3.12.8/docker/run.py', '--curated', '--tax-id', tax_id, '--existing', '--tempdir', 'temp/'], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
+            else:
+                amrfinder_output = subprocess.run(['docker', 'run', '--platform=linux/x86_64', '--interactive', 'happykhan/amrfinder:amrfinder-2.3.0-runtime', '--curated', '--tax-id', tax_id, '--existing' ], input=bytes(open(results_file).read(), 'utf-8'), capture_output=True)
             if amrfinder_output.stderr:
                 print(f'Something has gone wrong ({accession}, {tax_id}): ', file=sys.stderr)
                 print(amrfinder_output.stderr, file=sys.stderr)
@@ -62,6 +63,7 @@ if __name__ == "__main__":
     parser.add_argument('--curated_file', type=str, help='The path curated mechanisms filter as a json', default='curated_mechanisms.json')
     parser.add_argument('--taxid', type=str, help='taxid to filter', nargs='+', default=['562'])
     parser.add_argument('--failed', help='Show failed only', action='store_true', default=True)
+    parser.add_argument('--script_only', help='dont use the container', action='store_true', default=False)
     parser.add_argument('--subsample', type=int, help='Run a subsample', default=1000000)
     args = parser.parse_args()
     main(args)
