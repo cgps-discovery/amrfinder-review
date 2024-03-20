@@ -934,7 +934,7 @@ SRR5100333	staphylococcus_aureus	Staphylococcus_aureus	1280	METHICILLIN	none	non
 SRR5100333	staphylococcus_aureus	Staphylococcus_aureus	1280	VANCOMYCIN	none	none	True
 ERR3494613	staphylococcus_aureus	Staphylococcus_aureus	1280	METHICILLIN	mecA	mecA	True
 ERR3494613	staphylococcus_aureus	Staphylococcus_aureus	1280	VANCOMYCIN	none	none	True
-ERR4626366	staphylococcus_aureus	Staphylococcus_aureus	1280	METHICILLIN	mecA;mecA	mecA	False
+ERR4626366	staphylococcus_aureus	Staphylococcus_aureus	1280	METHICILLIN	mecA	mecA	True
 ERR4626366	staphylococcus_aureus	Staphylococcus_aureus	1280	VANCOMYCIN	none	none	True
 SRR3194903	staphylococcus_aureus	Staphylococcus_aureus	1280	METHICILLIN	mecA	mecA	True
 SRR3194903	staphylococcus_aureus	Staphylococcus_aureus	1280	VANCOMYCIN	none	none	True
