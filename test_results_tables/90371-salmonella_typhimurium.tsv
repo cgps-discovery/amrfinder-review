@@ -1,383 +1,383 @@
-sample	species	databases	taxid	drug	expected	actual	passed
-SRR7286675	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR13770914	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8097946	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13239214	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1946914	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;oqxA;oqxB	none	False
-SRR12770072	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-DRR106821	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR1646089	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8434724	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6743213	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR11048389	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS11	none	False
-SRR3284842	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3930246	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-DRR106839	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR5057219	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5683358	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6998649	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13589112	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3743910	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83Y;qnrS1	none	False
-SRR10269678	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5023237	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5908427	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14215681	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3570336	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1969066	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB19	none	False
-SRR13519896	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-DRR106820	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6155206	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6425511	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7348915	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83F;parC_S80I	none	False
-ERR1817513	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB19	none	False
-SRR7251064	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;gyrA_D87G;gyrA_S83F;parC_S80I	none	False
-SRR1957803	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1817146	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrA1	none	False
-ERR164795	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR8081628	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8661148	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3284847	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5927280	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6050685	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3476795	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1540306	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5193034	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;oqxA;oqxB;qnrS2	none	False
-SRR5441703	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR4419678	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8380688	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS1	none	False
-SRR2501163	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1164512	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1634586	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5	none	False
-ERR170638	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3664942	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR2202554	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrB_E466D	none	False
-SRR9886098	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10063008	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1501618	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR18090490	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7451056	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7876219	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3285402	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8585168	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6684942	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5576528	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;qnrB6;qnrS1	none	False
-ERR2202543	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR2202536	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB2	none	False
-SRR15096281	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10883135	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7841493	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1363323	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13605063	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8593402	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5445898	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6703756	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7251551	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6116978	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1233943	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1966322	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1166659	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR164822	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-DRR106871	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7367581	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1272863	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS1;qnrS2	none	False
-SRR17705290	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1649538	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR2566905	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13777667	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13649853	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR15242949	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;qnrS	none	False
-SRR5725218	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7249866	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1823517	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR10381280	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6386430	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5361211	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1806848	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12354807	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrVC;qnrVC	none	False
-ERR2205742	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5590040	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6373482	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR15242772	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1540304	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS1	none	False
-SRR1646025	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR164788	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR5970127	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB19;ramR_T18P	none	False
-SRR18233323	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	oqxA2;oqxB	none	False
-SRR11103213	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS13	none	False
-SRR16646902	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB	none	False
-SRR7414954	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7501645	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87G	none	False
-ERR2202504	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS	none	False
-SRR8548910	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR2226230	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;gyrA_D87N	none	False
-SRR8874192	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7297987	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1969817	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12539201	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5	none	False
-SRR1767789	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8658159	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR11284268	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6726363	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3284830	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR7523864	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1645142	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	oqxB	none	False
-SRR1967311	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12676826	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1856102	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7416355	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7257151	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87Y;qnrS1	none	False
-SRR3570335	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1646382	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3932881	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1965388	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3570395	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14231303	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7368863	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR11294402	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3996824	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7533356	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8735170	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB4	none	False
-SRR8476830	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3184169	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR15843276	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrA1;qnrB7	none	False
-DRR106931	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14606210	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7184555	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8519246	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83F;qnrB19	none	False
-ERR1856077	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1569691	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR2177197	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR170666	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7885297	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8087218	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1966328	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10006948	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB19	none	False
-SRR6283626	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83Y;qnrE1	none	False
-ERR1592523	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1969167	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3199295	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1957845	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR8471117	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR13769784	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	oqxA;oqxB	none	False
-SRR5828286	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1968883	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14739245	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1645237	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8751450	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5221862	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-DRR106835	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5451252	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8655340	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR2003341	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR6111000	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13447004	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1967923	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12401730	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3996842	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1133234	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83Y;oqxA;oqxB	none	False
-SRR8435349	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12610938	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7892292	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83F;qnrVC	none	False
-SRR3740190	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3284768	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7081874	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7298863	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14482382	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3322972	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1817109	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR11363633	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;qnrB1	none	False
-SRR1569610	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6311153	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1067648	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	ramR_G25A	none	False
-SRR8514639	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR211851	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR4046398	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5740054	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8638536	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7907591	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14247018	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83Y;qnrB19	none	False
-SRR17838882	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1646198	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5451275	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6310422	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8735246	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3765051	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3097569	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N;oqxA;oqxB	none	False
-SRR3330385	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6730008	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS1	none	False
-SRR14197022	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14049347	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS1	none	False
-SRR15615764	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10062903	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	ramR_T18P	none	False
-SRR11496276	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1912225	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10668046	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrVC	none	False
-SRR1968600	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR18344635	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12450360	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12795799	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8636396	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87Y	none	False
-ERR2689731	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1297205	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5221533	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8380687	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1519881	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1969432	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5365187	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR2174877	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR8738366	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1515949	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14246931	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR9321964	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83F;qnrS1	none	False
-SRR11487796	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6604473	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	ramR_T18P	none	False
-SRR1968124	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1592486	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1968062	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5278824	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7911433	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10270628	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1540581	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7841570	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6729918	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR15369626	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83F;parC_S80R	none	False
-SRR7223250	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1540496	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12768288	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13020599	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrD1	none	False
-SRR8524688	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5920096	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR18233305	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1540337	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR8524580	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5251089	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3509873	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6879537	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8706074	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB7	none	False
-SRR15362094	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR11425861	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;gyrA_D87Y;oqxA;oqxB	none	False
-SRR8419425	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB2	none	False
-SRR5235473	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N;parC_S80I;qnrB19	none	False
-SRR1616767	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;gyrA_S83F	none	False
-SRR7417390	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14197357	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR18233311	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	oqxA2;oqxB2	none	False
-SRR6128335	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5249627	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR4420906	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrB_S464Y	none	False
-SRR4046389	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR4176735	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR2205709	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1645157	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR2989196	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1645745	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13711663	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8435225	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10454565	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12430849	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR16195363	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14481517	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR17893244	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7841581	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3284714	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7187991	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR11363644	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB19;qnrS1	none	False
-SRR3098272	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR17183317	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1363331	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7471054	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12495633	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13964514	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR14029545	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	oqxA;oqxB;qnrB19	none	False
-SRR6489961	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7277867	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR2989561	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1379611	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR11410491	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1646207	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8378430	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3285413	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR13997881	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR11006116	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7140623	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS13;qnrVC	none	False
-DRR106915	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR7962119	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR2134683	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D82N	none	False
-ERR1816625	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1592476	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10420525	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13811792	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N;qnrS1	none	False
-SRR8841126	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8385672	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1379623	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6062459	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12541496	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1967889	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1033485	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;qnrS1	none	False
-SRR14607581	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1177207	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3191588	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1960285	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12770035	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13670673	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR9701264	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR16988589	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N	none	False
-ERR2208723	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6881710	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10574571	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7292898	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3049680	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR3394950	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7523636	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR16876427	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR945135	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7221402	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR11278045	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6249399	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10880492	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1300625	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1969842	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR11425865	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83F;parC_S80R;qepA1	none	False
-SRR3146669	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6114108	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR2174768	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6760514	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR6510524	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_G81C	none	False
-SRR1090983	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5235496	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR12733111	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR6283069	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_S83Y;ramR_G25A	none	False
-SRR10749059	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB1	none	False
-SRR3322614	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS1;qnrVC	none	False
-SRR7495697	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR5639039	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS1;ramR_T18P	none	False
-SRR9307558	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR15007622	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR13776108	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1060686	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1540550	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	aac(6')-Ib-cr5;gyrA_D87N;oqxA;oqxB	none	False
-SRR3570233	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8548906	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR10313679	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB;qnrB	none	False
-SRR3476809	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1958557	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1815499	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR1540612	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1967148	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1968966	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3289792	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1963617	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR8650489	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrB17	none	False
-SRR10992217	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7842524	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR7310587	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	qnrS1	none	False
-SRR2566916	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR164789	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR7456908	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR3286592	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	oqxA;oqxB;qnrS1	none	False
-SRR1060691	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR1177215	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR5090713	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-ERR2003352	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
-SRR11425868	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83F;parC_S80R	none	False
-SRR6881351	salmonella_typhimurium	Salmonella	90371	FLUOROQUINOLONE	none	none	True
+accession	species	taxid	drug_class	expected	actual	passed
+SRR5057219	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8735246	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1060686	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2208723	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1967311	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5235473	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N;parC_S80I;qnrB19	gyrA_D87N;parC_S80I;qnrB19	True
+SRR8081628	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3284714	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1957803	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8548910	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7533356	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12770072	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10006948	salmonella_typhimurium	90371	QUINOLONE	qnrB19	qnrB19	True
+SRR3289792	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1166659	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2202504	salmonella_typhimurium	90371	QUINOLONE	qnrS	none	False
+SRR10668046	salmonella_typhimurium	90371	QUINOLONE	qnrVC	qnrVC	True
+SRR1133234	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83Y;oqxA;oqxB	gyrA_S83Y;oqxA;oqxB	True
+SRR12450360	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7456908	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1969817	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5251089	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3664942	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3284768	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7184555	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR15369626	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83F;parC_S80R	gyrA_S83F;parC_S80R	True
+SRR6879537	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6998649	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13770914	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7292898	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8841126	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7348915	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87G;gyrA_S83F;parC_S80I	gyrA_D87G;gyrA_S83F;parC_S80I	True
+SRR5221533	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1646382	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8435225	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1645142	salmonella_typhimurium	90371	QUINOLONE	oqxB	none	False
+SRR8419425	salmonella_typhimurium	90371	QUINOLONE	qnrB2	qnrB2	True
+SRR1968600	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR17893244	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5023237	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR164822	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1592486	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1969167	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8548906	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12795799	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11425868	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N;gyrA_S83F;parC_S80R	gyrA_D87N;gyrA_S83F;parC_S80R	True
+SRR1233943	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR4176735	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1856077	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13964514	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5278824	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13777667	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR14049347	salmonella_typhimurium	90371	QUINOLONE	qnrS1	qnrS1	True
+SRR15615764	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8738366	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8658159	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3930246	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13711663	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR18233305	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3765051	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8524580	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7277867	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR9307558	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3146669	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6283069	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83Y;ramR_G25A	gyrA_S83Y;ramR_G25A	True
+SRR7297987	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10420525	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR5639039	salmonella_typhimurium	90371	QUINOLONE	qnrS1;ramR_T18P	qnrS1;ramR_T18P	True
+SRR4420906	salmonella_typhimurium	90371	QUINOLONE	gyrB_S464Y	gyrB_S464Y	True
+ERR2003341	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+ERR1540496	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR4046398	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6730008	salmonella_typhimurium	90371	QUINOLONE	qnrS1	qnrS1	True
+SRR6114108	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1519881	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5441703	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1816625	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR18233323	salmonella_typhimurium	90371	QUINOLONE	oqxA2;oqxB	oqxA2;oqxB	True
+SRR12495633	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR2989196	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1645745	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11496276	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1569691	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR14739245	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12768288	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR17183317	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+DRR106821	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR3509873	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8638536	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12430849	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10269678	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3932881	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1540550	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;gyrA_D87N;oqxA;oqxB	aac(6')-Ib-cr5;gyrA_D87N;oqxA;oqxB	True
+SRR5920096	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2174877	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR10880492	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7962119	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR945135	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8706074	salmonella_typhimurium	90371	QUINOLONE	qnrB7	qnrB7	True
+ERR2003352	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1912225	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5361211	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7495697	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7286675	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR12610938	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8435349	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2689731	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6386430	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10574571	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1817146	salmonella_typhimurium	90371	QUINOLONE	qnrA1	qnrA1	True
+SRR1634586	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5	aac(6')-Ib-cr5	True
+SRR1645157	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10313679	salmonella_typhimurium	90371	QUINOLONE	qnrB;qnrB	none	False
+SRR5927280	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10883135	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5221862	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3184169	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8378430	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8097946	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5740054	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1968124	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7841581	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1968062	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR170638	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10062903	salmonella_typhimurium	90371	QUINOLONE	ramR_T18P	ramR_T18P	True
+SRR7417390	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5970127	salmonella_typhimurium	90371	QUINOLONE	qnrB19;ramR_T18P	qnrB19;ramR_T18P	True
+SRR2501163	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR9886098	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1646089	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8874192	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6050685	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR170666	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6760514	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6310422	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR15007622	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6881351	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7501645	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR3476809	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13670673	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7140623	salmonella_typhimurium	90371	QUINOLONE	qnrS13;qnrVC	qnrS13	False
+SRR8524688	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1967148	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6703756	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+DRR106931	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3285402	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7451056	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7367581	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5445898	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1645237	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2202554	salmonella_typhimurium	90371	QUINOLONE	gyrB_E466D	gyrB_E466D	True
+SRR11425865	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N;gyrA_S83F;parC_S80R;qepA1	gyrA_D87N;gyrA_S83F;parC_S80R;qepA1	True
+SRR6111000	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13811792	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N;qnrS1	gyrA_D87N;qnrS1	True
+SRR11103213	salmonella_typhimurium	90371	QUINOLONE	qnrS13	qnrS13	True
+SRR8087218	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1540306	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13997881	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11487796	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1966328	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR18090490	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6283626	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83Y;qnrE1	gyrA_S83Y;qnrE1	True
+SRR16988589	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR2566916	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3743910	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83Y;qnrS1	gyrA_S83Y;qnrS1	True
+SRR7842524	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11363644	salmonella_typhimurium	90371	QUINOLONE	qnrB19;qnrS1	qnrB19;qnrS1	True
+SRR1501618	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1817109	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1300625	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8519246	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83F;qnrB19	gyrA_S83F;qnrB19	True
+SRR10749059	salmonella_typhimurium	90371	QUINOLONE	qnrB1	qnrB1	True
+SRR3322614	salmonella_typhimurium	90371	QUINOLONE	qnrS1;qnrVC	qnrS1;qnrVC	True
+ERR164789	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR14606210	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1540581	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR2989561	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7876219	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR15242772	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR2134683	salmonella_typhimurium	90371	QUINOLONE	gyrA_D82N	gyrA_D82N	True
+SRR1963617	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7907591	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR16195363	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8380687	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1817513	salmonella_typhimurium	90371	QUINOLONE	qnrB19	qnrB19	True
+SRR7841493	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3098272	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1969432	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13239214	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2202536	salmonella_typhimurium	90371	QUINOLONE	qnrB2	qnrB2	True
+SRR6373482	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR3322972	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1957845	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR1967923	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1823517	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR6249399	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11006116	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6684942	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6116978	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13447004	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13769784	salmonella_typhimurium	90371	QUINOLONE	oqxA;oqxB	oqxA;oqxB	True
+SRR7368863	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1616767	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;gyrA_S83F	aac(6')-Ib-cr5;gyrA_S83F	True
+SRR3285413	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+ERR2205709	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7471054	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR17705290	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1968966	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5725218	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5451275	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3284847	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1815499	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5683358	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5090713	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13020599	salmonella_typhimurium	90371	QUINOLONE	qnrD1	qnrD1	True
+SRR3284842	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12401730	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6311153	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1272863	salmonella_typhimurium	90371	QUINOLONE	qnrS1;qnrS2	qnrS1;qnrS2	True
+SRR1958557	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3286592	salmonella_typhimurium	90371	QUINOLONE	oqxA;oqxB;qnrS1	oqxA;oqxB;qnrS1	True
+SRR14215681	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR15362094	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5193034	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;oqxA;oqxB;qnrS2	aac(6')-Ib-cr5;oqxA;oqxB;qnrS2	True
+ERR164795	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR8735170	salmonella_typhimurium	90371	QUINOLONE	qnrB4	qnrB4	True
+SRR5365187	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3284830	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR6489961	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1767789	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8661148	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11048389	salmonella_typhimurium	90371	QUINOLONE	qnrS11	qnrS11	True
+SRR7187991	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR7841570	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1090983	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5249627	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2174768	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3570336	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11278045	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7298863	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1177207	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1164512	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8650489	salmonella_typhimurium	90371	QUINOLONE	qnrB17	qnrB17	True
+ERR164788	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR6604473	salmonella_typhimurium	90371	QUINOLONE	ramR_T18P	ramR_T18P	True
+SRR7257151	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87Y;qnrS1	gyrA_D87Y;qnrS1	True
+SRR7523636	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8476830	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12539201	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5	aac(6')-Ib-cr5	True
+SRR18233311	salmonella_typhimurium	90371	QUINOLONE	oqxA2;oqxB2	oqxA2;oqxB2	True
+SRR5828286	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12541496	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8585168	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5235496	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10270628	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8385672	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+DRR106839	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR7251551	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR6510524	salmonella_typhimurium	90371	QUINOLONE	gyrA_G81C	gyrA_G81C	True
+SRR13776108	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2205742	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1540337	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR14482382	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1856102	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1177215	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR4419678	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11284268	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1969842	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3049680	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR10454565	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1806848	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8471117	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR6743213	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1363323	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3097569	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N;oqxA;oqxB	gyrA_D87N;oqxA;oqxB	True
+SRR6726363	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3570395	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2226230	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;gyrA_D87N	aac(6')-Ib-cr5;gyrA_D87N	True
+SRR9701264	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR14607581	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7251064	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;gyrA_D87G;gyrA_S83F;parC_S80I	aac(6')-Ib-cr5;gyrA_D87G;gyrA_S83F;parC_S80I	True
+SRR13519896	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1592476	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1540612	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13605063	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1060691	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+DRR106871	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1033485	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;qnrS1	aac(6')-Ib-cr5;qnrS1	True
+SRR8655340	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10992217	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR14197022	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11363633	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;qnrB1	aac(6')-Ib-cr5;qnrB1	True
+SRR1379611	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10063008	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5451252	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3570233	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR17838882	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3570335	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3191588	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6155206	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+DRR106820	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR16876427	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1965388	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8434724	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5576528	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;qnrB6;qnrS1	aac(6')-Ib-cr5;qnrB6;qnrS1	True
+SRR7892292	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83F;qnrVC	gyrA_S83F;qnrVC	True
+ERR1540304	salmonella_typhimurium	90371	QUINOLONE	qnrS1	qnrS1	True
+SRR1966322	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1569610	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR1592523	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11294402	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1067648	salmonella_typhimurium	90371	QUINOLONE	ramR_G25A	ramR_G25A	True
+SRR1646198	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR18344635	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5908427	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1363331	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6062459	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8380688	salmonella_typhimurium	90371	QUINOLONE	qnrS1	qnrS1	True
+SRR13649853	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1649538	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1297205	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3996842	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR211851	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6128335	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR15096281	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1969066	salmonella_typhimurium	90371	QUINOLONE	qnrB19	qnrB19	True
+SRR3199295	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR2566905	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR15242949	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;qnrS	aac(6')-Ib-cr5	False
+SRR8593402	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8751450	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR13589112	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1646207	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1960285	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR5590040	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3476795	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7221402	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR11425861	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;gyrA_D87Y;oqxA;oqxB	aac(6')-Ib-cr5;gyrA_D87Y;oqxA;oqxB	True
+SRR6881710	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7310587	salmonella_typhimurium	90371	QUINOLONE	qnrS1	qnrS1	True
+SRR1946914	salmonella_typhimurium	90371	QUINOLONE	aac(6')-Ib-cr5;oqxA;oqxB	aac(6')-Ib-cr5;oqxA;oqxB	True
+SRR1646025	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7081874	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7249866	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7414954	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1967889	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR14247018	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83Y;qnrB19	gyrA_S83Y;qnrB19	True
+SRR12733111	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR16646902	salmonella_typhimurium	90371	QUINOLONE	qnrB	none	False
+SRR8514639	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2202543	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12770035	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+DRR106915	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR1515949	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7911433	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR10381280	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR11410491	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR14481517	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1968883	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR14246931	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3330385	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR14029545	salmonella_typhimurium	90371	QUINOLONE	oqxA;oqxB;qnrB19	oqxA;oqxB;qnrB19	True
+SRR3996824	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3394950	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+ERR2177197	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR8636396	salmonella_typhimurium	90371	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR15843276	salmonella_typhimurium	90371	QUINOLONE	qnrA1;qnrB7	qnrA1;qnrB7	True
+SRR7523864	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR9321964	salmonella_typhimurium	90371	QUINOLONE	gyrA_S83F;qnrS1	gyrA_S83F;qnrS1	True
+SRR14197357	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR14231303	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7885297	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7416355	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12676826	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR7223250	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR1379623	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6729918	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR3740190	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR4046389	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+DRR106835	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR6425511	salmonella_typhimurium	90371	QUINOLONE	none	none	True
+SRR12354807	salmonella_typhimurium	90371	QUINOLONE	qnrVC;qnrVC	none	False
