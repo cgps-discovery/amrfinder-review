@@ -1,644 +1,644 @@
-sample	species	databases	taxid	drug	expected	actual	passed
-SRR5956530	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6807953	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1615087	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1576101	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13790362	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR8484219	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11452542	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13482450	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR4342979	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR16842939	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11425846	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G;oqxA2;oqxB	none	False
-SRR15366158	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5216273	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7506745	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3156749	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y;oqxA;oqxB	none	False
-SRR15425462	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR5645402	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6901030	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7850675	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5382627	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8509383	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7842656	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR1187457	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83F;ramR_T18P	none	False
-SRR8471108	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR1968564	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10236660	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1514734	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900730	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5216094	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9320316	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13934532	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13589111	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13978106	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5640370	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7285884	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3978325	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5921462	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5216144	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR8492479	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR13368762	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N;qepA	none	False
-ERR048511	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5160297	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR13785554	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR7439550	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR5757186	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5908296	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR3286879	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR1910372	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83F	none	False
-SRR13785645	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5799692	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7288559	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6901016	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14048895	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_E466D	none	False
-SRR1969024	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10042421	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR10689897	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR6919857	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8519242	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR16930875	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8131538	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2124395	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6920541	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13208180	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3571790	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1969681	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220421	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14083875	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR18402733	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5409140	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11425092	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12282408	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB;qnrB19	none	False
-SRR1965914	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5194206	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10120286	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13386744	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10232106	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR4280620	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14054570	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G;ramR_Y59H	none	False
-SRR6897181	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5126986	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7828487	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR5588759	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5216476	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR15383592	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900176	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13978118	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR11851444	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6481345	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR12539197	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR16134682	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13644592	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5216532	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR9827150	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5221422	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193078	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR14460717	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR2086994	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1963437	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3312342	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13913529	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_E466D	none	False
-SRR7962318	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7122568	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-ERR5750958	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7359504	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8490856	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-ERR197419	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83F	none	False
-SRR10018367	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13202912	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7223181	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12768446	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5582089	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11395799	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8490816	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR5429817	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83I	none	False
-SRR8066645	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR13485882	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7406152	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10559644	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR5760370	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900987	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6920544	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1645432	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-ERR317063	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1967449	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrS1	none	False
-SRR1958578	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1967232	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3294529	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2566956	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR15054276	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3285407	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220291	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR2009019	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7828491	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR7349227	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_E466D;qnrB19	none	False
-ERR654004	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR4295058	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR7430779	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR13512961	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10512558	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5043442	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6897956	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-ERR1817507	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5486688	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1967990	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220665	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR900989	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14284302	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13274837	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR6345364	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13006133	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5864573	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13978114	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3665300	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193476	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6433999	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8997930	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR1646402	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6132067	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB4	none	False
-SRR6457556	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3932960	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6919116	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900859	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR3978309	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2153000	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1645643	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193206	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6924139	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1969162	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR064845	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G;gyrB_S464F	none	False
-SRR8695410	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6514347	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9114813	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14882913	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR5194168	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13120370	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10050045	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10222074	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12645979	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7379951	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6899400	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR15276805	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8382015	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900347	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB2	none	False
-SRR9622711	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR1963078	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-ERR311270	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	ramR_G25A	none	False
-SRR6901121	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1967579	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9257724	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR5361138	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5219738	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR2861371	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y;ramR_T18P	none	False
-SRR7049876	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR338954	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900127	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10254592	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB19	none	False
-SRR3285353	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR16941131	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7850533	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10667016	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR9846971	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8706045	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2586029	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2193691	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2913276	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1969578	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9321933	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12223832	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11068467	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6440567	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14163441	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_E466D	none	False
-SRR8526101	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6897866	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR749060	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5160664	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N;qnrB2	none	False
-SRR5216408	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6922690	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5382732	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9321741	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR5060593	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5023303	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193841	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5219522	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5216355	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7533177	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6901080	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6373492	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6798641	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR212630	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13685699	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9422926	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR11627852	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y;qnrB	none	False
-SRR7907793	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1967568	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12973950	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7221328	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR12628618	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR3312173	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6897183	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrS	none	False
-SRR6425477	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR2157015	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6919938	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13605064	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5198912	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1968120	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14168453	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR10294415	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1967673	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR13764614	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13933725	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6918333	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR16988332	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10673613	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14092110	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_E466D	none	False
-SRR1965552	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220437	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10302544	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR15871595	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13239239	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR6899394	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13791029	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR1122704	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3680155	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7501734	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6924161	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6132026	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR15924170	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR6380777	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8087122	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6918552	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7873862	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR13761582	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2038205	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8788798	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR15334703	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR12707627	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB19	none	False
-SRR7274994	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1106249	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1952822	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR6897615	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR8738304	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14434484	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_E466D	none	False
-SRR9274377	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220689	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR5197523	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14882107	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1982154	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5215672	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR369394	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10302581	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR11425857	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y;oqxA2;oqxB	none	False
-SRR1966931	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8299421	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1645197	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5501097	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6918888	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193327	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1965980	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14091195	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR1817401	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12692071	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13221493	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7879331	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11772732	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8706053	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR8419414	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12828178	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR6901188	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220849	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR3210546	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D82N	none	False
-ERR338288	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8638115	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR5948391	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3321876	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR15334863	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR6900147	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7890247	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13761584	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB19	none	False
-SRR6132101	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR4294796	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR1544911	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1965866	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR7257601	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11410344	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y;oqxA;oqxB	none	False
-SRR1635072	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11035386	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrS	none	False
-SRR1969231	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR5947726	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7408396	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10467013	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83I;ramR_M84I	none	False
-SRR9049088	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8499358	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8503801	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7457917	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR8839582	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR6922125	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14001992	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12707063	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13203024	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5221478	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2176208	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5947729	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193117	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1966937	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8204781	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6179274	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR15323868	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR6316172	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9614208	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10971817	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12439730	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83Y	none	False
-SRR6919927	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6901031	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	aac(6')-Ib-cr5;qnrB19	none	False
-SRR1183746	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5216320	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR6513135	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR15357281	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5486044	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8490817	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR16563724	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR14153531	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR17893221	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10326337	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1967907	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5139853	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14068993	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6918611	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5219510	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7457934	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6870261	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR10843961	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR5238327	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10053623	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR5576552	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5219547	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8735125	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1968977	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR13290191	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR13519930	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6133723	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1425264	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR8735161	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR6919147	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR18124403	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7962124	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10232181	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8492339	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR6038009	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220344	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR14231296	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y;qnrS	none	False
-SRR13330824	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14581550	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5955180	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193202	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR1036433	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1187449	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6897942	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5812140	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6920189	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13784235	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB19	none	False
-ERR2200244	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR8325602	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5583146	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR18163741	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1033477	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR15043719	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	aac(6')-Ib-cr5	none	False
-SRR5632731	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10506527	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6371562	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9114812	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8544176	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR1965360	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7828267	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR14214442	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB19;qnrS1	none	False
-SRR13784231	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR1514730	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3219121	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6918302	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7874116	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR14498262	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3824036	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1553878	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6750582	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5194327	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2094563	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR15871588	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12628624	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14606412	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11919932	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6933119	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12539199	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5868148	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8706114	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5023293	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13827073	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11362230	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9826975	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR6919928	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR15419126	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR6900640	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900675	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR5955390	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1968728	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR8131548	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7187263	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-ERR235352	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1969589	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR2173691	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220054	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G;ramR_M84I	none	False
-SRR6919154	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5582086	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6918532	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1965773	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1965222	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR5861852	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6922564	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6377200	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1969912	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y;qnrB19	none	False
-SRR5220454	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y;qnrB19	none	False
-SRR3049723	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2567129	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3312529	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14214452	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_E466D	none	False
-SRR3490016	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6920749	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5188717	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5215643	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR13649819	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5989064	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6132121	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR7828290	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR1963469	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8509046	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13193903	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2138565	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5215885	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5194328	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR6760457	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2015069	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7528186	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5224298	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13811201	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5586319	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6132037	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7538807	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14049350	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB19	none	False
-SRR5632748	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3392829	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB19	none	False
-ERR653983	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8471095	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR13143366	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB	none	False
-SRR7350822	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5215847	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10561175	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900451	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14516354	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900841	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR5220314	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8735143	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR1645252	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_S464Y	none	False
-SRR2192198	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1965344	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1187571	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5906899	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12266320	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5906896	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10574913	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5064814	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6919254	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8707470	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3146666	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5216614	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10604685	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR12626289	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220657	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5441841	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1969839	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1212344	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6908097	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6334806	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y;qnrS1	none	False
-SRR6918591	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR6900661	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9648052	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9598492	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193793	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193459	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6922496	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrS1	none	False
-SRR10844068	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB19	none	False
-SRR8706133	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8382030	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7204649	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR13665125	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14465970	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11153193	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1828980	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5486693	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14563164	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7064456	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1027064	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1958580	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9875386	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7090689	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y;qnrB19	none	False
-SRR9019655	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7286864	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR7049726	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12704081	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9422874	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR12676800	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14606427	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13004342	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14029543	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N;qnrB19	none	False
-SRR5659617	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR11048383	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5921484	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10382299	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR18260158	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR5714267	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5220752	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5930163	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1646060	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10968167	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrB19;ramR_G25A	none	False
-SRR2533493	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1965456	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y;qnrS1	none	False
-SRR7873749	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7777213	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13944376	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_E466D	none	False
-SRR13091830	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8499347	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1960166	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrB_S464F	none	False
-SRR14581557	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	aac(6')-Ib-cr5;qnrB6	none	False
-SRR13999331	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR1645793	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1965679	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193911	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5714979	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13530634	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1963272	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6377133	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193771	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR16646901	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13826904	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR12887421	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5126222	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83F	none	False
-SRR1346303	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8293815	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR8523079	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR13849871	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5605865	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR17562372	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR5584863	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR5216277	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR3499732	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7907909	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13091837	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR4063712	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5194219	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8405196	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14615985	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10503755	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13394380	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13386733	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1944528	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1998945	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7285916	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR2035441	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR6131978	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14466732	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1646394	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrS2	none	False
-SRR7653289	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6900376	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_S83Y	none	False
-SRR5193074	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR16054259	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5053567	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-ERR2804487	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13349953	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13368778	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5193108	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5413126	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3286659	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5215835	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR13605054	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	qnrA3	none	False
-SRR13964536	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10513984	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR15425477	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR18344454	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8767323	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR6924100	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR8553868	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5216335	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5249643	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5851138	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR10905083	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7511898	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR14163396	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR1970141	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR6425484	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	ramR_T18P	none	False
-SRR5632927	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR9210993	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR3285375	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR5725168	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7288558	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
-SRR7777153	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR6924166	salmonella_enteritidis	Salmonella	149539	FLUOROQUINOLONE	none	none	True
+accession	species	taxid	drug_class	expected	actual	passed
+SRR1645197	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8735143	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR1576101	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14231296	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y;qnrS	gyrA_D87Y;qnrS	True
+SRR7828290	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR12707627	salmonella_enteritidis	149539	QUINOLONE	qnrB19	qnrB19	True
+ERR2173691	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9274377	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13386733	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8499358	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10382299	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1187457	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83F;ramR_T18P	gyrA_S83F;ramR_T18P	True
+SRR5220689	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR11153193	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8706045	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1965914	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14091195	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6316172	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13827073	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10467013	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83I;ramR_M84I	gyrA_S83I;ramR_M84I	True
+SRR8419414	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12223832	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2124395	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13349953	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8325602	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7828487	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR1027064	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3285375	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3665300	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2566956	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5757186	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6920544	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9321933	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6900675	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+ERR212630	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6425477	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR10120286	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10236660	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR17562372	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR7538807	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1967449	salmonella_enteritidis	149539	QUINOLONE	qnrS1	qnrS1	True
+SRR6922564	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1944528	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1514730	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7842656	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR2035441	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR7285884	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12704081	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13605064	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13999331	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR6760457	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR4295058	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7408396	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3049723	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2176208	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1553878	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5216476	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR7187263	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR6924161	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6798641	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12626289	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6457556	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8484219	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1960166	salmonella_enteritidis	149539	QUINOLONE	gyrB_S464F	gyrB_S464F	True
+SRR1346303	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3156749	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y;oqxA;oqxB	gyrA_S83Y;oqxA;oqxB	True
+SRR6899400	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5864573	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8735161	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR18344454	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15425477	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR1965360	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6038009	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2038205	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10513984	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR14153531	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1615087	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13849871	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14163396	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13120370	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12282408	salmonella_enteritidis	149539	QUINOLONE	qnrB;qnrB19	qnrB;qnrB19	True
+SRR6901016	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14615985	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14882913	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR6132067	salmonella_enteritidis	149539	QUINOLONE	qnrB4	qnrB4	True
+SRR10561175	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13330824	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6919154	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6918611	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2015069	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6901188	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5632748	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14049350	salmonella_enteritidis	149539	QUINOLONE	qnrB19	qnrB19	True
+SRR5799692	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7064456	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11627852	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y;qnrB	gyrA_D87Y	False
+SRR8767323	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5215847	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2533493	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3286659	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1967232	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15419126	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR4063712	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR064845	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G;gyrB_S464F	gyrA_D87G;gyrB_S464F	True
+SRR5193476	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1965344	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8519242	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11425846	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G;oqxA2;oqxB	gyrA_D87G;oqxA2;oqxB	True
+SRR5215835	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3285407	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6922690	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15924170	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR5220291	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR7962318	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3932960	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9598492	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3312529	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14465970	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6897183	salmonella_enteritidis	149539	QUINOLONE	qnrS	qnrS	True
+SRR18163741	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5441841	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2586029	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5956530	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10506527	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5486044	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6922125	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1982154	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8707470	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6897942	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6870261	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR1969162	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10844068	salmonella_enteritidis	149539	QUINOLONE	qnrB19	qnrB19	True
+SRR1963078	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR1187571	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11410344	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y;oqxA;oqxB	gyrA_D87Y;oqxA;oqxB	True
+SRR13221493	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5160297	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR7439550	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR5605865	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13764614	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5220314	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6132037	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR1645793	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13589111	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5194328	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+ERR317063	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14029543	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N;qnrB19	gyrA_D87N;qnrB19	True
+SRR9622711	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR10326337	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5930163	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR900989	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7285916	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8706114	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2086994	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5486693	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6900987	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7349227	salmonella_enteritidis	149539	QUINOLONE	gyrB_E466D;qnrB19	gyrB_E466D;qnrB19	True
+SRR8735125	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6919938	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5126986	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12676800	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5198912	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7288559	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1968120	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13649819	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5955390	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7204649	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR10302581	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR15366158	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1036433	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6513135	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR12828178	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR14083875	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10018367	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1969589	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5219510	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13761584	salmonella_enteritidis	149539	QUINOLONE	qnrB19	qnrB19	True
+SRR6377200	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6918302	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13933725	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5043442	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14460717	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5193078	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+ERR311270	salmonella_enteritidis	149539	QUINOLONE	ramR_G25A	ramR_G25A	True
+SRR8490816	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR6924166	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8997930	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR1965456	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y;qnrS1	gyrA_S83Y;qnrS1	True
+SRR6908097	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9648052	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5215643	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR13208180	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6920541	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14516354	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5382627	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13274837	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR5760370	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13386744	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1958580	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5851138	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13644592	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR338288	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3312173	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13791029	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR3210546	salmonella_enteritidis	149539	QUINOLONE	gyrA_D82N	gyrA_D82N	True
+SRR1968977	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR2567129	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6897181	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6919254	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12266320	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR17893221	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3286879	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR8553868	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14048895	salmonella_enteritidis	149539	QUINOLONE	gyrB_E466D	gyrB_E466D	True
+SRR6425484	salmonella_enteritidis	149539	QUINOLONE	ramR_T18P	ramR_T18P	True
+SRR11068467	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5584863	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR1965773	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14168453	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR7350822	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR7430779	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5906899	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6371562	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7457917	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR3312342	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5501097	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6920749	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8382030	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10604685	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5215672	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9826975	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+ERR654004	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6132101	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12439730	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N;gyrA_S83Y	gyrA_D87N;gyrA_S83Y	True
+SRR6900347	salmonella_enteritidis	149539	QUINOLONE	qnrB2	qnrB2	True
+SRR5361138	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14284302	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11851444	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5220344	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR1969024	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9827150	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1212344	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15357281	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2192198	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1968728	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR8293815	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR6918333	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9019655	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5126222	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR3285353	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10512558	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8526101	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6897956	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR8839582	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR8299421	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1963272	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR16563724	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR6807953	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6922496	salmonella_enteritidis	149539	QUINOLONE	qnrS1	qnrS1	True
+SRR14163441	salmonella_enteritidis	149539	QUINOLONE	gyrB_E466D	gyrB_E466D	True
+SRR7221328	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR8706133	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3294529	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12539197	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8492339	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR6900147	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR1968564	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5193459	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5193074	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15871588	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13913529	salmonella_enteritidis	149539	QUINOLONE	gyrB_E466D	gyrB_E466D	True
+SRR15323868	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5023293	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR235352	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR338954	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7223181	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9875386	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5064814	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5588759	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13784231	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR12973950	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5586319	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14068993	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR749060	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10254592	salmonella_enteritidis	149539	QUINOLONE	qnrB19	qnrB19	True
+SRR13944376	salmonella_enteritidis	149539	QUINOLONE	gyrB_E466D	gyrB_E466D	True
+SRR11772732	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9422874	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR5193117	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10905083	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1645643	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6901030	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12887421	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6179274	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR18124403	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5216094	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14606412	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6901080	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6919147	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14581557	salmonella_enteritidis	149539	QUINOLONE	aac(6')-Ib-cr5;qnrB6	aac(6')-Ib-cr5;qnrB6	True
+SRR13785645	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7890247	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8131548	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5861852	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5193202	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR5216320	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR5413126	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6900859	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR14214442	salmonella_enteritidis	149539	QUINOLONE	qnrB19;qnrS1	qnrB19;qnrS1	True
+SRR9210993	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5249643	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7501734	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13394380	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14214452	salmonella_enteritidis	149539	QUINOLONE	gyrB_E466D	gyrB_E466D	True
+SRR5238327	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5215885	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8706053	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR14092110	salmonella_enteritidis	149539	QUINOLONE	gyrB_E466D	gyrB_E466D	True
+SRR5216614	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5640370	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6433999	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7874116	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR10559644	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR6132026	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR6919857	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13202912	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR8490817	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR4280620	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13978114	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13239239	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR13290191	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR8509046	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6920189	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR4294796	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6132121	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR6933119	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13368762	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N;qepA	gyrA_D87N	False
+SRR1033477	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1646394	salmonella_enteritidis	149539	QUINOLONE	qnrS2	qnrS2	True
+SRR1910372	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N;gyrA_S83F	gyrA_D87N;gyrA_S83F	True
+SRR7828491	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR7049876	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7379951	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12539199	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7962124	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14581550	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7122568	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR1965866	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR1646060	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6334806	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y;qnrS1	gyrA_D87Y;qnrS1	True
+SRR6131978	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5908296	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR6514347	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5188717	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8544176	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR8695410	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15425462	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR3680155	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10667016	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR18260158	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR12768446	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9049088	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9321741	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR5197523	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5632731	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10503755	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR5750958	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10574913	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6373492	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10673613	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5221478	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15043719	salmonella_enteritidis	149539	QUINOLONE	aac(6')-Ib-cr5	aac(6')-Ib-cr5	True
+SRR13091837	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10302544	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5725168	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13964536	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13485882	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6899394	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR1544911	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15871595	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1187449	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7049726	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5216532	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR13512961	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3321876	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5194219	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13790362	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR7090689	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y;qnrB19	gyrA_S83Y;qnrB19	True
+SRR5193108	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6900376	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR8471108	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR13978106	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5989064	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9614208	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1969681	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12628618	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR8405196	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR1817507	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14434484	salmonella_enteritidis	149539	QUINOLONE	gyrB_E466D	gyrB_E466D	True
+SRR5220752	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7359504	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1828980	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5947729	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13193903	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7828267	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR7286864	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR1965679	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13605054	salmonella_enteritidis	149539	QUINOLONE	qnrA3	qnrA3	True
+SRR8638115	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+ERR1817401	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10294415	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5023303	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7907909	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14882107	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5948391	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10843961	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR15054276	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8066645	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR6919116	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13091830	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12628624	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5220454	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y;qnrB19	gyrA_S83Y;qnrB19	True
+SRR16646901	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7406152	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5193793	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1965222	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5220665	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1958578	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14563164	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR16988332	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2009019	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3392829	salmonella_enteritidis	149539	QUINOLONE	qnrB19	qnrB19	True
+SRR1969578	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12707063	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR197419	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G;gyrA_S83F	gyrA_D87G;gyrA_S83F	True
+SRR10968167	salmonella_enteritidis	149539	QUINOLONE	qnrB19;ramR_G25A	qnrB19;ramR_G25A	True
+SRR5714267	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5714979	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2157015	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1966931	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1425264	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR1967673	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR5382732	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3978325	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10971817	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10042421	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR16930875	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13006133	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11452542	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15383592	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13811201	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7850533	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3571790	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1967579	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8490856	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR13004342	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7506745	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1969912	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y;qnrB19	gyrA_D87Y;qnrB19	True
+SRR5193771	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5194168	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5053567	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7850675	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6900841	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR4342979	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5216355	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5216273	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5139853	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5060593	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7777213	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10689897	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR11395799	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1646402	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7288558	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13482450	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6901031	salmonella_enteritidis	149539	QUINOLONE	aac(6')-Ib-cr5;qnrB19	aac(6')-Ib-cr5;qnrB19	True
+SRR6440567	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5193206	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR16842939	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5216144	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR6924100	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11048383	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8204781	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13784235	salmonella_enteritidis	149539	QUINOLONE	qnrB19	qnrB19	True
+SRR5582086	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13203024	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5216277	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR3824036	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13761582	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15334863	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR7533177	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5160664	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N;qnrB2	gyrA_D87N;qnrB2	True
+SRR1998945	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7873862	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR6380777	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR18402733	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5906896	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR2200244	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR8492479	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR3490016	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6481345	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR1969231	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR3499732	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6918591	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR7873749	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR2861371	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y;ramR_T18P	gyrA_D87Y;ramR_T18P	True
+SRR5632927	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6900730	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2094563	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5921462	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5955180	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1967907	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6919928	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1645432	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR6924139	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7907793	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5224298	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13368778	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5582089	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5429817	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83I	gyrA_S83I	True
+SRR6900176	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14466732	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9422926	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5220054	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G;ramR_M84I	gyrA_D87G;ramR_M84I	True
+SRR6918888	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7879331	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13519930	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1514734	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2153000	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13785554	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR6900127	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1970141	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1183746	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10050045	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1967990	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14054570	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G;ramR_Y59H	gyrA_D87G;ramR_Y59H	True
+SRR7511898	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15334703	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR5220849	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR6897615	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5221422	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR16941131	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3978309	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13934532	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5194206	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6133723	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5220421	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5193841	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR048511	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1969839	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1635072	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8471095	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR9320316	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5645402	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13530634	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6900451	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13143366	salmonella_enteritidis	149539	QUINOLONE	qnrB	qnrB	True
+SRR8382015	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6750582	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7528186	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1952822	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR10232181	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13826904	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11425092	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5583146	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5219547	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13685699	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2913276	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5868148	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5659617	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5486688	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9114813	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR15276805	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6900640	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6919927	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8503801	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5220657	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3219121	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1106249	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11362230	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11425857	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y;oqxA2;oqxB	gyrA_D87Y;oqxA2;oqxB	True
+SRR5219522	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2138565	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5193911	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10053623	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR10222074	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5409140	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6918532	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8509383	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR10232106	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83F	gyrA_S83F	True
+SRR9114812	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13665125	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9846971	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5576552	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8499347	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR13978118	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR5216408	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR9257724	salmonella_enteritidis	149539	QUINOLONE	gyrA_S83Y	gyrA_S83Y	True
+SRR5219738	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1122704	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7653289	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5812140	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7457934	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1965980	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5947726	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6377133	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6901121	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8523079	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR6900661	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5921484	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5193327	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6345364	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7274994	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1963437	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1966937	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1965552	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR369394	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5220437	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8087122	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14001992	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6897866	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1645252	salmonella_enteritidis	149539	QUINOLONE	gyrB_S464Y	gyrB_S464Y	True
+SRR7257601	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR2193691	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8738304	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5194327	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR2804487	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR1967568	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR3146666	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8788798	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR5216335	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR12692071	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14606427	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR16134682	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR6918552	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR1963469	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR8131538	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR14498262	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR16054259	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR7777153	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR11919932	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+ERR653983	salmonella_enteritidis	149539	QUINOLONE	none	none	True
+SRR11035386	salmonella_enteritidis	149539	QUINOLONE	qnrS	qnrS	True
+SRR12645979	salmonella_enteritidis	149539	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
