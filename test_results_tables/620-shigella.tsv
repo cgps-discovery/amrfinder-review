@@ -1,451 +1,451 @@
-sample	species	databases	taxid	drug	expected	actual	passed
-SRR10961873	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR13118715	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10441987	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR11252500	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR9967628	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR3394824	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7256995	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4195744	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7266801	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR16936691	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_E84A;parC_S80I;qnrA1	none	False
-SRR10403899	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR4788205	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR6005160	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR13253693	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR17269288	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	none	False
-SRR11285406	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR11728573	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR7346170	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR8400992	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12813943	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR16763836	shigella	Escherichia	620	FLUOROQUINOLONE	qnrA1	none	False
-SRR5005496	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7806385	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR10512687	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qepA8	none	False
-SRR10438102	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5464537	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR5006425	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5005606	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR17038739	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	none	False
-SRR8513587	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR6870014	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-ERR2642344	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR230517	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR6004770	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;qnrS4	none	False
-SRR7466982	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR5512126	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR17212744	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrS1	none	False
-SRR9613637	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7286178	shigella	Escherichia	620	FLUOROQUINOLONE	aac(6')-Ib-cr5;gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR10247126	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB4;qnrS1	none	False
-SRR11608758	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR10172198	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-ERR1009146	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR3530413	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5282060	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8554751	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y;qnrS1	none	False
-SRR8859450	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7885987	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR10088472	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR10867818	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR14294936	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR7244278	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15338009	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10763412	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR4195781	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR18214412	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;parC_S80I;qnrS1	none	False
-ERR230566	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR4897588	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR7842168	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_E84G;parC_S80I	none	False
-SRR8878470	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR6164710	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR17424597	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8385460	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7265923	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS13	none	False
-SRR13118712	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7286616	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR11289449	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR1363996	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4192107	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;parC_S80R;qnrS1	none	False
-SRR10019371	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;parC_S80I;qnrS13	none	False
-SRR11488768	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	none	False
-SRR18487312	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR10189288	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR18143713	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	none	False
-SRR7187048	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR14608288	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR14097070	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_E460K	none	False
-SRR8766742	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5034595	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR6049567	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR14067062	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8783670	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_L416F	none	False
-SRR7223114	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR13310629	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y;qnrS1	none	False
-SRR7178118	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7256987	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83A	none	False
-SRR6359171	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR5642292	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR10970557	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-ERR316358	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12413844	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13200706	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7230240	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR8643556	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR17399984	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	none	False
-SRR7073117	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7013792	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR8375182	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;parC_S80I;qnrS1	none	False
-ERR5708851	shigella	Escherichia	620	FLUOROQUINOLONE	aac(6')-Ib-cr5	none	False
-SRR10506607	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4195729	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;marR_A70T;parC_S80I	none	False
-SRR9639854	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13349026	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB	none	False
-SRR15338041	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR17185577	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR6253015	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR11041496	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7886044	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR9072787	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8898321	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10521973	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15183718	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12769853	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR6004854	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N	none	False
-SRR10345409	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrB4;qnrS13	none	False
-SRR12744717	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8405061	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR5024461	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7133517	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR3530552	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR200468	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR6005548	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR13515390	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83A;qnrS1	none	False
-SRR5034530	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8774313	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR3530419	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR16216508	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-ERR6004902	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7886110	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR5067186	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR18299352	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4788156	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15909550	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrA1	none	False
-SRR18114242	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10312196	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR13608822	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR11067562	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8318691	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR14659208	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR9596653	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR6440141	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4897111	shigella	Escherichia	620	FLUOROQUINOLONE	oqxA;oqxB;qnrS1	none	False
-SRR3289604	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR5293300	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7221108	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR6490601	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15011093	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;parC_S80I;qnrS1	none	False
-ERR6005228	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;qnrS1	none	False
-ERR5708690	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR13348981	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8448208	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR9961601	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5875677	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5434874	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12448200	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR10674432	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7544741	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR7895416	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7265859	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR10543989	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7540840	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR9929224	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13767173	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrS13	none	False
-SRR7215917	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR7215934	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10591221	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS1	none	False
-SRR15408731	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR7286623	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR10017989	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR4788302	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR8942805	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR7505721	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR11037248	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10884013	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR10158258	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10438646	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qepA4	none	False
-SRR12109928	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7895412	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR14109611	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR12024365	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR14359617	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4787753	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13348974	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12683895	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR6004786	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR10438343	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR3996100	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR10512856	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12663957	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7187012	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR7170932	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y;qnrS1	none	False
-SRR10598996	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR17212742	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR10448269	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15824112	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR6005326	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR13515283	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-ERR230522	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13764765	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR3742263	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR6242015	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR3991642	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR9178562	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR10506783	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR6293181	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR8650405	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8766730	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7886255	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7540865	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8423742	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15178286	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qnrS1	none	False
-SRR8086720	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR5223146	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7184245	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR10197228	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrB19	none	False
-SRR13147961	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR13093972	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB4	none	False
-SRR15529965	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR6242002	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR9719229	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR1541576	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR558531	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR18280691	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7249706	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB2	none	False
-SRR14531933	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrB4	none	False
-SRR13608892	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR9684106	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR316227	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5024263	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5006096	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR17205322	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	none	False
-SRR10056637	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR14551534	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;qnrS1	none	False
-ERR6004887	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR7286625	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS1	none	False
-SRR7236617	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR12448050	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR12358843	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR9969392	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-ERR190836	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR17279060	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-ERR6005015	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13785629	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15613615	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7230221	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR4897568	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7992446	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR4788159	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR1865390	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR9661210	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-ERR3331124	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR3531778	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8645319	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_P439S	none	False
-SRR17187271	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR3333241	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y;gyrA_S83L;parC_S80I	none	False
-SRR7291914	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12979397	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR7895413	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-ERR448993	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5121086	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8307247	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12963005	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13518747	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR11479055	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10080208	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR8898308	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5485308	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR316392	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR16506470	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR10087013	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13859776	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19;qnrB4	none	False
-SRR7290913	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13349197	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR10452816	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR3289618	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR11096713	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8866687	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-ERR1364106	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10072883	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR11067329	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8602026	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR8385456	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR8071994	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR5588807	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR5708856	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y;qnrS1	none	False
-SRR12840957	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-ERR6005239	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR9686310	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7277003	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y;qnrB4	none	False
-SRR6249526	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR6656726	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12916548	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15035481	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR11215240	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR8116853	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR9260665	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10294290	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR3331039	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5454496	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y;qnrS1	none	False
-SRR7866527	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8787484	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;qnrB4;qnrS1	none	False
-SRR15299564	shigella	Escherichia	620	FLUOROQUINOLONE	parC_S80I	none	False
-SRR10519435	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR3531699	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR18506925	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;parC_S80I	none	False
-SRR8770353	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-ERR1364053	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR6006261	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L	none	False
-SRR5282070	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13011187	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-ERR316225	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4786217	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7291632	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR18172085	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;parE_E460K;qnrB19	none	False
-ERR6005536	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15366064	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7522848	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	none	False
-SRR9835570	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR16173106	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y;qnrB19;qnrS1	none	False
-SRR8086656	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12358823	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10231916	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7290994	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR6490613	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;parE_E460K	none	False
-SRR16598712	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qnrS13	none	False
-SRR3213905	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8440737	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR17656068	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_E84A;parC_S80I	none	False
-SRR8387893	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-ERR6005026	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR6297344	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR12515376	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR18506945	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-ERR6005479	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR16975488	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR6005522	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR5642679	shigella	Escherichia	620	FLUOROQUINOLONE	aac(6')-Ib-cr5;qnrB6	none	False
-SRR6163716	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10491784	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8481387	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB	none	False
-SRR7186936	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;qepA	none	False
-SRR14993815	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13608846	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR3146321	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR18455719	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_E84A;parC_S80I;qnrS1	none	False
-SRR17830199	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR12638465	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15699839	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR230510	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qepA1	none	False
-SRR7886025	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR18333114	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	none	False
-SRR8766688	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7291918	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;qnrS1	none	False
-SRR9872862	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS13	none	False
-SRR10129657	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR13608871	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7010948	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR6006323	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G	none	False
-SRR13913991	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8820068	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	none	False
-SRR7886171	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR12762152	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8401122	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7291663	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19;qnrS1	none	False
-ERR1364170	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;qepA4	none	False
-SRR13608782	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;qnrB4	none	False
-ERR1364153	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5034577	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7277725	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR7885918	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR14028509	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS	none	False
-SRR6049569	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR5125611	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4788104	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4195779	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR15842494	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB4	none	False
-SRR9639870	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR13349061	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR18015873	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR14660106	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR3530401	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR7495422	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR7290978	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR9121359	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR18503110	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10448392	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR7266825	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR14883181	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR18214901	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-ERR1792660	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR10231917	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR7822191	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L;qnrS13	none	False
-SRR7236652	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7286510	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS1	none	False
-SRR4195773	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR3473843	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR7285430	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-ERR200502	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10506669	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR8513574	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7223075	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y	none	False
-SRR7223058	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-ERR1810612	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR5034584	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-ERR1811875	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15698981	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR15361729	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qnrB4	none	False
-SRR11015426	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7886062	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR17830170	shigella	Escherichia	620	FLUOROQUINOLONE	parC_S80I;qnrB19	none	False
-SRR10209859	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR5017552	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7251002	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87Y;qnrS1	none	False
-ERR190844	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8117830	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR11214838	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19;qnrS13	none	False
-SRR5436271	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-ERR3333244	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7620670	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR8358251	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR18312992	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	none	False
-SRR7886137	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7401703	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR5024070	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-ERR6004849	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR7358044	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	none	False
-SRR6902821	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR200514	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7283743	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR18503111	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR15408762	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-ERR200482	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10843857	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-SRR7850386	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB4;qnrS1	none	False
-SRR10512855	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR4788173	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10357090	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR8457082	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR042794	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7204214	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR1810586	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR10155216	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR6490552	shigella	Escherichia	620	FLUOROQUINOLONE	qnrB19	none	False
-SRR9920710	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-ERR316360	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR18487757	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_S83L	none	False
-SRR5006347	shigella	Escherichia	620	FLUOROQUINOLONE	none	none	True
-SRR7886163	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
-SRR6058026	shigella	Escherichia	620	FLUOROQUINOLONE	qnrS1	none	False
-ERR1364328	shigella	Escherichia	620	FLUOROQUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	none	False
+accession	species	taxid	drug_class	expected	actual	passed
+ERR5708690	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR8898321	shigella	620	QUINOLONE	none	none	True
+SRR17212744	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrS1	gyrA_D87N;gyrA_S83L;parC_S80I;qnrS1	True
+SRR14531933	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrB4	gyrA_D87N;gyrA_S83L;parC_S80I;qnrB4	True
+SRR4786217	shigella	620	QUINOLONE	none	none	True
+SRR4788104	shigella	620	QUINOLONE	none	none	True
+SRR10438343	shigella	620	QUINOLONE	none	none	True
+SRR8385460	shigella	620	QUINOLONE	none	none	True
+SRR10017989	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+ERR190844	shigella	620	QUINOLONE	none	none	True
+SRR15035481	shigella	620	QUINOLONE	none	none	True
+SRR13310629	shigella	620	QUINOLONE	gyrA_D87Y;qnrS1	gyrA_D87Y;qnrS1	True
+SRR4897568	shigella	620	QUINOLONE	none	none	True
+SRR5485308	shigella	620	QUINOLONE	none	none	True
+SRR8400992	shigella	620	QUINOLONE	none	none	True
+SRR6490552	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR10512856	shigella	620	QUINOLONE	none	none	True
+ERR200502	shigella	620	QUINOLONE	none	none	True
+SRR4788156	shigella	620	QUINOLONE	none	none	True
+SRR8787484	shigella	620	QUINOLONE	gyrA_D87N;qnrB4;qnrS1	gyrA_D87N;qnrB4;qnrS1	True
+SRR10448392	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR7886171	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+ERR200514	shigella	620	QUINOLONE	none	none	True
+SRR5005496	shigella	620	QUINOLONE	none	none	True
+SRR13515283	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR5034584	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR3530419	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7215934	shigella	620	QUINOLONE	none	none	True
+SRR7236652	shigella	620	QUINOLONE	none	none	True
+ERR3333241	shigella	620	QUINOLONE	gyrA_D87Y;gyrA_S83L;parC_S80I	gyrA_D87Y;gyrA_S83L;parC_S80I	True
+SRR7178118	shigella	620	QUINOLONE	none	none	True
+SRR7886062	shigella	620	QUINOLONE	none	none	True
+SRR13349061	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+ERR230510	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qepA1	gyrA_D87G;gyrA_S83L;parC_S80I;qepA1	True
+SRR7204214	shigella	620	QUINOLONE	none	none	True
+SRR12963005	shigella	620	QUINOLONE	none	none	True
+SRR11728573	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR6297344	shigella	620	QUINOLONE	none	none	True
+SRR13118712	shigella	620	QUINOLONE	none	none	True
+SRR16763836	shigella	620	QUINOLONE	qnrA1	qnrA1	True
+SRR5006425	shigella	620	QUINOLONE	none	none	True
+SRR6656726	shigella	620	QUINOLONE	none	none	True
+SRR15366064	shigella	620	QUINOLONE	none	none	True
+SRR10080208	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR13767173	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrS13	gyrA_D87N;gyrA_S83L;parC_S80I;qnrS13	True
+ERR042794	shigella	620	QUINOLONE	none	none	True
+SRR18214901	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR5121086	shigella	620	QUINOLONE	none	none	True
+SRR3531699	shigella	620	QUINOLONE	none	none	True
+SRR10438102	shigella	620	QUINOLONE	none	none	True
+SRR13348974	shigella	620	QUINOLONE	none	none	True
+SRR10867818	shigella	620	QUINOLONE	none	none	True
+ERR1009146	shigella	620	QUINOLONE	none	none	True
+SRR9639870	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+ERR1810586	shigella	620	QUINOLONE	none	none	True
+SRR10172198	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR10491784	shigella	620	QUINOLONE	none	none	True
+ERR6004849	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR7291632	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR11252500	shigella	620	QUINOLONE	none	none	True
+ERR5708856	shigella	620	QUINOLONE	gyrA_D87Y;qnrS1	gyrA_D87Y;qnrS1	True
+SRR5434874	shigella	620	QUINOLONE	none	none	True
+SRR4195773	shigella	620	QUINOLONE	none	none	True
+ERR558531	shigella	620	QUINOLONE	none	none	True
+SRR4195744	shigella	620	QUINOLONE	none	none	True
+SRR8513587	shigella	620	QUINOLONE	none	none	True
+SRR13608871	shigella	620	QUINOLONE	none	none	True
+SRR8481387	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB	True
+SRR15361729	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qnrB4	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qnrB4	True
+ERR6006323	shigella	620	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR10158258	shigella	620	QUINOLONE	none	none	True
+SRR8766688	shigella	620	QUINOLONE	none	none	True
+SRR8783670	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_L416F	gyrA_D87N;gyrA_S83L;parC_S80I;parE_L416F	True
+SRR10506783	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7522848	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	True
+SRR18503111	shigella	620	QUINOLONE	none	none	True
+SRR9969392	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR18487312	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR4195781	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR9684106	shigella	620	QUINOLONE	none	none	True
+SRR11285406	shigella	620	QUINOLONE	none	none	True
+SRR5454496	shigella	620	QUINOLONE	gyrA_D87Y;qnrS1	gyrA_D87Y;qnrS1	True
+SRR10763412	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR8117830	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR12413844	shigella	620	QUINOLONE	none	none	True
+SRR10072883	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR9929224	shigella	620	QUINOLONE	none	none	True
+SRR5005606	shigella	620	QUINOLONE	none	none	True
+SRR4195729	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;marR_A70T;parC_S80I	gyrA_D87G;gyrA_S83L;marR_A70T;parC_S80I	True
+SRR12448050	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR11096713	shigella	620	QUINOLONE	none	none	True
+SRR14028509	shigella	620	QUINOLONE	qnrS	qnrS	True
+SRR10209859	shigella	620	QUINOLONE	none	none	True
+ERR6004786	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR7187012	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR15299564	shigella	620	QUINOLONE	parC_S80I	parC_S80I	True
+SRR11214838	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19;qnrS13	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19;qnrS13	True
+ERR316360	shigella	620	QUINOLONE	none	none	True
+SRR9920710	shigella	620	QUINOLONE	none	none	True
+SRR12762152	shigella	620	QUINOLONE	none	none	True
+SRR7822191	shigella	620	QUINOLONE	gyrA_S83L;qnrS13	gyrA_S83L;qnrS13	True
+SRR13608892	shigella	620	QUINOLONE	none	none	True
+SRR8942805	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR9178562	shigella	620	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR5034595	shigella	620	QUINOLONE	none	none	True
+SRR15408731	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7885918	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+ERR6005548	shigella	620	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR8387893	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR18214412	shigella	620	QUINOLONE	gyrA_D87N;parC_S80I;qnrS1	gyrA_D87N;parC_S80I;qnrS1	True
+ERR6005015	shigella	620	QUINOLONE	none	none	True
+SRR18299352	shigella	620	QUINOLONE	none	none	True
+SRR7286623	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR3742263	shigella	620	QUINOLONE	none	none	True
+SRR15842494	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB4	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB4	True
+ERR1364153	shigella	620	QUINOLONE	none	none	True
+ERR6005228	shigella	620	QUINOLONE	gyrA_D87G;qnrS1	gyrA_D87G;qnrS1	True
+SRR7256987	shigella	620	QUINOLONE	gyrA_S83A	gyrA_S83A	True
+SRR14659208	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+ERR6005026	shigella	620	QUINOLONE	gyrA_D87G	gyrA_D87G	True
+SRR10438646	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qepA4	gyrA_D87G;gyrA_S83L;parC_S80I;qepA4	True
+SRR7133517	shigella	620	QUINOLONE	none	none	True
+SRR15699839	shigella	620	QUINOLONE	none	none	True
+SRR8358251	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR4788205	shigella	620	QUINOLONE	none	none	True
+ERR1541576	shigella	620	QUINOLONE	none	none	True
+ERR6005536	shigella	620	QUINOLONE	none	none	True
+SRR7170932	shigella	620	QUINOLONE	gyrA_D87Y;qnrS1	gyrA_D87Y;qnrS1	True
+SRR12663957	shigella	620	QUINOLONE	none	none	True
+ERR1810612	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR11608758	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+ERR1811875	shigella	620	QUINOLONE	none	none	True
+ERR316392	shigella	620	QUINOLONE	none	none	True
+SRR3530552	shigella	620	QUINOLONE	none	none	True
+ERR1364053	shigella	620	QUINOLONE	none	none	True
+SRR8898308	shigella	620	QUINOLONE	none	none	True
+SRR8878470	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7346170	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR18280691	shigella	620	QUINOLONE	none	none	True
+SRR5125611	shigella	620	QUINOLONE	none	none	True
+SRR8423742	shigella	620	QUINOLONE	none	none	True
+SRR14109611	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR11488768	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	True
+SRR9596653	shigella	620	QUINOLONE	none	none	True
+SRR13515390	shigella	620	QUINOLONE	gyrA_S83A;qnrS1	gyrA_S83A;qnrS1	True
+SRR11215240	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+ERR230566	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR5034577	shigella	620	QUINOLONE	none	none	True
+SRR7886110	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+ERR6005160	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+ERR1364106	shigella	620	QUINOLONE	none	none	True
+SRR17279060	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR9835570	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR3289604	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR18114242	shigella	620	QUINOLONE	none	none	True
+SRR7230221	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR10506669	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR17830170	shigella	620	QUINOLONE	parC_S80I;qnrB19	parC_S80I;qnrB19	True
+SRR13253693	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR7850386	shigella	620	QUINOLONE	qnrB4;qnrS1	qnrB4;qnrS1	True
+SRR7842168	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_E84G;parC_S80I	gyrA_D87G;gyrA_S83L;parC_E84G;parC_S80I	True
+SRR9967628	shigella	620	QUINOLONE	none	none	True
+SRR10591221	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS1	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS1	True
+SRR11479055	shigella	620	QUINOLONE	none	none	True
+SRR18487757	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR9072787	shigella	620	QUINOLONE	none	none	True
+SRR5642679	shigella	620	QUINOLONE	aac(6')-Ib-cr5;qnrB6	aac(6')-Ib-cr5;qnrB6	True
+SRR12813943	shigella	620	QUINOLONE	none	none	True
+SRR7184245	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7286178	shigella	620	QUINOLONE	aac(6')-Ib-cr5;gyrA_D87N;gyrA_S83L;parC_S80I	aac(6')-Ib-cr5;gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR7495422	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7291663	shigella	620	QUINOLONE	qnrB19;qnrS1	qnrB19;qnrS1	True
+SRR15338041	shigella	620	QUINOLONE	none	none	True
+SRR5642292	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR16975488	shigella	620	QUINOLONE	none	none	True
+SRR3394824	shigella	620	QUINOLONE	none	none	True
+SRR10970557	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR7886044	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR7401703	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR9961601	shigella	620	QUINOLONE	none	none	True
+SRR8086656	shigella	620	QUINOLONE	none	none	True
+SRR4897588	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR7215917	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR5024263	shigella	620	QUINOLONE	none	none	True
+SRR7230240	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR10312196	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+ERR448993	shigella	620	QUINOLONE	none	none	True
+SRR14097070	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_E460K	gyrA_D87N;gyrA_S83L;parC_S80I;parE_E460K	True
+SRR10961873	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR7895412	shigella	620	QUINOLONE	none	none	True
+ERR3333244	shigella	620	QUINOLONE	none	none	True
+SRR8650405	shigella	620	QUINOLONE	none	none	True
+SRR5067186	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR5006347	shigella	620	QUINOLONE	none	none	True
+SRR18015873	shigella	620	QUINOLONE	none	none	True
+SRR11041496	shigella	620	QUINOLONE	none	none	True
+SRR4787753	shigella	620	QUINOLONE	none	none	True
+SRR8866687	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7249706	shigella	620	QUINOLONE	qnrB2	qnrB2	True
+SRR10357090	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR10345409	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrB4;qnrS13	gyrA_D87N;gyrA_S83L;parC_S80I;qnrB4;qnrS13	True
+SRR12358843	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR7620670	shigella	620	QUINOLONE	none	none	True
+SRR10598996	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR6293181	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7466982	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR9613637	shigella	620	QUINOLONE	none	none	True
+SRR13518747	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR5293300	shigella	620	QUINOLONE	none	none	True
+ERR3331039	shigella	620	QUINOLONE	none	none	True
+SRR10087013	shigella	620	QUINOLONE	none	none	True
+SRR4788302	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR15183718	shigella	620	QUINOLONE	none	none	True
+SRR6902821	shigella	620	QUINOLONE	none	none	True
+SRR6870014	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR7291914	shigella	620	QUINOLONE	none	none	True
+SRR7505721	shigella	620	QUINOLONE	none	none	True
+SRR7540865	shigella	620	QUINOLONE	none	none	True
+SRR8086720	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR6242015	shigella	620	QUINOLONE	none	none	True
+SRR15178286	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qnrS1	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qnrS1	True
+SRR14067062	shigella	620	QUINOLONE	none	none	True
+SRR5464537	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR8513574	shigella	620	QUINOLONE	none	none	True
+SRR10506607	shigella	620	QUINOLONE	none	none	True
+SRR6440141	shigella	620	QUINOLONE	none	none	True
+SRR4788159	shigella	620	QUINOLONE	none	none	True
+SRR18506925	shigella	620	QUINOLONE	gyrA_S83L;parC_S80I	gyrA_S83L;parC_S80I	True
+ERR6005326	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR7992446	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+ERR6004770	shigella	620	QUINOLONE	gyrA_S83L;qnrS4	gyrA_S83L;qnrS4	True
+SRR15909550	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrA1	gyrA_D87N;gyrA_S83L;parC_S80I;qnrA1	True
+SRR7073117	shigella	620	QUINOLONE	none	none	True
+SRR8645319	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_P439S	gyrA_D87N;gyrA_S83L;parC_S80I;parE_P439S	True
+SRR6359171	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR12916548	shigella	620	QUINOLONE	none	none	True
+SRR8405061	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR6049569	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR8820068	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	True
+SRR16598712	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qnrS13	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qnrS13	True
+SRR17656068	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_E84A;parC_S80I	gyrA_D87N;gyrA_S83L;parC_E84A;parC_S80I	True
+SRR10231917	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR7286510	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS1	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS1	True
+SRR17205322	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	True
+SRR6058026	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR7186936	shigella	620	QUINOLONE	gyrA_S83L;qepA	gyrA_S83L;qepA	True
+SRR10129657	shigella	620	QUINOLONE	none	none	True
+SRR13093972	shigella	620	QUINOLONE	qnrB4	qnrB4	True
+SRR18172085	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;parE_E460K;qnrB19	gyrA_D87G;gyrA_S83L;parC_S80I;parE_E460K;qnrB19	True
+SRR7886137	shigella	620	QUINOLONE	none	none	True
+SRR8457082	shigella	620	QUINOLONE	none	none	True
+SRR3530401	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR18455719	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_E84A;parC_S80I;qnrS1	gyrA_D87N;gyrA_S83L;parC_E84A;parC_S80I;qnrS1	True
+SRR12683895	shigella	620	QUINOLONE	none	none	True
+ERR1865390	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR7895416	shigella	620	QUINOLONE	none	none	True
+SRR7244278	shigella	620	QUINOLONE	none	none	True
+SRR15011093	shigella	620	QUINOLONE	gyrA_S83L;parC_S80I;qnrS1	gyrA_S83L;parC_S80I;qnrS1	True
+SRR10512687	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qepA8	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A;qepA8	True
+SRR8554751	shigella	620	QUINOLONE	gyrA_D87Y;qnrS1	gyrA_D87Y;qnrS1	True
+SRR13785629	shigella	620	QUINOLONE	none	none	True
+SRR3531778	shigella	620	QUINOLONE	none	none	True
+SRR7266825	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR5034530	shigella	620	QUINOLONE	none	none	True
+SRR5436271	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR13764765	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR13913991	shigella	620	QUINOLONE	none	none	True
+SRR10403899	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR9686310	shigella	620	QUINOLONE	none	none	True
+SRR15613615	shigella	620	QUINOLONE	none	none	True
+SRR8643556	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR11037248	shigella	620	QUINOLONE	none	none	True
+SRR7290978	shigella	620	QUINOLONE	none	none	True
+SRR6049567	shigella	620	QUINOLONE	none	none	True
+SRR10197228	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;qnrB19	gyrA_D87N;gyrA_S83L;parC_S80I;qnrB19	True
+SRR7290913	shigella	620	QUINOLONE	none	none	True
+SRR7540840	shigella	620	QUINOLONE	none	none	True
+SRR3213905	shigella	620	QUINOLONE	none	none	True
+SRR7277725	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR17399984	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	True
+SRR13608822	shigella	620	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+ERR5708851	shigella	620	QUINOLONE	aac(6')-Ib-cr5	aac(6')-Ib-cr5	True
+SRR17187271	shigella	620	QUINOLONE	none	none	True
+SRR7291918	shigella	620	QUINOLONE	gyrA_S83L;qnrS1	gyrA_S83L;qnrS1	True
+ERR1364328	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7886255	shigella	620	QUINOLONE	none	none	True
+ERR1363996	shigella	620	QUINOLONE	none	none	True
+SRR11067562	shigella	620	QUINOLONE	none	none	True
+SRR8116853	shigella	620	QUINOLONE	none	none	True
+SRR12358823	shigella	620	QUINOLONE	none	none	True
+ERR316225	shigella	620	QUINOLONE	none	none	True
+SRR8318691	shigella	620	QUINOLONE	none	none	True
+SRR8766730	shigella	620	QUINOLONE	none	none	True
+SRR18503110	shigella	620	QUINOLONE	none	none	True
+SRR12024365	shigella	620	QUINOLONE	none	none	True
+SRR15408762	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR13348981	shigella	620	QUINOLONE	none	none	True
+SRR8766742	shigella	620	QUINOLONE	none	none	True
+SRR10452816	shigella	620	QUINOLONE	none	none	True
+SRR14883181	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR17038739	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	True
+SRR18312992	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	True
+SRR7286625	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS1	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS1	True
+SRR7286616	shigella	620	QUINOLONE	none	none	True
+SRR8448208	shigella	620	QUINOLONE	none	none	True
+SRR13200706	shigella	620	QUINOLONE	none	none	True
+SRR7221108	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7886025	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR16216508	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR8401122	shigella	620	QUINOLONE	none	none	True
+SRR8602026	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR13608782	shigella	620	QUINOLONE	gyrA_S83L;qnrB4	gyrA_S83L;qnrB4	True
+SRR14551534	shigella	620	QUINOLONE	gyrA_D87N;qnrS1	gyrA_D87N;qnrS1	True
+SRR10441987	shigella	620	QUINOLONE	none	none	True
+SRR6163716	shigella	620	QUINOLONE	none	none	True
+SRR9872862	shigella	620	QUINOLONE	qnrS13	qnrS13	True
+SRR5006096	shigella	620	QUINOLONE	none	none	True
+SRR7223058	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7285430	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR18506945	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR10019371	shigella	620	QUINOLONE	gyrA_S83L;parC_S80I;qnrS13	gyrA_S83L;parC_S80I;qnrS13	True
+SRR7358044	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR5875677	shigella	620	QUINOLONE	none	none	True
+SRR13011187	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR17424597	shigella	620	QUINOLONE	none	none	True
+SRR7223075	shigella	620	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+ERR230517	shigella	620	QUINOLONE	none	none	True
+SRR16506470	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR6253015	shigella	620	QUINOLONE	none	none	True
+SRR5024461	shigella	620	QUINOLONE	none	none	True
+ERR2642344	shigella	620	QUINOLONE	none	none	True
+SRR7187048	shigella	620	QUINOLONE	none	none	True
+SRR7866527	shigella	620	QUINOLONE	none	none	True
+SRR4788173	shigella	620	QUINOLONE	none	none	True
+SRR14993815	shigella	620	QUINOLONE	none	none	True
+ERR6005522	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+ERR6006261	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L	gyrA_D87G;gyrA_S83L	True
+SRR7010948	shigella	620	QUINOLONE	none	none	True
+SRR9639854	shigella	620	QUINOLONE	none	none	True
+SRR10843857	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR12638465	shigella	620	QUINOLONE	none	none	True
+SRR7251002	shigella	620	QUINOLONE	gyrA_D87Y;qnrS1	gyrA_D87Y;qnrS1	True
+SRR12448200	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR7013792	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR9121359	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR12515376	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR5223146	shigella	620	QUINOLONE	none	none	True
+SRR8375182	shigella	620	QUINOLONE	gyrA_S83L;parC_S80I;qnrS1	gyrA_S83L;parC_S80I;qnrS1	True
+SRR7290994	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR11015426	shigella	620	QUINOLONE	none	none	True
+SRR5282070	shigella	620	QUINOLONE	none	none	True
+SRR17212742	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR6490613	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;parE_E460K	gyrA_D87G;gyrA_S83L;parC_S80I;parE_E460K	True
+SRR10884013	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+ERR3331124	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR14359617	shigella	620	QUINOLONE	none	none	True
+SRR16173106	shigella	620	QUINOLONE	gyrA_D87Y;qnrB19;qnrS1	gyrA_D87Y;qnrB19;qnrS1	True
+SRR15338009	shigella	620	QUINOLONE	none	none	True
+ERR316227	shigella	620	QUINOLONE	none	none	True
+SRR10189288	shigella	620	QUINOLONE	none	none	True
+SRR5512126	shigella	620	QUINOLONE	none	none	True
+SRR5017552	shigella	620	QUINOLONE	none	none	True
+SRR7265859	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR3289618	shigella	620	QUINOLONE	none	none	True
+SRR10521973	shigella	620	QUINOLONE	none	none	True
+ERR190836	shigella	620	QUINOLONE	none	none	True
+SRR17185577	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+ERR200482	shigella	620	QUINOLONE	none	none	True
+ERR200468	shigella	620	QUINOLONE	none	none	True
+SRR5024070	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR13608846	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7277003	shigella	620	QUINOLONE	gyrA_D87Y;qnrB4	gyrA_D87Y;qnrB4	True
+SRR7223114	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+ERR316358	shigella	620	QUINOLONE	none	none	True
+SRR9661210	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR3991642	shigella	620	QUINOLONE	none	none	True
+SRR8307247	shigella	620	QUINOLONE	none	none	True
+SRR7806385	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR13118715	shigella	620	QUINOLONE	none	none	True
+SRR14294936	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR10674432	shigella	620	QUINOLONE	none	none	True
+SRR8071994	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR10448269	shigella	620	QUINOLONE	none	none	True
+SRR7544741	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR7885987	shigella	620	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR17830199	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR9719229	shigella	620	QUINOLONE	none	none	True
+SRR3996100	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR10155216	shigella	620	QUINOLONE	none	none	True
+SRR11289449	shigella	620	QUINOLONE	none	none	True
+SRR15824112	shigella	620	QUINOLONE	none	none	True
+SRR10512855	shigella	620	QUINOLONE	none	none	True
+SRR10231916	shigella	620	QUINOLONE	none	none	True
+SRR12109928	shigella	620	QUINOLONE	none	none	True
+SRR10543989	shigella	620	QUINOLONE	none	none	True
+SRR10294290	shigella	620	QUINOLONE	none	none	True
+SRR18143713	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	gyrA_D87N;gyrA_S83L;parC_S80I;parE_S458A	True
+SRR8440737	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR12769853	shigella	620	QUINOLONE	none	none	True
+SRR10247126	shigella	620	QUINOLONE	qnrB4;qnrS1	qnrB4;qnrS1	True
+SRR13349026	shigella	620	QUINOLONE	qnrB	qnrB	True
+SRR16936691	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_E84A;parC_S80I;qnrA1	gyrA_D87N;gyrA_S83L;parC_E84A;parC_S80I;qnrA1	True
+SRR11067329	shigella	620	QUINOLONE	none	none	True
+ERR6004854	shigella	620	QUINOLONE	gyrA_D87N	gyrA_D87N	True
+SRR17269288	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	True
+SRR6249526	shigella	620	QUINOLONE	none	none	True
+SRR7266801	shigella	620	QUINOLONE	none	none	True
+SRR12840957	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR6490601	shigella	620	QUINOLONE	none	none	True
+SRR8770353	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR6242002	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR14660106	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR8385456	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR3146321	shigella	620	QUINOLONE	none	none	True
+SRR10056637	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR6164710	shigella	620	QUINOLONE	none	none	True
+SRR13349197	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+ERR1364170	shigella	620	QUINOLONE	gyrA_S83L;qepA4	gyrA_S83L;qepA4	True
+SRR13147961	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR5282060	shigella	620	QUINOLONE	none	none	True
+SRR13859776	shigella	620	QUINOLONE	qnrB19;qnrB4	qnrB19;qnrB4	True
+SRR5588807	shigella	620	QUINOLONE	none	none	True
+ERR6004887	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+ERR6005239	shigella	620	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR3473843	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR14608288	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+SRR15529965	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+ERR1792660	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+ERR6005479	shigella	620	QUINOLONE	gyrA_D87Y	gyrA_D87Y	True
+SRR7256995	shigella	620	QUINOLONE	none	none	True
+SRR10088472	shigella	620	QUINOLONE	gyrA_D87N;gyrA_S83L;parC_S80I	gyrA_D87N;gyrA_S83L;parC_S80I	True
+SRR7265923	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS13	gyrA_D87G;gyrA_S83L;parC_S80I;qnrS13	True
+SRR8859450	shigella	620	QUINOLONE	none	none	True
+SRR3530413	shigella	620	QUINOLONE	none	none	True
+SRR15698981	shigella	620	QUINOLONE	qnrB19	qnrB19	True
+ERR6004902	shigella	620	QUINOLONE	none	none	True
+SRR9260665	shigella	620	QUINOLONE	none	none	True
+SRR8774313	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR10519435	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR12979397	shigella	620	QUINOLONE	qnrS1	qnrS1	True
+SRR7283743	shigella	620	QUINOLONE	none	none	True
+SRR4897111	shigella	620	QUINOLONE	oqxA;oqxB;qnrS1	oqxA;oqxB;qnrS1	True
+SRR4192107	shigella	620	QUINOLONE	gyrA_D87N;parC_S80R;qnrS1	gyrA_D87N;parC_S80R;qnrS1	True
+SRR4195779	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR7886163	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
+SRR18333114	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	gyrA_D87G;gyrA_S83L;parC_S80I;qnrB19	True
+SRR7895413	shigella	620	QUINOLONE	gyrA_S83L	gyrA_S83L	True
+SRR12744717	shigella	620	QUINOLONE	none	none	True
+ERR230522	shigella	620	QUINOLONE	none	none	True
+SRR7236617	shigella	620	QUINOLONE	gyrA_D87G;gyrA_S83L;parC_S80I	gyrA_D87G;gyrA_S83L;parC_S80I	True
