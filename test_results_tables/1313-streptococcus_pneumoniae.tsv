@@ -1,3 +1,4 @@
+sample	species	databases	taxid	drug	expected	actual	passed
 ERR056743	streptococcus_pneumoniae	Streptococcus_pneumoniae	1313	BETA-LACTAM	pbp1a;pbp2b;pbp2x	pbp1a;pbp2b;pbp2x	True
 ERR097428	streptococcus_pneumoniae	Streptococcus_pneumoniae	1313	BETA-LACTAM	pbp2b;pbp2x	pbp2b;pbp2x	True
 ERR646601	streptococcus_pneumoniae	Streptococcus_pneumoniae	1313	BETA-LACTAM	pbp1a;pbp2b;pbp2x	pbp1a;pbp2b;pbp2x	True

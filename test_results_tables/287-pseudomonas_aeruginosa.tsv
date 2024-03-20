@@ -1,3 +1,4 @@
+sample	species	databases	taxid	drug	expected	actual	passed
 SRR2939364	pseudomonas_aeruginosa	Pseudomonas_aeruginosa	287	CARBAPENEM	blaSPM-1	blaSPM-1	True
 SRR17733966	pseudomonas_aeruginosa	Pseudomonas_aeruginosa	287	CARBAPENEM	none	none	True
 SRR17233978	pseudomonas_aeruginosa	Pseudomonas_aeruginosa	287	CARBAPENEM	none	none	True

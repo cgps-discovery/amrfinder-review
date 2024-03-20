@@ -1,3 +1,4 @@
+sample	species	databases	taxid	drug	expected	actual	passed
 SRR14154262	acinetobacter_baumannii	Acinetobacter_baumannii	470	CARBAPENEM	blaOXA-72	blaOXA-72	True
 SRR11514880	acinetobacter_baumannii	Acinetobacter_baumannii	470	CARBAPENEM	blaNDM-1;blaOXA-58	blaNDM-1;blaOXA-58	True
 ERR110019	acinetobacter_baumannii	Acinetobacter_baumannii	470	CARBAPENEM	blaOXA-23	blaOXA-23	True

@@ -12,3 +12,11 @@ NA      NODE_99_length_1602_cov_5.253493        1164    1601    -       blaVIM  
 ```
 
 PARTIAL_CONTIG_ENDX is banned. current result is fine, so pseudomonas_aeruginosa is now passing all tests.
+
+
+## step pneumo
+```
+SRR7175976	streptococcus_pneumoniae	Streptococcus_pneumoniae	1313	BETA-LACTAM	pbp1a;pbp1a;pbp2x	pbp1a;pbp2x	False
+```
+
+Gene is mentioned twice in original. 

@@ -1,3 +1,4 @@
+sample	species	databases	taxid	drug	expected	actual	passed
 ERR223603	neisseria_gonorrhoeae	Neisseria	485	QUINOLONE	gyrA_D95G;gyrA_S91F;parC_S87R	gyrA_D95G;gyrA_S91F;parC_S87R	True
 ERR223603	neisseria_gonorrhoeae	Neisseria	485	CEPHALOSPORIN	penA_A510V;penA_F504L;penA_G545S;penA_I312M;penA_N512Y;penA_V316T	penA_A510V;penA_F504L;penA_G545S;penA_I312M;penA_N512Y;penA_V316T	True
 ERR3326140	neisseria_gonorrhoeae	Neisseria	485	QUINOLONE	gyrA_D95A;gyrA_S91F;parC_S87I;parE_G410V	gyrA_D95A;gyrA_S91F;parC_S87I;parE_G410V	True
