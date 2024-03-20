@@ -10,3 +10,6 @@ ftp*
 amrfinder_*/
 .DS_Store
 testing_results_basic/
+testing_results/
+test_results.tar.gz
+temp/
