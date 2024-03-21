@@ -62,7 +62,7 @@ if __name__ == "__main__":
     parser.add_argument('--dir', type=str, help='The path to a folder of amrfinder (table results)', default='testing_results_v2/amrfinder_test')
     parser.add_argument('--sample_sheet', type=str, help='The path to the samplesheet, with taxids', default='testing_datasets/full_samplesheet_fasta.csv')
     parser.add_argument('--curated_file', type=str, help='The path curated mechanisms filter as a json', default='curated_mechanisms.json')
-    parser.add_argument('--taxid', type=str, help='taxid to filter', nargs='+', default=['562çç'])
+    parser.add_argument('--taxid', type=str, help='taxid to filter', nargs='+', default=['573'])
     parser.add_argument('--failed', help='Show failed only', action='store_true', default=False)
     parser.add_argument('--script_only', help='dont use the container', action='store_true', default=True)
     parser.add_argument('--subsample', type=int, help='Run a subsample', default=1000000)

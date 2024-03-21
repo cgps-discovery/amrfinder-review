@@ -1,1077 +1,1077 @@
-sample	species	databases	taxid	drug	expected	actual	passed
-ERR2303402	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR2303402	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-63	blaCTX-M-15	False
-SRR14197424	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC;blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	False
-SRR14197424	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC;blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	False
-ERR1415632	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-4	none	False
-ERR1415632	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaVIM-4	none	False
-SRR14338791	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14338791	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaKPC-2;blaSHV-12	blaFOX-5;blaKPC-2;blaSHV-12	True
-SRR12329560	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12329560	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-70	none	False
-SRR6958832	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR6958832	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-1;blaSHV-31	blaCTX-M-27;blaNDM-1	False
-SRR11585197	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-SRR11585197	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaBEL-1;blaVIM-1	none	False
-SRR4017828	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR4017828	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-5	blaKPC-2	False
-SRR6710177	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC;blaKPC-2	blaKPC-2	False
-SRR6710177	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC;blaKPC-2	blaCTX-M-15;blaKPC-2	False
-SRR12233555	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12233555	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaSHV-12	blaSHV-12	False
-SRR10376959	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR10376959	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaKPC-2	blaKPC-2	False
-SRR15827919	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-SRR15827919	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-7	blaCTX-M-27	False
-SRR11594671	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-2;blaNDM-1	blaNDM-1	False
-SRR11594671	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaGES-2;blaNDM-1	blaNDM-1	False
-SRR11971460	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-SRR11971460	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaNDM-5	blaNDM-5	False
-SRR15695566	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
-SRR15695566	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-1;blaSHV-12	blaCTX-M-15;blaIMP-1;blaSHV-12	True
-ERR1334471	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-12	none	False
-ERR1334471	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-12	none	False
-SRR12329566	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-67	none	False
-SRR12329566	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-67	none	False
-SRR9734577	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-SRR9734577	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaNDM-4	none	False
-SRR6067068	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR6067068	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaDHA-1	none	False
-ERR3518861	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-ERR3518861	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-35;blaKPC-2	blaKPC-2	False
-SRR14449998	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR14449998	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-1;blaKPC-3	blaKPC-3	False
-ERR2743746	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR2743746	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-8	blaCTX-M-15	False
-SRR13893718	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR13893718	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-2	none	False
-SRR8286520	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR8286520	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC-2;blaSHV-12	blaKPC-2;blaSHV-12	False
-SRR6958798	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR6958798	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-1;blaSHV-12	blaNDM-1;blaSHV-12	False
-ERR1541491	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
-ERR1541491	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-1	blaCTX-M-15;blaIMP-1	True
-SRR4198668	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR4198668	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKLUC-2;blaKPC-3	blaKPC-3	False
-ERR1218734	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1218734	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVEB;blaVEB-1	none	False
-ERR3562277	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR3562277	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaTEM-52	none	False
-SRR10397953	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10397953	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-33	none	False
-SRR18209178	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-48	blaNDM-5;blaOXA-48	True
-SRR18209178	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-5	blaCTX-M-15;blaNDM-5	False
-SRR14450016	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1;blaVIM-24	blaKPC-2;blaNDM-1	False
-SRR14450016	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-1;blaVIM-24	blaKPC-2;blaNDM-1	False
-ERR486408	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM	none	False
-ERR486408	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVIM	none	False
-SRR17302855	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-19	none	False
-SRR17302855	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaVIM-19	none	False
-DRR057925	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-19	none	False
-DRR057925	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-19	none	False
-SRR14449857	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14449857	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-1;blaKPC-2	blaKPC-2	False
-DRR122490	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-DRR122490	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaNDM-1;blaSHV-12	blaCTX-M-15;blaNDM-1;blaSHV-12	False
-SRR11362725	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR11362725	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaKPC-2	blaCTX-M-15;blaKPC-2	False
-SRR6686526	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR6686526	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaTEM-15	none	False
-SRR8286510	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR8286510	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-132	none	False
-ERR4422721	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
-ERR4422721	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
-SRR14450187	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14450187	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaKPC-2	blaCTX-M-15;blaKPC-2	False
-SRR9217792	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR9217792	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-3;blaKPC-2	blaKPC-2	False
-SRR16079200	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-1;blaNDM-1	blaIMP-1;blaNDM-1	True
-SRR16079200	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-1;blaNDM-1	blaIMP-1;blaNDM-1	True
-SRR16479871	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-181	blaNDM-5;blaOXA-181	True
-SRR16479871	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaNDM-5	blaCTX-M-15;blaNDM-5	False
-SRR16108342	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP;blaIMP-1	blaIMP-1	False
-SRR16108342	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP;blaIMP-1	blaIMP-1	False
-SRR1561362	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-27	none	False
-SRR1561362	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVIM-27	blaCTX-M-15	False
-ERR6294258	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR6294258	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaTEM-169	blaCTX-M-15	False
-SRR9858739	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR9858739	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-33	blaCTX-M-15	False
-ERR2652673	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR2652673	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-2	none	False
-ERR2303482	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR2303482	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-27	blaCTX-M-15;blaCTX-M-27	True
-SRR6958787	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR6958787	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaNDM-1	blaNDM-1	False
-SRR1561206	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR1561206	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaKPC-2;blaSHV-5	blaKPC-2	False
-ERR3518846	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC;blaKPC-2	blaKPC-2	False
-ERR3518846	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC;blaKPC-2	blaKPC-2	False
-SRR17308623	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR17308623	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaNDM-1	blaNDM-1	False
-SRR14450106	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14450106	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-3;blaKPC-2;blaSHV-12	blaKPC-2;blaSHV-12	False
-ERR1415759	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
-ERR1415759	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	False
-SRR5386817	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5386817	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaTEM-19	blaCTX-M-15	False
-DRR065652	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-DRR065652	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-14;blaVIM-1	none	False
-SRR14532083	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR14532083	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaKPC-3;blaSHV-12	blaFOX-5;blaKPC-3;blaSHV-12	True
-DRR065653	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-1	blaKPC-2	False
-DRR065653	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaMOX-2;blaVIM-1	blaKPC-2	False
-ERR2586408	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-ERR2586408	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
-SRR14673462	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14673462	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaSHV-38	none	False
-ERR7672090	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR7672090	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-1	none	False
-ERR3518869	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-ERR3518869	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-8;blaKPC-2	blaKPC-2	False
-ERR2743754	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC	none	False
-ERR2743754	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC	none	False
-SRR4198755	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR4198755	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-25;blaKPC-3	blaKPC-3	False
-SRR16078906	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-9	none	False
-SRR16078906	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-9	blaCTX-M-15	False
-SRR16761281	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR16761281	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-2;blaSHV-12	blaKPC-2;blaSHV-12	False
-ERR486291	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR486291	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-26	none	False
-SRR12329569	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12329569	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-39	none	False
-SRR14707622	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14707622	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-24;blaKPC-2	blaCTX-M-15;blaKPC-2	False
-ERR1228378	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-ERR1228378	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-134;blaVIM-1	none	False
-SRR3928959	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR3928959	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-143;blaNDM-1	blaNDM-1	False
-SRR13246710	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR13246710	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaKPC-2	blaCTX-M-27;blaKPC-2	True
-SRR15098075	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4	none	False
-SRR15098075	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-4	none	False
-ERR3712762	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
-ERR3712762	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
-ERR1541448	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48;blaVIM-1	blaOXA-48	False
-ERR1541448	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVIM-1	none	False
-DRR150707	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-DRR150707	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-1;blaSHV-12	blaNDM-1;blaSHV-12	True
-ERR5216591	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-ERR5216591	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-58	none	False
-DRR065578	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4	none	False
-DRR065578	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-4	blaCTX-M-15	False
-SRR14181332	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR14181332	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaDHA-1;blaNDM-1	blaNDM-1	False
-SRR12329565	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12329565	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-49	none	False
-SRR14450043	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR14450043	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaNDM-1;blaTEM-26	blaNDM-1	False
-SRR12508794	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR12508794	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-115;blaCTX-M-15;blaKPC-2	blaCTX-M-15;blaKPC-2	False
-SRR12329558	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-29	none	False
-SRR12329558	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-29	none	False
-SRR15362805	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-SRR15362805	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5	blaCTX-M-15;blaNDM-5	True
-SRR14449822	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14449822	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaCTX-M-2	none	False
-SRR18212668	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-5	blaKPC-3;blaNDM-5	True
-SRR18212668	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3;blaNDM-5	blaCTX-M-15;blaKPC-3;blaNDM-5	True
-SRR7540295	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR7540295	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-65;blaKPC-2;blaSHV-12	blaCTX-M-15;blaCTX-M-65;blaKPC-2;blaSHV-12	True
-SRR17762362	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-5	blaKPC-3;blaNDM-5	True
-SRR17762362	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaNDM-5	blaKPC-3;blaNDM-5	True
-SRR14450105	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4	none	False
-SRR14450105	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaIMP-4	none	False
-SRR14532151	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7;blaOXA-232	blaOXA-232	False
-SRR14532151	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7	blaCTX-M-15	False
-SRR9858642	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR9858642	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-7	blaKPC-2	False
-ERR3081548	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-23	blaNDM-23	True
-ERR3081548	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-23	blaCTX-M-15;blaNDM-23	True
-ERR5685491	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM;blaOXA-181	blaOXA-181	False
-ERR5685491	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM	blaCTX-M-15	False
-SRR5893953	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5893953	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaDHA-1;blaSHV-12	blaSHV-12	False
-SRR14449548	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14449548	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaDHA-1;blaKPC-2;blaSHV-12	blaCTX-M-65;blaKPC-2;blaSHV-12	False
-SRR14449691	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC;blaKPC-3	blaKPC-3	False
-SRR14449691	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC;blaKPC-3	blaKPC-3	False
-SRR5666513	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR5666513	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaKPC-3	blaKPC-3	False
-SRR13159134	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR13159134	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-66	none	False
-ERR2796983	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR2796983	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-7;blaSHV-12	blaSHV-12	False
-SRR11841894	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-SRR11841894	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-13;blaVIM-1	none	False
-SRR15827933	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR15827933	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-1;blaVEB-3	blaNDM-1	False
-SRR12509246	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-8	none	False
-SRR12509246	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-8	none	False
-SRR17308454	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
-SRR17308454	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15	blaCTX-M-15	False
-DRR065582	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-5	none	False
-DRR065582	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaVIM-5	none	False
-SRR5666402	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-38	none	False
-SRR5666402	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-38	none	False
-DRR065655	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-1	blaKPC-2	False
-DRR065655	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaVIM-1	blaKPC-2	False
-SRR1561276	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR1561276	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaKPC-3	blaKPC-3	False
-SRR17303641	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR17303641	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-12	blaCTX-M-15;blaNDM-1;blaSHV-12	True
-ERR1541504	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-162	none	False
-ERR1541504	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
-SRR13088895	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-6	none	False
-SRR13088895	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-6	blaCTX-M-15	False
-SRR5386028	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR5386028	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaSHV-5	blaCTX-M-15;blaKPC-2	False
-ERR775622	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR775622	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVEB-5	blaCTX-M-15	False
-SRR10694539	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-27	none	False
-SRR10694539	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-27	none	False
-SRR14292231	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
-SRR14292231	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-1	blaNDM-1	False
-SRR5884856	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR5884856	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-55;blaKPC-2	blaKPC-2	False
-SRR14402379	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR14402379	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-1;blaTEM-10	blaNDM-1	False
-SRR9734829	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4;blaOXA-181	blaOXA-181	False
-SRR9734829	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-27;blaNDM-4	blaCTX-M-15;blaCTX-M-27	False
-SRR18030874	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR18030874	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-2	blaKPC-2	False
-SRR5385685	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5385685	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-7	blaCTX-M-15	False
-ERR3654335	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-ERR3654335	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	False
-SRR18208164	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR18208164	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaKPC-3	blaCTX-M-27;blaKPC-3	True
-SRR16133938	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR16133938	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaFOX-5;blaNDM-1	blaCTX-M-15;blaFOX-5;blaNDM-1	True
-ERR1374901	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR1374901	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaTEM-169	blaCTX-M-15;blaNDM-1	False
-DRR150316	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-DRR150316	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-1;blaSHV-12	blaNDM-1;blaSHV-12	False
-ERR1228363	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-ERR1228363	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaSHV-12;blaVIM-1	blaSHV-12	False
-SRR5886493	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5886493	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaSHV-12	blaCTX-M-15;blaSHV-12	False
-DRR067538	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-DRR067538	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-8	none	False
-SRR18115358	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-SRR18115358	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVIM-1	none	False
-SRR18217171	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-SRR18217171	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaKPC-2;blaNDM-1	blaCTX-M-15;blaKPC-2;blaNDM-1	False
-SRR8607305	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4	none	False
-SRR8607305	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaIMP-4	none	False
-SRR6292393	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-6	none	False
-SRR6292393	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-6;blaSHV-31	blaCTX-M-27	False
-SRR7540320	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR7540320	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-65;blaKPC-2	blaCTX-M-15;blaCTX-M-65;blaKPC-2	True
-SRR17883272	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR17883272	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-9	none	False
-SRR2244254	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5	none	False
-SRR2244254	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaGES-5	blaCTX-M-15	False
-DRR199310	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
-DRR199310	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaDHA-1;blaIMP-1	blaIMP-1	False
-ERR1618836	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1618836	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-32	none	False
-ERR314500	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR314500	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-173	none	False
-ERR1334603	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-ERR1334603	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaVIM-1	none	False
-SRR17179518	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-SRR17179518	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-14;blaCTX-M-15	blaCTX-M-15	False
-SRR3222415	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR3222415	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-1563	blaCTX-M-15	False
-SRR10432610	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10432610	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaSHV-12	blaCTX-M-65;blaSHV-12	True
-SRR12509236	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12509236	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaSHV-12	blaFOX-5;blaSHV-12	True
-SRR18212778	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-232	blaNDM-5;blaOXA-232	True
-SRR18212778	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5;blaSHV-31	blaCTX-M-15;blaNDM-5	False
-SRR14449809	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14449809	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaCTX-M-3	none	False
-SRR5973381	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC	none	False
-SRR5973381	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC	none	False
-SRR17304065	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5	none	False
-SRR17304065	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaDHA-1;blaGES;blaGES-5	none	False
-SRR15096601	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR15096601	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-2	blaKPC-2	False
-DRR199247	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-DRR199247	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaGES-3	none	False
-SRR14532104	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR14532104	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-106	blaKPC-3	False
-ERR5060371	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaOXA-48	blaKPC-2;blaOXA-48	True
-ERR5060371	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2	blaKPC-2	True
-SRR10442773	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10442773	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-115	none	False
-SRR12149867	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR12149867	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaDHA-1;blaNDM-1	blaNDM-1	False
-SRR15047237	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4;blaOXA-181	blaOXA-181	False
-SRR15047237	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaNDM-4	blaCTX-M-15	False
-SRR8607453	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-19	none	False
-SRR8607453	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaVIM-19	blaCTX-M-15	False
-SRR14449706	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14449706	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-2	blaCTX-M-15	False
-SRR13246727	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR13246727	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-38	blaCTX-M-15;blaNDM-1	False
-SRR12956286	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12956286	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-5	blaKPC-3	False
-SRR10116511	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-5	none	False
-SRR10116511	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-5	none	False
-SRR18212572	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3;blaOXA-48	blaKPC-3;blaOXA-48	True
-SRR18212572	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaKPC-3	blaCTX-M-15;blaKPC-3	False
-SRR14449844	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR14449844	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-1;blaNDM-1	blaNDM-1	False
-SRR9858854	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR9858854	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaKPC-2	blaFOX-5;blaKPC-2	True
-SRR15167019	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-181	blaNDM-5;blaOXA-181	True
-SRR15167019	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-42;blaNDM-5	blaNDM-5	False
-DRR122517	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
-DRR122517	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVEB-17	blaCTX-M-15	False
-SRR16078892	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-SRR16078892	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-4	none	False
-SRR1561360	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR1561360	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-31	blaKPC-2	False
-DRR065611	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-29	none	False
-DRR065611	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-14;blaCTX-M-15;blaVIM-29	blaCTX-M-15	False
-SRR10116644	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10116644	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-12;blaTEM-26	blaSHV-12	False
-DRR150317	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-DRR150317	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-1;blaSHV-12	blaCTX-M-15;blaNDM-1;blaSHV-12	False
-SRR1561279	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR1561279	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaKPC-2	blaKPC-2	False
-SRR16242798	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-SRR16242798	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-65;blaKPC-2;blaNDM-1	blaCTX-M-65;blaKPC-2;blaNDM-1	False
-SRR8738412	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR8738412	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaTEM-10	none	False
-SRR2244256	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5	none	False
-SRR2244256	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaGES-5;blaSHV-12	blaCTX-M-15;blaSHV-12	False
-ERR1289775	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-1	blaKPC-2	False
-ERR1289775	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-13;blaCMY-4;blaKPC-2;blaVIM-1	blaKPC-2	False
-SRR5420072	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5420072	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-31	none	False
-SRR16108352	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
-SRR16108352	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaIMP-1	blaIMP-1	False
-SRR5666507	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR5666507	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaKPC-3;blaSHV-12	blaKPC-3;blaSHV-12	False
-SRR12009623	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-7	blaKPC-2	False
-SRR12009623	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-7	blaKPC-2	False
-DRR125037	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-DRR125037	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaVEB-1	blaCTX-M-15;blaKPC-2	False
-SRR8607460	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-SRR8607460	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVEB-1	blaCTX-M-15	False
-ERR1217186	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1217186	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-16	none	False
-ERR3162604	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-232	blaNDM-5;blaOXA-232	True
-ERR3162604	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5	blaCTX-M-15;blaNDM-5	True
-SRR14449965	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14449965	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaSHV-2	none	False
-SRR9697001	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4	none	False
-SRR9697001	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-4;blaSHV-38	none	False
-ERR1795075	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-23	none	False
-ERR1795075	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-23	none	False
-SRR12783030	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-244	none	False
-SRR12783030	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
-SRR12508582	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12508582	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-3	blaKPC-3	False
-SRR7012051	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-12	none	False
-SRR7012051	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-12	blaCTX-M-65	False
-DRR150715	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5;blaNDM-1	blaNDM-1	False
-DRR150715	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaGES-5;blaNDM-1	blaCTX-M-15;blaNDM-1	False
-ERR1217275	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1217275	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-36	none	False
-DRR065660	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-DRR065660	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaMOX-2;blaVIM-1	none	False
-SRR12956521	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12956521	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-31	blaKPC-3	False
-DRR120593	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-6	none	False
-DRR120593	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaIMP-6	blaCTX-M-15	False
-DRR076966	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-DRR076966	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-4	blaCTX-M-27	False
-SRR17785564	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-1	blaKPC-3;blaNDM-1	True
-SRR17785564	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaNDM-1	blaKPC-3;blaNDM-1	True
-ERR5685479	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-181	blaNDM-1;blaOXA-181	True
-ERR5685479	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
-SRR14402531	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14402531	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaKPC-2	blaKPC-2	False
-SRR17311978	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-7	blaKPC-3	False
-SRR17311978	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaNDM-7	blaKPC-3	False
-SRR6844953	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-56	none	False
-SRR6844953	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-56	blaCTX-M-15	False
-SRR17303731	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-4	none	False
-SRR17303731	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaVIM-4	none	False
-SRR7012063	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR7012063	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-64;blaKPC-2	blaKPC-2	False
-DRR065606	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-26	none	False
-DRR065606	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-26	blaCTX-M-15	False
-SRR6710929	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR6710929	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaFOX-5;blaKPC-2	blaCTX-M-15;blaFOX-5;blaKPC-2	True
-ERR1228391	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaVIM-1	blaNDM-1	False
-ERR1228391	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-1;blaVIM-1	blaNDM-1	False
-SRR16204311	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-8	none	False
-SRR16204311	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaIMP-8	none	False
-ERR1289827	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1289827	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaSHV-12	blaSHV-12	False
-SRR5386504	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5386504	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-15	none	False
-SRR11971459	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-SRR11971459	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-5	blaNDM-5	False
-SRR10991652	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR10991652	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-3;blaSHV-12	blaKPC-3;blaSHV-12	False
-ERR6017872	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-162	blaNDM-1	False
-ERR6017872	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
-SRR17303640	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4;blaOXA-48	blaOXA-48	False
-SRR17303640	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-4	none	False
-DRR065586	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-33	none	False
-DRR065586	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVIM-33	none	False
-SRR12329563	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12329563	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-68	none	False
-SRR10116508	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-5	none	False
-SRR10116508	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-5	none	False
-DRR205599	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaVIM-1	blaNDM-1	False
-DRR205599	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-9;blaNDM-1;blaVIM-1	blaCTX-M-15;blaNDM-1	False
-SRR17304460	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-4	none	False
-SRR17304460	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaACC-1;blaVIM-4	none	False
-SRR15064938	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR15064938	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaSHV-2A	none	False
-SRR1561215	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR1561215	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-12;blaKPC-3	blaKPC-3	False
-SRR10397950	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10397950	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-52	none	False
-DRR065581	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-26	none	False
-DRR065581	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-5;blaVIM-26	none	False
-SRR14450134	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4;blaKPC-2	blaKPC-2	False
-SRR14450134	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaIMP-4;blaKPC-2	blaCTX-M-65;blaKPC-2	False
-SRR14449325	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14449325	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-65;blaDHA-1;blaKPC-2	blaCTX-M-15;blaCTX-M-65;blaKPC-2	False
-SRR17302369	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-4	none	False
-SRR17302369	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-55;blaSHV-38;blaVIM-4	none	False
-SRR12903832	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaOXA-181	blaKPC-2;blaOXA-181	True
-SRR12903832	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaKPC-2	blaCTX-M-15;blaKPC-2	False
-SRR14402603	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-18	none	False
-SRR14402603	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-18	none	False
-SRR6852552	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR6852552	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-3	none	False
-SRR9616070	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR9616070	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaTEM-24	none	False
-ERR5685314	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-ERR5685314	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7;blaSHV-38	blaCTX-M-15	False
-ERR1415609	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-ERR1415609	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaACC-4;blaCTX-M-15;blaSHV-5	blaCTX-M-15	False
-SRR5386870	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5386870	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaTEM-52	blaCTX-M-15	False
-ERR3712859	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR3712859	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	False
-SRR13619198	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-SRR13619198	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7;blaSHV-2A	blaCTX-M-15	False
-DRR125025	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-DRR125025	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaNDM-1;blaSHV-2	blaNDM-1	False
-SRR11841816	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaOXA-232	blaKPC-2;blaOXA-232	True
-SRR11841816	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2	blaKPC-2	True
-SRR1561212	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR1561212	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3	blaKPC-3	True
-SRR9734768	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4	none	False
-SRR9734768	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaIMP-4	none	False
-SRR14292222	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-SRR14292222	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-7	none	False
-SRR15695535	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-26;blaVIM-4	none	False
-SRR15695535	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-26;blaVIM-4	none	False
-SRR14565976	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-SRR14565976	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2;blaNDM-1	blaCTX-M-65;blaKPC-2;blaNDM-1	True
-SRR14449786	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14449786	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaCTX-M-65;blaKPC-2;blaSHV-12	blaCTX-M-65;blaKPC-2;blaSHV-12	False
-SRR18175539	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR18175539	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-38	none	False
-SRR4198753	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR4198753	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-39	none	False
-SRR12823800	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-SRR12823800	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7;blaVEB-5	blaCTX-M-15	False
-ERR1216300	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1216300	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaFOX	none	False
-ERR1205063	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-204	none	False
-ERR1205063	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4	none	False
-SRR15098106	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR15098106	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15	blaCTX-M-15	False
-SRR15507628	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR15507628	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaNDM-1	blaNDM-1	False
-SRR14449880	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14449880	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaOXA-163	none	False
-ERR1204917	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1204917	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1	blaCTX-M-15	False
-SRR14449469	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC	none	False
-SRR14449469	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC;blaSHV-12	blaSHV-12	False
-SRR4198770	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR4198770	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-25	none	False
-SRR14040335	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14040335	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaTEM-3	none	False
-SRR17621157	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-1	blaKPC-3;blaNDM-1	True
-SRR17621157	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3;blaNDM-1	blaCTX-M-15;blaKPC-3;blaNDM-1	True
-ERR5442405	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR5442405	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-5	none	False
-SRR15047166	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-SRR15047166	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-5	blaNDM-5	False
-ERR1228361	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1228361	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-30	none	False
-ERR3162585	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
-ERR3162585	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M	none	False
-SRR2965683	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-4	none	False
-SRR2965683	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-4	blaCTX-M-15	False
-SRR14433878	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-7	blaKPC-3	False
-SRR14433878	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaNDM-7;blaSHV-12	blaKPC-3;blaSHV-12	False
-SRR14449366	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14449366	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65	blaCTX-M-65	True
-SRR15097936	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR15097936	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-33	none	False
-SRR15254030	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4;blaOXA-181	blaOXA-181	False
-SRR15254030	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaNDM-4	blaCTX-M-15	False
-SRR16079113	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR16079113	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-15;blaNDM-1	blaNDM-1	False
-SRR12508987	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12508987	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-7	blaKPC-3	False
-ERR2303406	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR2303406	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaCTX-M-63	blaCTX-M-27	False
-ERR3712405	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR3712405	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-31	blaCTX-M-15;blaNDM-1	False
-ERR3891161	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-ERR3891161	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-12	blaCTX-M-15;blaSHV-12	True
-ERR1334737	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1334737	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-1;blaDHA-1	none	False
-SRR1561318	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR1561318	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaSHV-12	blaSHV-12	False
-SRR12329568	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12329568	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-69	none	False
-SRR10028331	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR10028331	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaSHV-38	blaCTX-M-15;blaKPC-2	False
-SRR10673210	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10673210	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaDHA-1	blaCTX-M-65	False
-DRR100993	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5	none	False
-DRR100993	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaGES-5;blaOXA-17;blaSHV-5	none	False
-SRR14402363	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR14402363	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-1;blaSHV-7	blaNDM-1	False
-SRR6836086	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-65	none	False
-SRR6836086	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-65	none	False
-SRR17711797	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-SRR17711797	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaNDM-5	blaNDM-5	False
-SRR14707624	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14707624	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-24;blaKPC-2	blaKPC-2	False
-DRR125004	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-DRR125004	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaNDM-1;blaVEB-1	blaCTX-M-15;blaKPC-2;blaNDM-1	False
-SRR11594655	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-4;blaNDM-7	none	False
-SRR11594655	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-4;blaNDM-7	none	False
-SRR17308990	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-232	blaNDM-1;blaOXA-232	True
-SRR17308990	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
-SRR4115179	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR4115179	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-2A	none	False
-SRR16242782	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR16242782	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2;blaSHV-12	blaCTX-M-65;blaKPC-2;blaSHV-12	True
-SRR17308417	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-484	none	False
-SRR17308417	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
-DRR125033	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-DRR125033	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2	blaCTX-M-15;blaKPC-2	True
-DRR124993	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-DRR124993	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-4;blaSHV-12	blaCTX-M-15;blaSHV-12	False
-ERR1616681	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1616681	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3	none	False
-SRR6656629	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-SRR6656629	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-SRR12329573	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12329573	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-31	none	False
-SRR13356601	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR13356601	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaSHV-38	none	False
-ERR3063466	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-ERR3063466	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7;blaSHV-12	blaCTX-M-15;blaSHV-12	False
-SRR5386065	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5386065	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-65	blaCTX-M-15;blaCTX-M-65	True
-SRR12903852	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-SRR12903852	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaNDM-7	blaFOX-5	False
-DRR238837	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-DRR238837	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-5	blaCTX-M-27;blaNDM-5	True
-SRR1561224	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR1561224	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-2A	blaKPC-2	False
-SRR5386757	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
-SRR5386757	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	False
-ERR4019941	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR4019941	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaDHA-1	none	False
-SRR12956403	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12956403	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-12	blaKPC-3;blaSHV-12	True
-DRR065640	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
-DRR065640	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaIMP-1	blaIMP-1	False
-ERR5863498	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-27	none	False
-ERR5863498	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVIM-27	none	False
-ERR3891209	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
-ERR3891209	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaNDM-1	blaNDM-1	False
-SRR18175551	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR18175551	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55	none	False
-SRR17762364	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-SRR17762364	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-7;blaVIM-1	blaCTX-M-15	False
-ERR775512	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR775512	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaVEB-5	blaCTX-M-15;blaNDM-1	False
-SRR10127110	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10127110	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-43	none	False
-SRR17302632	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
-SRR17302632	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-1	blaIMP-1	True
-SRR18175604	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR18175604	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-163	none	False
-ERR1217188	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR1217188	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaNDM-1;blaSHV-12	blaNDM-1;blaSHV-12	False
-DRR100992	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-DRR100992	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaDHA-1;blaSHV-12	blaSHV-12	False
-SRR5666406	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR5666406	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-2;blaKPC-3	blaCTX-M-15;blaKPC-3	False
-SRR18212780	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-SRR18212780	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15	blaCTX-M-15	False
-SRR10116532	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR10116532	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-3;blaSHV-12	blaKPC-3;blaSHV-12	False
-SRR15827818	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR15827818	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-14;blaNDM-1	blaNDM-1	False
-DRR150701	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
-DRR150701	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaSHV-12	blaCTX-M-15;blaSHV-12	False
-SRR6959176	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR6959176	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaCTX-M-65;blaKPC-2;blaSHV-12	blaCTX-M-65;blaKPC-2;blaSHV-12	False
-SRR18208172	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR18208172	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-27;blaNDM-1	blaCTX-M-15;blaCTX-M-27;blaNDM-1	True
-SRR7716637	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-8	none	False
-SRR7716637	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-8	none	False
-SRR6958737	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-SRR6958737	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-199;blaNDM-5	blaNDM-5	False
-ERR5685463	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-ERR5685463	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM-7	blaCTX-M-15	False
-ERR8098101	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-ERR8098101	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-4	none	False
-SRR10444509	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10444509	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-8b;blaCTX-M-15;blaVEB-1	blaCTX-M-15	False
-SRR6793845	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-26	none	False
-SRR6793845	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaIMP-26	blaCTX-M-15	False
-DRR192235	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-6	none	False
-DRR192235	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-6	none	False
-SRR17818575	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-5	blaKPC-2;blaNDM-5	True
-SRR17818575	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-5	blaKPC-2;blaNDM-5	True
-SRR7540334	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-SRR7540334	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2;blaNDM-1;blaSHV-12	blaCTX-M-65;blaKPC-2;blaNDM-1;blaSHV-12	True
-SRR6442877	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4;blaNDM-1	blaNDM-1	False
-SRR6442877	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaIMP-4;blaNDM-1	blaNDM-1	False
-SRR12903828	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1;blaOXA-181	blaKPC-2;blaNDM-1;blaOXA-181	True
-SRR12903828	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaKPC-2;blaNDM-1	blaCTX-M-15;blaKPC-2;blaNDM-1	False
-SRR5082451	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5082451	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-62	none	False
-ERR1616336	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1616336	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-154	none	False
-SRR8291867	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48;blaVIM-29	blaOXA-48	False
-SRR8291867	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaVIM-29	none	False
-SRR17303952	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-4	none	False
-SRR17303952	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVIM-4	blaCTX-M-15	False
-SRR5385857	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR5385857	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaSHV-12	blaCTX-M-15;blaKPC-2;blaSHV-12	True
-SRR15695593	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
-SRR15695593	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaPER-7	blaCTX-M-15	False
-ERR486768	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR486768	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaACC-1	none	False
-SRR10394605	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10394605	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-51	blaCTX-M-65	False
-ERR2303397	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR2303397	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-63;blaDHA-1	none	False
-SRR15695565	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
-SRR15695565	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-3;blaDHA-1	none	False
-ERR5442469	klebsiella	Klebsiella	573	CARBAPENEM	blaCTX-M-33	none	False
-ERR5442469	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-33;blaCTX-M-33	none	False
-DRR100995	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5	none	False
-DRR100995	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-17;blaGES-5;blaSHV-5	none	False
-SRR14611240	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-SRR14611240	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaDHA-1;blaNDM-5	blaNDM-5	False
-SRR5666555	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-SRR5666555	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM-4	blaCTX-M-15	False
-DRR065625	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-14	none	False
-DRR065625	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-14;blaSHV-5	none	False
-SRR14450117	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14450117	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-90;blaKPC-2	blaKPC-2	False
-DRR101002	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5	none	False
-DRR101002	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-17;blaGES-5;blaSHV-12	blaSHV-12	False
-SRR17563013	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM	none	False
-SRR17563013	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM	blaCTX-M-15	False
-SRR9734794	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4	none	False
-SRR9734794	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaIMP-4	none	False
-SRR12956284	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12956284	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-31;blaTEM-26	blaKPC-3	False
-ERR1216959	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-ERR1216959	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaSHV-12	blaSHV-12	False
-ERR6293889	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR6293889	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-24	none	False
-SRR7828806	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR7828806	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
-SRR13708370	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR13708370	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-96;blaNDM-1;blaTEM-26	blaNDM-1	False
-ERR264521	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-245	none	False
-ERR264521	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-55	none	False
-SRR10028276	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10028276	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaCTX-M-15	blaCTX-M-15	False
-ERR6293860	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR6293860	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-24	none	False
-SRR7716640	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR7716640	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaDHA-1	blaCTX-M-15	False
-SRR11791361	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR11791361	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaSHV-12	blaSHV-12	False
-DRR111568	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-DRR111568	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaDHA-1;blaNDM-4	blaCTX-M-65	False
-ERR7339097	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR7339097	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2	none	False
-ERR3500128	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-36	none	False
-ERR3500128	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-36	none	False
-SRR17302824	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR17302824	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaNDM-1	blaNDM-1	False
-SRR16242794	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR16242794	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-65;blaNDM-1	blaCTX-M-65;blaNDM-1	False
-SRR17304403	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-4	none	False
-SRR17304403	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaVIM-4	none	False
-SRR14532073	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR14532073	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaVEB-9	blaKPC-3	False
-ERR1217005	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1217005	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6	none	False
-ERR1761464	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-ERR1761464	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2	blaKPC-2	True
-ERR3772337	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
-ERR3772337	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaNDM-1	blaNDM-1	False
-SRR11841803	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
-SRR11841803	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-31	blaCTX-M-15	False
-SRR13077372	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR13077372	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-9;blaDHA-1	blaCTX-M-15	False
-SRR11841922	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR11841922	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-1	blaNDM-1	False
-SRR13077331	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP;blaIMP-1	blaIMP-1	False
-SRR13077331	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaIMP;blaIMP-1	blaIMP-1	False
-SRR10376958	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR10376958	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaKPC-2;blaSHV-31	blaKPC-2	False
-SRR6958791	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR6958791	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaKPC-2	blaCTX-M-15;blaKPC-2	False
-DRR150689	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
-DRR150689	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-12	blaSHV-12	True
-SRR16069088	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4	none	False
-SRR16069088	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-4;blaPER-1;blaSHV-12	blaSHV-12	False
-DRR065589	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-DRR065589	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-5;blaVIM-1	none	False
-SRR8607449	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR8607449	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-12;blaVEB-1	blaKPC-2;blaSHV-12	False
-SRR12902690	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-4	blaKPC-2	False
-SRR12902690	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaVIM-4	blaKPC-2	False
-SRR15695670	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR15695670	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaGES-9;blaNDM-1	blaNDM-1	False
-SRR6958873	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR6958873	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaCTX-M-65;blaKPC-2	blaCTX-M-65;blaKPC-2	False
-SRR9616067	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR9616067	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-38	blaCTX-M-15	False
-ERR3891222	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-ERR3891222	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-25	blaCTX-M-15	False
-ERR5442539	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-ERR5442539	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-12;blaVIM-1	blaSHV-12	False
-SRR8607450	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR8607450	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaVEB-1	blaKPC-2	False
-SRR7540311	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-5	blaKPC-2;blaNDM-5	True
-SRR7540311	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2;blaNDM-5	blaCTX-M-65;blaKPC-2;blaNDM-5	True
-SRR14449826	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
-SRR14449826	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaIMP-1	blaIMP-1	False
-SRR14449792	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14449792	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaKPC-2	blaKPC-2	False
-SRR10444515	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10444515	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaGES-9	blaCTX-M-15	False
-SRR14673382	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14673382	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-209	none	False
-ERR5903322	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-12	none	False
-ERR5903322	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVIM-12	none	False
-ERR5442472	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR5442472	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaCTX-M-15	blaCTX-M-15	False
-ERR1415585	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR1415585	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaDHA-1;blaNDM-1	blaNDM-1	False
-ERR3712657	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-ERR3712657	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4	none	False
-SRR17304551	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-SRR17304551	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-120	none	False
-SRR7540331	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR7540331	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-1	blaCTX-M-27;blaNDM-1	True
-SRR13246623	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-SRR13246623	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-4;blaSHV-12	blaSHV-12	False
-SRR14402653	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR14402653	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaTEM-26	blaKPC-3	False
-SRR1561209	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR1561209	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaKPC-2;blaSHV-2A	blaKPC-2	False
-SRR15098124	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-SRR15098124	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-4;blaSHV-12	blaSHV-12	False
-SRR16079301	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR16079301	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaNDM-1	blaCTX-M-15;blaNDM-1	False
-SRR17762349	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-181	blaNDM-5;blaOXA-181	True
-SRR17762349	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5	blaCTX-M-15;blaNDM-5	True
-ERR1541263	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-427	none	False
-ERR1541263	klebsiella	Klebsiella	573	CEPHALOSPORIN	none	none	True
-SRR9734549	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-5	none	False
-SRR9734549	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVIM-5	blaCTX-M-15	False
-SRR5270325	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5270325	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-10	none	False
-ERR257638	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR257638	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaSHV-2	blaCTX-M-15	False
-ERR2303496	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR2303496	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-63	none	False
-DRR101008	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5	none	False
-DRR101008	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaGES-5;blaOXA-17;blaSHV-12	blaSHV-12	False
-SRR8607448	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-27	none	False
-SRR8607448	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVEB-1;blaVIM-27	none	False
-SRR14402464	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR14402464	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC-3	blaKPC-3	False
-DRR065575	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-26	none	False
-DRR065575	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-26	none	False
-SRR10116638	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10116638	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaTEM-26	none	False
-SRR8581242	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-29	none	False
-SRR8581242	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-29	none	False
-DRR150716	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-DRR150716	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5;blaSHV-12	blaCTX-M-15;blaNDM-5;blaSHV-12	True
-SRR15098009	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-SRR15098009	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-4	none	False
-ERR1218781	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1218781	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaDHA-1	blaCTX-M-27	False
-ERR1815065	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-19	none	False
-ERR1815065	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-19	none	False
-SRR14181248	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-SRR14181248	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-7	none	False
-SRR12506228	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-48	blaNDM-5;blaOXA-48	True
-SRR12506228	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-5	blaNDM-5	True
-SRR15695652	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR15695652	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaKPC-2	blaKPC-2	False
-SRR17308795	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC	none	False
-SRR17308795	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC	blaCTX-M-15	False
-SRR14450077	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-12	none	False
-SRR14450077	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-12;blaSHV-12	blaCTX-M-65;blaSHV-12	False
-ERR1218766	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1218766	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-40	none	False
-ERR1205067	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1205067	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaDHA-1	none	False
-ERR2303504	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR2303504	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27	blaCTX-M-27	True
-ERR1217173	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR1217173	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaNDM-1	blaNDM-1	False
-SRR14449682	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-2	blaKPC-2	False
-SRR14449682	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaKPC-2;blaVIM-2	blaCTX-M-15;blaKPC-2	False
-SRR13893537	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR13893537	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaVEB-6	blaKPC-3	False
-SRR18212494	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4;blaKPC-3	blaKPC-3	False
-SRR18212494	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-4;blaKPC-3;blaSHV-12	blaKPC-3;blaSHV-12	False
-DRR125014	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-DRR125014	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-4;blaSHV-5	blaCTX-M-15	False
-DRR125016	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-DRR125016	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaVEB-1	blaCTX-M-15;blaNDM-1	False
-SRR5666573	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-4	none	False
-SRR5666573	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-4	none	False
-SRR15047159	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR15047159	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-3;blaNDM-1	blaNDM-1	False
-ERR3164637	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3;blaOXA-48	blaKPC-3;blaOXA-48	True
-ERR3164637	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3	blaCTX-M-15;blaKPC-3	True
-ERR2008089	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR2008089	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	False
-ERR3713041	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-85	none	False
-ERR3713041	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-85	none	False
-ERR1217254	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-ERR1217254	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaKPC-3	blaKPC-3	False
-SRR9858772	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR9858772	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaKPC-3	blaKPC-3	False
-SRR14450170	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14450170	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaCTX-M-65;blaKPC-2	blaCTX-M-65;blaKPC-2	False
-SRR12508884	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12508884	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaKPC-3	blaFOX-5;blaKPC-3	True
-ERR1334601	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-1	blaKPC-2	False
-ERR1334601	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-13;blaKPC-2;blaVIM-1	blaKPC-2	False
-SRR17302212	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5	none	False
-SRR17302212	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaGES-5	none	False
-ERR5685165	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR5685165	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM-1;blaVEB-5	blaCTX-M-15;blaNDM-1	False
-SRR5387167	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5387167	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-5	blaCTX-M-15	False
-ERR6293450	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-23;blaOXA-48	blaNDM-23;blaOXA-48	True
-ERR6293450	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-23	blaCTX-M-15;blaNDM-23	True
-SRR14532034	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR14532034	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-2	blaKPC-3	False
-SRR14449467	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14449467	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaDHA-1;blaKPC-2	blaCTX-M-65;blaKPC-2	False
-SRR12902736	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12902736	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA	none	False
-SRR13081092	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR13081092	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-1;blaTEM-26	blaNDM-1	False
-SRR14449920	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR14449920	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-71	none	False
-SRR5386458	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5386458	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaFOX-5	blaCTX-M-15;blaFOX-5	True
-SRR10397951	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR10397951	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-2;blaSHV-12	blaKPC-2;blaSHV-12	False
-DRR179999	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-24	none	False
-DRR179999	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaGES-24	none	False
-SRR2127539	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR2127539	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-2A	blaKPC-3	False
-SRR12921207	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12921207	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15	blaCTX-M-15	False
-SRR16242773	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR16242773	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-3;blaNDM-1	blaNDM-1	False
-SRR12056269	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12056269	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaFOX-5	blaFOX-5	True
-SRR16610162	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-5	blaKPC-2;blaNDM-5	True
-SRR16610162	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaNDM-5	blaCTX-M-15;blaKPC-2;blaNDM-5	True
-SRR16078937	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR16078937	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-27;blaNDM-1	blaCTX-M-27;blaNDM-1	False
-SRR5386562	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5386562	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-98	none	False
-SRR16204332	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR16204332	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-140;blaCTX-M-65;blaDHA-1;blaKPC-2	blaCTX-M-65;blaKPC-2	False
-SRR10295058	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR10295058	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
-SRR13893517	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR13893517	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-106	none	False
-SRR13077371	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR13077371	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1	none	False
-SRR6416855	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-SRR6416855	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaDHA-1;blaNDM-5	blaNDM-5	False
-SRR18208078	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-SRR18208078	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaTEM-155	blaCTX-M-15	False
-SRR12509561	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12509561	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaKPC-3	blaKPC-3	False
-SRR12956404	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12956404	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaTEM-191	blaKPC-3	False
-DRR178447	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-11	none	False
-DRR178447	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaIMP-11	none	False
-SRR17308885	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR17308885	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-2	blaKPC-2	False
-DRR065596	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-DRR065596	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVIM-1	blaCTX-M-15	False
-ERR3518851	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-ERR3518851	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaKPC-2	blaKPC-2	False
-ERR1541544	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1541544	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaDHA-1	none	False
-DRR198038	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-7	none	False
-DRR198038	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7	blaCTX-M-15	False
-DRR150749	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-14	none	False
-DRR150749	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-14	blaCTX-M-15	False
-SRR10394933	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10394933	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-33	blaCTX-M-65	False
-SRR17302413	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-SRR17302413	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-3;blaVIM-1	none	False
-SRR3982400	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR3982400	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-6	blaCTX-M-15	False
-SRR14449723	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-SRR14449723	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-8b;blaCTX-M-14;blaNDM-4;blaVEB-1	none	False
-ERR8288645	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR8288645	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaSHV-38	blaCTX-M-27	False
-SRR5884866	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR5884866	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-2;blaKPC-2	blaCTX-M-15;blaKPC-2	False
-ERR6415319	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
-ERR6415319	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaNDM-1;blaSHV-12	blaNDM-1;blaSHV-12	False
-SRR6958753	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-4	none	False
-SRR6958753	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaIMP-4	none	False
-SRR12329571	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR12329571	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-31	blaCTX-M-15	False
-ERR1616763	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1616763	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-101	none	False
-SRR14449941	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR14449941	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaNDM-1	blaNDM-1	False
-SRR13893451	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR13893451	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-14	none	False
-SRR15858622	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR15858622	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaCTX-M-55	blaCTX-M-27	False
-ERR1761538	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-ERR1761538	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3;blaSHV-12	blaCTX-M-15;blaKPC-3;blaSHV-12	True
-SRR12956290	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR12956290	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-12;blaVEB-9	blaKPC-3;blaSHV-12	False
-ERR3562153	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR3562153	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaTEM-12	none	False
-SRR18175620	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR18175620	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaSHV-5	blaCTX-M-15	False
-SRR14861788	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR14861788	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-2A	blaCTX-M-15;blaNDM-1	False
-SRR15215612	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR15215612	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-220	none	False
-SRR13375983	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR13375983	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaKPC-2	blaKPC-2	False
-ERR1334509	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-ERR1334509	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaVIM-1	none	False
-SRR15695752	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
-SRR15695752	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY;blaCTX-M-15	blaCTX-M-15	False
-SRR5877516	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5877516	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1	none	False
-DRR065615	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-29	none	False
-DRR065615	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaVIM-29	blaCTX-M-15	False
-SRR17302241	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-SRR17302241	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaNDM-1	blaCTX-M-15;blaKPC-2;blaNDM-1	True
-SRR14449986	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR14449986	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3	blaCTX-M-15;blaKPC-3	True
-ERR2743745	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-ERR2743745	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-8;blaKPC-2	blaCTX-M-15;blaKPC-2	False
-ERR1289773	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-ERR1289773	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY;blaVIM-1	none	False
-ERR5319290	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-1	none	False
-ERR5319290	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaVIM-1	none	False
-SRR14449681	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
-SRR14449681	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-1;blaTEM-26	blaKPC-2;blaNDM-1	False
-ERR3164645	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-ERR3164645	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-3	blaKPC-3	False
-SRR17308953	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-SRR17308953	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVEB-1	none	False
-ERR1761540	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-ERR1761540	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaMOX	blaKPC-2	False
-SRR6763944	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
-SRR6763944	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC-3;blaSHV-12	blaKPC-3;blaSHV-12	False
-SRR18030854	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR18030854	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaKPC-2	blaKPC-2	False
-SRR10223886	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR10223886	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2	blaCTX-M-65;blaKPC-2	True
-SRR17308437	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR17308437	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaNDM-1;blaSHV-12	blaNDM-1;blaSHV-12	False
-DRR192206	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-6	none	False
-DRR192206	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaIMP-6	none	False
-SRR14338897	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1;blaOXA-48	blaKPC-2;blaNDM-1;blaOXA-48	True
-SRR14338897	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaNDM-1	blaCTX-M-15;blaKPC-2;blaNDM-1	True
-SRR10686561	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR10686561	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-1;blaTEM-169	blaCTX-M-15;blaNDM-1	False
-DRR101006	klebsiella	Klebsiella	573	CARBAPENEM	blaGES-5	none	False
-DRR101006	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaGES-5;blaOXA-17	none	False
-SRR16079034	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR16079034	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-5	blaCTX-M-15;blaNDM-1	False
-SRR14532108	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC	none	False
-SRR14532108	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC;blaVEB-9	none	False
-SRR10116789	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR10116789	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC-2	blaKPC-2	False
-SRR12898955	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR12898955	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	False
-SRR14402803	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-SRR14402803	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaNDM-1	blaNDM-1	True
-ERR1616448	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR1616448	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-2	blaCTX-M-15	False
-SRR5386834	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR5386834	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaSHV-7	none	False
-ERR3712661	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
-ERR3712661	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaNDM-1	blaNDM-1	False
-SRR11531462	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
-SRR11531462	klebsiella	Klebsiella	573	CEPHALOSPORIN	none	none	True
-DRR120599	klebsiella	Klebsiella	573	CARBAPENEM	blaIMP-6	none	False
-DRR120599	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaIMP-6	none	False
-SRR10905788	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10905788	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaTEM-12	blaCTX-M-15	False
-SRR13158484	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-181	blaNDM-1;blaOXA-181	True
-SRR13158484	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaNDM-1;blaVEB-5	blaNDM-1	False
-ERR775629	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-ERR775629	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaVEB-5	blaCTX-M-15	False
-SRR8796523	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR8796523	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaKPC-2;blaSHV-12	blaCTX-M-27;blaKPC-2;blaSHV-12	True
-SRR17303849	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
-SRR17303849	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY	none	False
-SRR17304044	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-4	none	False
-SRR17304044	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaVIM-4	none	False
-SRR10728192	klebsiella	Klebsiella	573	CARBAPENEM	none	none	True
-SRR10728192	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14	none	False
-SRR14449630	klebsiella	Klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
-SRR14449630	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-12	blaKPC-2;blaSHV-12	True
-ERR264539	klebsiella	Klebsiella	573	CARBAPENEM	blaOXA-245	none	False
-ERR264539	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
-SRR7912006	klebsiella	Klebsiella	573	CARBAPENEM	blaVIM-29	none	False
-SRR7912006	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-14;blaVIM-29	none	False
-SRR14181329	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
-SRR14181329	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaNDM-5	blaNDM-5	False
-SRR4302187	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-SRR4302187	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-4	blaCTX-M-15	False
-ERR5442531	klebsiella	Klebsiella	573	CARBAPENEM	blaNDM-4	none	False
-ERR5442531	klebsiella	Klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-4	blaCTX-M-15	False
+accession	species	taxid	drug_class	expected	actual	passed
+SRR10116644	klebsiella	573	CARBAPENEM	none	none	True
+SRR10116644	klebsiella	573	CEPHALOSPORIN	blaSHV-12;blaTEM-26	blaSHV-12;blaTEM-26	True
+SRR14449920	klebsiella	573	CARBAPENEM	none	none	True
+SRR14449920	klebsiella	573	CEPHALOSPORIN	blaCTX-M-71	blaCTX-M-71	True
+ERR2586408	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+ERR2586408	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
+SRR14449965	klebsiella	573	CARBAPENEM	none	none	True
+SRR14449965	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaSHV-2	blaCMY-2;blaSHV-2	True
+SRR11594655	klebsiella	573	CARBAPENEM	blaKPC-4;blaNDM-7	blaKPC-4;blaNDM-7	True
+SRR11594655	klebsiella	573	CEPHALOSPORIN	blaKPC-4;blaNDM-7	blaKPC-4;blaNDM-7	True
+DRR065611	klebsiella	573	CARBAPENEM	blaVIM-29	blaVIM-29	True
+DRR065611	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-14;blaCTX-M-15;blaVIM-29	blaCMY-4;blaCTX-M-14;blaCTX-M-15;blaVIM-29	True
+SRR7540311	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-5	blaKPC-2;blaNDM-5	True
+SRR7540311	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2;blaNDM-5	blaCTX-M-65;blaKPC-2;blaNDM-5	True
+SRR12329558	klebsiella	573	CARBAPENEM	blaKPC-29	blaKPC-29	True
+SRR12329558	klebsiella	573	CEPHALOSPORIN	blaKPC-29	blaKPC-29	True
+ERR1415585	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR1415585	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaDHA-1;blaNDM-1	blaCTX-M;blaDHA-1;blaNDM-1	True
+SRR4198770	klebsiella	573	CARBAPENEM	none	none	True
+SRR4198770	klebsiella	573	CEPHALOSPORIN	blaCTX-M-25	blaCTX-M-25	True
+SRR11585197	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+SRR11585197	klebsiella	573	CEPHALOSPORIN	blaBEL-1;blaVIM-1	blaBEL-1;blaVIM-1	True
+SRR6958798	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR6958798	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-1;blaSHV-12	blaDHA-1;blaNDM-1;blaSHV-12	True
+DRR150316	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+DRR150316	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-1;blaSHV-12	blaCTX-M-14;blaNDM-1;blaSHV-12	True
+SRR10376958	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR10376958	klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaKPC-2;blaSHV-31	blaCMY-16;blaKPC-2;blaSHV-31	True
+SRR15695652	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR15695652	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaKPC-2	blaCTX-M-14;blaDHA-1;blaKPC-2	True
+SRR14402531	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14402531	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaKPC-2	blaCTX-M-55;blaKPC-2	True
+SRR17308885	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR17308885	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-2	blaCMY-2;blaKPC-2	True
+SRR11841894	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+SRR11841894	klebsiella	573	CEPHALOSPORIN	blaCMY-13;blaVIM-1	blaCMY-13;blaVIM-1	True
+ERR1218781	klebsiella	573	CARBAPENEM	none	none	True
+ERR1218781	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaDHA-1	blaCTX-M-27;blaDHA-1	True
+SRR14449691	klebsiella	573	CARBAPENEM	blaKPC;blaKPC-3	blaKPC;blaKPC-3	True
+SRR14449691	klebsiella	573	CEPHALOSPORIN	blaKPC;blaKPC-3	blaKPC;blaKPC-3	True
+SRR17563013	klebsiella	573	CARBAPENEM	blaNDM	blaNDM	True
+SRR17563013	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM	blaCTX-M-15;blaNDM	True
+SRR11971459	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+SRR11971459	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-5	blaCTX-M-14;blaNDM-5	True
+SRR13893718	klebsiella	573	CARBAPENEM	none	none	True
+SRR13893718	klebsiella	573	CEPHALOSPORIN	blaCTX-M-2	blaCTX-M-2	True
+SRR15167019	klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-181	blaNDM-5;blaOXA-181	True
+SRR15167019	klebsiella	573	CEPHALOSPORIN	blaCMY-42;blaNDM-5	blaCMY-42;blaNDM-5	True
+DRR150715	klebsiella	573	CARBAPENEM	blaGES-5;blaNDM-1	blaGES-5;blaNDM-1	True
+DRR150715	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaGES-5;blaNDM-1	blaCMY-4;blaCTX-M-15;blaGES-5;blaNDM-1	True
+SRR16078892	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+SRR16078892	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-4	blaCTX-M-14;blaNDM-4	True
+DRR100995	klebsiella	573	CARBAPENEM	blaGES-5	blaGES-5	True
+DRR100995	klebsiella	573	CEPHALOSPORIN	blaDHA-17;blaGES-5;blaSHV-5	blaDHA-1;blaGES-5;blaOXA-17;blaSHV-5	False
+SRR13708370	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR13708370	klebsiella	573	CEPHALOSPORIN	blaCTX-M-96;blaNDM-1;blaTEM-26	blaCTX-M-96;blaNDM-1;blaTEM-26	True
+SRR17762364	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+SRR17762364	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-7;blaVIM-1	blaCTX-M-15;blaSHV-7;blaVIM-1	True
+SRR8607453	klebsiella	573	CARBAPENEM	blaVIM-19	blaVIM-19	True
+SRR8607453	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaVIM-19	blaCMY-4;blaCTX-M-15;blaVIM-19	True
+SRR15827933	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR15827933	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-1;blaVEB-3	blaCTX-M-14;blaNDM-1;blaVEB-3	True
+SRR9217792	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR9217792	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-3;blaKPC-2	blaCTX-M-14;blaCTX-M-3;blaKPC-2	True
+SRR7540331	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR7540331	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-1	blaCTX-M-27;blaNDM-1	True
+SRR14450117	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14450117	klebsiella	573	CEPHALOSPORIN	blaCTX-M-90;blaKPC-2	blaCTX-M-90;blaKPC-2	True
+ERR3164637	klebsiella	573	CARBAPENEM	blaKPC-3;blaOXA-48	blaKPC-3;blaOXA-48	True
+ERR3164637	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3	blaCTX-M-15;blaKPC-3	True
+SRR12329566	klebsiella	573	CARBAPENEM	blaKPC-67	blaKPC-67	True
+SRR12329566	klebsiella	573	CEPHALOSPORIN	blaKPC-67	blaKPC-67	True
+ERR5685479	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-181	blaNDM-1;blaOXA-181	True
+ERR5685479	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
+SRR15695752	klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
+SRR15695752	klebsiella	573	CEPHALOSPORIN	blaCMY;blaCTX-M-15	blaCMY;blaCTX-M-15	True
+SRR10028276	klebsiella	573	CARBAPENEM	none	none	True
+SRR10028276	klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaCTX-M-15	blaCMY-16;blaCTX-M-15	True
+SRR17303952	klebsiella	573	CARBAPENEM	blaVIM-4	blaVIM-4	True
+SRR17303952	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVIM-4	blaCTX-M-15;blaVIM-4	True
+SRR14450134	klebsiella	573	CARBAPENEM	blaIMP-4;blaKPC-2	blaIMP-4;blaKPC-2	True
+SRR14450134	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaIMP-4;blaKPC-2	blaCTX-M-65;blaIMP-4;blaKPC-2	True
+SRR12956403	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12956403	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-12	blaKPC-3;blaSHV-12	True
+SRR17302212	klebsiella	573	CARBAPENEM	blaGES-5	blaGES-5	True
+SRR17302212	klebsiella	573	CEPHALOSPORIN	blaGES-5	blaGES-5	True
+SRR5884856	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR5884856	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-55;blaKPC-2	blaCTX-M-14;blaCTX-M-55;blaKPC-2	True
+SRR17308795	klebsiella	573	CARBAPENEM	blaKPC	blaKPC	True
+SRR17308795	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC	blaCTX-M-15;blaKPC	True
+SRR13077331	klebsiella	573	CARBAPENEM	blaIMP;blaIMP-1	blaIMP;blaIMP-1	True
+SRR13077331	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaIMP;blaIMP-1	blaCTX-M-3;blaIMP;blaIMP-1	True
+SRR9697001	klebsiella	573	CARBAPENEM	blaIMP-4	blaIMP-4	True
+SRR9697001	klebsiella	573	CEPHALOSPORIN	blaIMP-4;blaSHV-38	blaIMP-4;blaSHV-38	True
+SRR3982400	klebsiella	573	CARBAPENEM	none	none	True
+SRR3982400	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-6	blaCTX-M-15;blaDHA-6	True
+SRR13893537	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR13893537	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaVEB-6	blaKPC-3;blaVEB-6	True
+SRR10694539	klebsiella	573	CARBAPENEM	blaIMP-27	blaIMP-27	True
+SRR10694539	klebsiella	573	CEPHALOSPORIN	blaIMP-27	blaIMP-27	True
+SRR6292393	klebsiella	573	CARBAPENEM	blaNDM-6	blaNDM-6	True
+SRR6292393	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-6;blaSHV-31	blaCTX-M-27;blaNDM-6;blaSHV-31	True
+DRR100993	klebsiella	573	CARBAPENEM	blaGES-5	blaGES-5	True
+DRR100993	klebsiella	573	CEPHALOSPORIN	blaGES-5;blaOXA-17;blaSHV-5	blaGES-5;blaOXA-17;blaSHV-5	True
+SRR1561279	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR1561279	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaKPC-2	blaCMY-4;blaKPC-2	True
+ERR5863498	klebsiella	573	CARBAPENEM	blaVIM-27	blaVIM-27	True
+ERR5863498	klebsiella	573	CEPHALOSPORIN	blaVIM-27	blaVIM-27	True
+SRR14449548	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14449548	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaDHA-1;blaKPC-2;blaSHV-12	blaCTX-M-65;blaDHA-1;blaKPC-2;blaSHV-12	True
+DRR150317	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+DRR150317	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-1;blaSHV-12	blaCTX-M-14;blaCTX-M-15;blaNDM-1;blaSHV-12	True
+SRR15695593	klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
+SRR15695593	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaPER-7	blaCTX-M-15;blaPER-7	True
+ERR3518861	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+ERR3518861	klebsiella	573	CEPHALOSPORIN	blaCTX-M-35;blaKPC-2	blaCTX-M-35;blaKPC-2	True
+SRR18030874	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR18030874	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-2	blaKPC-2;blaSHV-2	True
+SRR9858772	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR9858772	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaKPC-3	blaCTX-M;blaKPC-3	True
+SRR12903852	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+SRR12903852	klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaNDM-7	blaFOX-5;blaNDM-7	True
+SRR4302187	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+SRR4302187	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-4	blaCTX-M-15;blaNDM-4	True
+SRR14673462	klebsiella	573	CARBAPENEM	none	none	True
+SRR14673462	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaSHV-38	blaCTX-M-14;blaSHV-38	True
+SRR14673382	klebsiella	573	CARBAPENEM	none	none	True
+SRR14673382	klebsiella	573	CEPHALOSPORIN	blaCTX-M-209	blaCTX-M-209	True
+SRR14707622	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14707622	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-24;blaKPC-2	blaCTX-M-15;blaCTX-M-24;blaKPC-2	True
+ERR6017872	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-162	blaNDM-1;blaOXA-162	True
+ERR6017872	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
+ERR1334509	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+ERR1334509	klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaVIM-1	blaCTX-M-9;blaVIM-1	True
+SRR17308437	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR17308437	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaNDM-1;blaSHV-12	blaCMY-6;blaNDM-1;blaSHV-12	True
+SRR18175539	klebsiella	573	CARBAPENEM	none	none	True
+SRR18175539	klebsiella	573	CEPHALOSPORIN	blaSHV-38	blaSHV-38	True
+SRR5387167	klebsiella	573	CARBAPENEM	none	none	True
+SRR5387167	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-5	blaCTX-M-15;blaSHV-5	True
+ERR775512	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR775512	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaVEB-5	blaCTX-M-15;blaNDM-1;blaVEB-5	True
+SRR10991652	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR10991652	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-3;blaSHV-12	blaDHA-1;blaKPC-3;blaSHV-12	True
+SRR5886493	klebsiella	573	CARBAPENEM	none	none	True
+SRR5886493	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaSHV-12	blaCMY-4;blaCTX-M-15;blaSHV-12	True
+ERR3891209	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
+ERR3891209	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaNDM-1	blaCTX-M;blaNDM-1	True
+ERR4422721	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
+ERR4422721	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
+SRR6958832	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR6958832	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-1;blaSHV-31	blaCTX-M-27;blaNDM-1;blaSHV-31	True
+SRR2127539	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR2127539	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-2A	blaKPC-3;blaSHV-2A	True
+SRR13619198	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+SRR13619198	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7;blaSHV-2A	blaCTX-M-15;blaNDM-7;blaSHV-2A	True
+SRR8607305	klebsiella	573	CARBAPENEM	blaIMP-4	blaIMP-4	True
+SRR8607305	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaIMP-4	blaDHA-1;blaIMP-4	True
+SRR12329560	klebsiella	573	CARBAPENEM	none	none	True
+SRR12329560	klebsiella	573	CEPHALOSPORIN	blaKPC-70	blaKPC-70	True
+ERR3500128	klebsiella	573	CARBAPENEM	blaKPC-36	blaKPC-36	True
+ERR3500128	klebsiella	573	CEPHALOSPORIN	blaKPC-36	blaKPC-36	True
+SRR14402379	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR14402379	klebsiella	573	CEPHALOSPORIN	blaNDM-1;blaTEM-10	blaNDM-1;blaTEM-10	True
+ERR5685314	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+ERR5685314	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7;blaSHV-38	blaCTX-M-15;blaNDM-7;blaSHV-38	True
+SRR17883272	klebsiella	573	CARBAPENEM	none	none	True
+SRR17883272	klebsiella	573	CEPHALOSPORIN	blaCTX-M-9	blaCTX-M-9	True
+ERR1216300	klebsiella	573	CARBAPENEM	none	none	True
+ERR1216300	klebsiella	573	CEPHALOSPORIN	blaFOX	blaFOX	True
+SRR15215612	klebsiella	573	CARBAPENEM	none	none	True
+SRR15215612	klebsiella	573	CEPHALOSPORIN	blaCTX-M-220	blaCTX-M-220	True
+ERR1616681	klebsiella	573	CARBAPENEM	none	none	True
+ERR1616681	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3	blaCTX-M-3	True
+ERR1228363	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+ERR1228363	klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaSHV-12;blaVIM-1	blaCTX-M-9;blaSHV-12;blaVIM-1	True
+SRR16079301	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR16079301	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaNDM-1	blaCTX-M-15;blaDHA-1;blaNDM-1	True
+SRR18208164	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR18208164	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaKPC-3	blaCTX-M-27;blaKPC-3	True
+ERR8098101	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+ERR8098101	klebsiella	573	CEPHALOSPORIN	blaNDM-4	blaNDM-4	True
+ERR2303402	klebsiella	573	CARBAPENEM	none	none	True
+ERR2303402	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-63	blaCTX-M-15;blaCTX-M-63	True
+SRR13375983	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR13375983	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaKPC-2	blaCTX-M;blaKPC-2	True
+ERR1334471	klebsiella	573	CARBAPENEM	blaKPC-12	blaKPC-12	True
+ERR1334471	klebsiella	573	CEPHALOSPORIN	blaKPC-12	blaKPC-12	True
+SRR5386028	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR5386028	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaSHV-5	blaCTX-M-15;blaKPC-2;blaSHV-5	True
+DRR100992	klebsiella	573	CARBAPENEM	none	none	True
+DRR100992	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaDHA-1;blaSHV-12	blaCMY-2;blaDHA-1;blaSHV-12	True
+DRR125004	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+DRR125004	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaNDM-1;blaVEB-1	blaCTX-M-15;blaKPC-2;blaNDM-1;blaVEB-1	True
+SRR6416855	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+SRR6416855	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaDHA-1;blaNDM-5	blaCTX-M-3;blaDHA-1;blaNDM-5	True
+DRR101006	klebsiella	573	CARBAPENEM	blaGES-5	blaGES-5	True
+DRR101006	klebsiella	573	CEPHALOSPORIN	blaGES-5;blaOXA-17	blaGES-5;blaOXA-17	True
+SRR6959176	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR6959176	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaCTX-M-65;blaKPC-2;blaSHV-12	blaCTX-M-55;blaCTX-M-65;blaKPC-2;blaSHV-12	True
+SRR14449467	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14449467	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaDHA-1;blaKPC-2	blaCTX-M-65;blaDHA-1;blaKPC-2	True
+ERR7339097	klebsiella	573	CARBAPENEM	none	none	True
+ERR7339097	klebsiella	573	CEPHALOSPORIN	blaCMY-2	blaCMY-2	True
+SRR12508582	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12508582	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-3	blaCMY-2;blaKPC-3	True
+SRR13246727	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR13246727	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-38	blaCTX-M-15;blaNDM-1;blaSHV-38	True
+DRR120593	klebsiella	573	CARBAPENEM	blaIMP-6	blaIMP-6	True
+DRR120593	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaIMP-6	blaCTX-M-15;blaDHA-1;blaIMP-6	True
+SRR13893517	klebsiella	573	CARBAPENEM	none	none	True
+SRR13893517	klebsiella	573	CEPHALOSPORIN	blaSHV-106	blaSHV-106	True
+SRR7912006	klebsiella	573	CARBAPENEM	blaVIM-29	blaVIM-29	True
+SRR7912006	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-14;blaVIM-29	blaCMY-4;blaCTX-M-14;blaVIM-29	True
+SRR17308454	klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
+SRR17308454	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15	blaCMY-4;blaCTX-M-15	True
+SRR14532151	klebsiella	573	CARBAPENEM	blaNDM-7;blaOXA-232	blaNDM-7;blaOXA-232	True
+SRR14532151	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7	blaCTX-M-15;blaNDM-7	True
+SRR14449723	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+SRR14449723	klebsiella	573	CEPHALOSPORIN	blaCMY-8b;blaCTX-M-14;blaNDM-4;blaVEB-1	blaCMY-8b;blaCTX-M-14;blaNDM-4;blaVEB-1	True
+SRR13893451	klebsiella	573	CARBAPENEM	none	none	True
+SRR13893451	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-14	blaCMY-2;blaCTX-M-14	True
+SRR16108342	klebsiella	573	CARBAPENEM	blaIMP;blaIMP-1	blaIMP;blaIMP-1	True
+SRR16108342	klebsiella	573	CEPHALOSPORIN	blaIMP;blaIMP-1	blaIMP;blaIMP-1	True
+SRR8286510	klebsiella	573	CARBAPENEM	none	none	True
+SRR8286510	klebsiella	573	CEPHALOSPORIN	blaCTX-M-132	blaCTX-M-132	True
+ERR1616448	klebsiella	573	CARBAPENEM	none	none	True
+ERR1616448	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-2	blaCTX-M-15;blaSHV-2	True
+SRR17311978	klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-7	blaKPC-3;blaNDM-7	True
+SRR17311978	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaNDM-7	blaKPC-3;blaNDM-7	True
+ERR2303496	klebsiella	573	CARBAPENEM	none	none	True
+ERR2303496	klebsiella	573	CEPHALOSPORIN	blaCTX-M-63	blaCTX-M-63	True
+SRR17711797	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+SRR17711797	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaNDM-5	blaCMY-2;blaNDM-5	True
+DRR124993	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+DRR124993	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-4;blaSHV-12	blaCTX-M-15;blaNDM-4;blaSHV-12	True
+SRR14181332	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR14181332	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaDHA-1;blaNDM-1	blaCMY-2;blaDHA-1;blaNDM-1	True
+ERR3654335	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+ERR3654335	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaKPC-2;blaNDM-1	blaCMY-4;blaKPC-2;blaNDM-1	True
+ERR3162585	klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
+ERR3162585	klebsiella	573	CEPHALOSPORIN	blaCTX-M	blaCTX-M	True
+SRR12823800	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+SRR12823800	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7;blaVEB-5	blaCTX-M-15;blaNDM-7;blaVEB-5	True
+SRR12009623	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-7	blaKPC-2;blaNDM-7	True
+SRR12009623	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-7	blaKPC-2;blaNDM-7	True
+SRR12903832	klebsiella	573	CARBAPENEM	blaKPC-2;blaOXA-181	blaKPC-2;blaOXA-181	True
+SRR12903832	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaKPC-2	blaCMY-4;blaCTX-M-15;blaKPC-2	True
+DRR065653	klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-1	blaKPC-2;blaVIM-1	True
+DRR065653	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaMOX-2;blaVIM-1	blaKPC-2;blaMOX-2;blaVIM-1	True
+ERR775622	klebsiella	573	CARBAPENEM	none	none	True
+ERR775622	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVEB-5	blaCTX-M-15;blaVEB-5	True
+DRR076966	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+DRR076966	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-4	blaCTX-M-27;blaNDM-4	True
+SRR11594671	klebsiella	573	CARBAPENEM	blaGES-2;blaNDM-1	blaGES-2;blaNDM-1	True
+SRR11594671	klebsiella	573	CEPHALOSPORIN	blaGES-2;blaNDM-1	blaGES-2;blaNDM-1	True
+SRR6793845	klebsiella	573	CARBAPENEM	blaIMP-26	blaIMP-26	True
+SRR6793845	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaIMP-26	blaCTX-M-15;blaDHA-1;blaIMP-26	True
+SRR12508987	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12508987	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-7	blaKPC-3;blaSHV-7	True
+ERR1374901	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR1374901	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaTEM-169	blaCTX-M-15;blaNDM-1;blaTEM-169	True
+SRR5386065	klebsiella	573	CARBAPENEM	none	none	True
+SRR5386065	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-65	blaCTX-M-15;blaCTX-M-65	True
+SRR10432610	klebsiella	573	CARBAPENEM	none	none	True
+SRR10432610	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaSHV-12	blaCTX-M-65;blaSHV-12	True
+SRR14450105	klebsiella	573	CARBAPENEM	blaIMP-4	blaIMP-4	True
+SRR14450105	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaIMP-4	blaCTX-M-3;blaIMP-4	True
+SRR7540334	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+SRR7540334	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2;blaNDM-1;blaSHV-12	blaCTX-M-65;blaKPC-2;blaNDM-1;blaSHV-12	True
+SRR5420072	klebsiella	573	CARBAPENEM	none	none	True
+SRR5420072	klebsiella	573	CEPHALOSPORIN	blaSHV-31	blaSHV-31	True
+ERR5442469	klebsiella	573	CARBAPENEM	blaCTX-M-33	none	False
+ERR5442469	klebsiella	573	CEPHALOSPORIN	blaCTX-M-33;blaCTX-M-33	blaCTX-M-33	False
+ERR3562277	klebsiella	573	CARBAPENEM	none	none	True
+ERR3562277	klebsiella	573	CEPHALOSPORIN	blaTEM-52	blaTEM-52	True
+SRR13356601	klebsiella	573	CARBAPENEM	none	none	True
+SRR13356601	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaSHV-38	blaDHA-1;blaSHV-38	True
+SRR5666406	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR5666406	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-2;blaKPC-3	blaCTX-M-15;blaCTX-M-2;blaKPC-3	True
+ERR1204917	klebsiella	573	CARBAPENEM	none	none	True
+ERR1204917	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1	blaCTX-M-15;blaDHA-1	True
+DRR122490	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+DRR122490	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaNDM-1;blaSHV-12	blaCMY-4;blaCTX-M-15;blaNDM-1;blaSHV-12	True
+ERR1616336	klebsiella	573	CARBAPENEM	none	none	True
+ERR1616336	klebsiella	573	CEPHALOSPORIN	blaCTX-M-154	blaCTX-M-154	True
+SRR15047237	klebsiella	573	CARBAPENEM	blaNDM-4;blaOXA-181	blaNDM-4;blaOXA-181	True
+SRR15047237	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaNDM-4	blaCTX-M-15;blaDHA-1;blaNDM-4	True
+DRR192206	klebsiella	573	CARBAPENEM	blaIMP-6	blaIMP-6	True
+DRR192206	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaIMP-6	blaCTX-M;blaIMP-6	True
+SRR18209178	klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-48	blaNDM-5;blaOXA-48	True
+SRR18209178	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-5	blaCTX-M-14;blaCTX-M-15;blaNDM-5	True
+SRR12956284	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12956284	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-31;blaTEM-26	blaKPC-3;blaSHV-31;blaTEM-26	True
+SRR10127110	klebsiella	573	CARBAPENEM	none	none	True
+SRR10127110	klebsiella	573	CEPHALOSPORIN	blaCMY-43	blaCMY-43	True
+SRR12329565	klebsiella	573	CARBAPENEM	none	none	True
+SRR12329565	klebsiella	573	CEPHALOSPORIN	blaKPC-49	blaKPC-49	True
+SRR14040335	klebsiella	573	CARBAPENEM	none	none	True
+SRR14040335	klebsiella	573	CEPHALOSPORIN	blaTEM-3	blaTEM-3	True
+SRR17302824	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR17302824	klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaNDM-1	blaCTX-M-9;blaNDM-1	True
+SRR8738412	klebsiella	573	CARBAPENEM	none	none	True
+SRR8738412	klebsiella	573	CEPHALOSPORIN	blaTEM-10	blaTEM-10	True
+SRR14532034	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR14532034	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-2	blaKPC-3;blaSHV-2	True
+ERR1761540	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+ERR1761540	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaMOX	blaKPC-2;blaMOX	True
+SRR14338791	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14338791	klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaKPC-2;blaSHV-12	blaFOX-5;blaKPC-2;blaSHV-12	True
+ERR1815065	klebsiella	573	CARBAPENEM	blaNDM-19	blaNDM-19	True
+ERR1815065	klebsiella	573	CEPHALOSPORIN	blaNDM-19	blaNDM-19	True
+SRR10116511	klebsiella	573	CARBAPENEM	blaKPC-5	blaKPC-5	True
+SRR10116511	klebsiella	573	CEPHALOSPORIN	blaKPC-5	blaKPC-5	True
+SRR5386562	klebsiella	573	CARBAPENEM	none	none	True
+SRR5386562	klebsiella	573	CEPHALOSPORIN	blaCTX-M-98	blaCTX-M-98	True
+SRR14450187	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14450187	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaKPC-2	blaCTX-M-15;blaDHA-1;blaKPC-2	True
+SRR11841922	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR11841922	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-1	blaDHA-1;blaNDM-1	True
+ERR1289827	klebsiella	573	CARBAPENEM	none	none	True
+ERR1289827	klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaSHV-12	blaCTX-M-9;blaSHV-12	True
+DRR192235	klebsiella	573	CARBAPENEM	blaIMP-6	blaIMP-6	True
+DRR192235	klebsiella	573	CEPHALOSPORIN	blaIMP-6	blaIMP-6	True
+SRR9616070	klebsiella	573	CARBAPENEM	none	none	True
+SRR9616070	klebsiella	573	CEPHALOSPORIN	blaTEM-24	blaTEM-24	True
+SRR16204332	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR16204332	klebsiella	573	CEPHALOSPORIN	blaCMY-140;blaCTX-M-65;blaDHA-1;blaKPC-2	blaCMY-140;blaCTX-M-65;blaDHA-1;blaKPC-2	True
+SRR7012063	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR7012063	klebsiella	573	CEPHALOSPORIN	blaCTX-M-64;blaKPC-2	blaCTX-M-64;blaKPC-2	True
+SRR16108352	klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
+SRR16108352	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaIMP-1	blaCTX-M-14;blaIMP-1	True
+DRR065652	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+DRR065652	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-14;blaVIM-1	blaCMY-2;blaCTX-M-14;blaVIM-1	True
+SRR12329573	klebsiella	573	CARBAPENEM	none	none	True
+SRR12329573	klebsiella	573	CEPHALOSPORIN	blaKPC-31	blaKPC-31	True
+ERR5903322	klebsiella	573	CARBAPENEM	blaVIM-12	blaVIM-12	True
+ERR5903322	klebsiella	573	CEPHALOSPORIN	blaVIM-12	blaVIM-12	True
+SRR12956286	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12956286	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-5	blaKPC-3;blaSHV-5	True
+SRR15098075	klebsiella	573	CARBAPENEM	blaIMP-4	blaIMP-4	True
+SRR15098075	klebsiella	573	CEPHALOSPORIN	blaIMP-4	blaIMP-4	True
+ERR314500	klebsiella	573	CARBAPENEM	none	none	True
+ERR314500	klebsiella	573	CEPHALOSPORIN	blaCTX-M-173	blaCTX-M-173	True
+SRR5386458	klebsiella	573	CARBAPENEM	none	none	True
+SRR5386458	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaFOX-5	blaCTX-M-15;blaFOX-5	True
+SRR17762362	klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-5	blaKPC-3;blaNDM-5	True
+SRR17762362	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaNDM-5	blaKPC-3;blaNDM-5	True
+SRR13077371	klebsiella	573	CARBAPENEM	none	none	True
+SRR13077371	klebsiella	573	CEPHALOSPORIN	blaDHA-1	blaDHA-1	True
+ERR2652673	klebsiella	573	CARBAPENEM	none	none	True
+ERR2652673	klebsiella	573	CEPHALOSPORIN	blaSHV-2	blaSHV-2	True
+SRR9858739	klebsiella	573	CARBAPENEM	none	none	True
+SRR9858739	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-33	blaCTX-M-15;blaKPC-33	True
+SRR6958873	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR6958873	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaCTX-M-65;blaKPC-2	blaCTX-M-55;blaCTX-M-65;blaKPC-2	True
+ERR5060371	klebsiella	573	CARBAPENEM	blaKPC-2;blaOXA-48	blaKPC-2;blaOXA-48	True
+ERR5060371	klebsiella	573	CEPHALOSPORIN	blaKPC-2	blaKPC-2	True
+SRR14565976	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+SRR14565976	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2;blaNDM-1	blaCTX-M-65;blaKPC-2;blaNDM-1	True
+ERR1218734	klebsiella	573	CARBAPENEM	none	none	True
+ERR1218734	klebsiella	573	CEPHALOSPORIN	blaVEB;blaVEB-1	blaVEB;blaVEB-1	True
+SRR14338897	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1;blaOXA-48	blaKPC-2;blaNDM-1;blaOXA-48	True
+SRR14338897	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaNDM-1	blaCTX-M-15;blaKPC-2;blaNDM-1	True
+SRR8607448	klebsiella	573	CARBAPENEM	blaVIM-27	blaVIM-27	True
+SRR8607448	klebsiella	573	CEPHALOSPORIN	blaVEB-1;blaVIM-27	blaVEB-1;blaVIM-27	True
+SRR17785564	klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-1	blaKPC-3;blaNDM-1	True
+SRR17785564	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaNDM-1	blaKPC-3;blaNDM-1	True
+ERR257638	klebsiella	573	CARBAPENEM	none	none	True
+ERR257638	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaSHV-2	blaCTX-M-14;blaCTX-M-15;blaSHV-2	True
+SRR10905788	klebsiella	573	CARBAPENEM	none	none	True
+SRR10905788	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaTEM-12	blaCTX-M-15;blaTEM-12	True
+SRR18212494	klebsiella	573	CARBAPENEM	blaIMP-4;blaKPC-3	blaIMP-4;blaKPC-3	True
+SRR18212494	klebsiella	573	CEPHALOSPORIN	blaIMP-4;blaKPC-3;blaSHV-12	blaIMP-4;blaKPC-3;blaSHV-12	True
+DRR111568	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+DRR111568	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaDHA-1;blaNDM-4	blaCTX-M-65;blaDHA-1;blaNDM-4	True
+SRR15098106	klebsiella	573	CARBAPENEM	none	none	True
+SRR15098106	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15	blaCMY-6;blaCTX-M-15	True
+SRR8291867	klebsiella	573	CARBAPENEM	blaOXA-48;blaVIM-29	blaOXA-48;blaVIM-29	True
+SRR8291867	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaVIM-29	blaCMY-4;blaVIM-29	True
+SRR13246710	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR13246710	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaKPC-2	blaCTX-M-27;blaKPC-2	True
+SRR14449792	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14449792	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaKPC-2	blaCTX-M-3;blaKPC-2	True
+SRR15096601	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR15096601	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-2	blaDHA-1;blaKPC-2	True
+DRR122517	klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
+DRR122517	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVEB-17	blaCTX-M-15;blaVEB-17	True
+ERR1228378	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+ERR1228378	klebsiella	573	CEPHALOSPORIN	blaSHV-134;blaVIM-1	blaSHV-134;blaVIM-1	True
+ERR5442539	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+ERR5442539	klebsiella	573	CEPHALOSPORIN	blaSHV-12;blaVIM-1	blaSHV-12;blaVIM-1	True
+SRR12329571	klebsiella	573	CARBAPENEM	none	none	True
+SRR12329571	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-31	blaCTX-M-15;blaKPC-31	True
+ERR1217188	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR1217188	klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaNDM-1;blaSHV-12	blaCMY-16;blaNDM-1;blaSHV-12	True
+ERR4019941	klebsiella	573	CARBAPENEM	none	none	True
+ERR4019941	klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaDHA-1	blaCTX-M-9;blaDHA-1	True
+ERR3712859	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR3712859	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaCTX-M-15;blaNDM-1	blaCTX-M;blaCTX-M-15;blaNDM-1	True
+ERR2796983	klebsiella	573	CARBAPENEM	none	none	True
+ERR2796983	klebsiella	573	CEPHALOSPORIN	blaDHA-7;blaSHV-12	blaDHA-7;blaSHV-12	True
+SRR4115179	klebsiella	573	CARBAPENEM	none	none	True
+SRR4115179	klebsiella	573	CEPHALOSPORIN	blaSHV-2A	blaSHV-2A	True
+ERR1616763	klebsiella	573	CARBAPENEM	none	none	True
+ERR1616763	klebsiella	573	CEPHALOSPORIN	blaCTX-M-101	blaCTX-M-101	True
+SRR12902736	klebsiella	573	CARBAPENEM	none	none	True
+SRR12902736	klebsiella	573	CEPHALOSPORIN	blaDHA	blaDHA	True
+SRR5666513	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR5666513	klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaKPC-3	blaCTX-M-2;blaKPC-3	True
+DRR150749	klebsiella	573	CARBAPENEM	blaIMP-14	blaIMP-14	True
+DRR150749	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-14	blaCTX-M-15;blaIMP-14	True
+SRR5666507	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR5666507	klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaKPC-3;blaSHV-12	blaCTX-M-2;blaKPC-3;blaSHV-12	True
+ERR1217005	klebsiella	573	CARBAPENEM	none	none	True
+ERR1217005	klebsiella	573	CEPHALOSPORIN	blaCMY-6	blaCMY-6	True
+SRR10686561	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR10686561	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-1;blaTEM-169	blaCTX-M-14;blaCTX-M-15;blaNDM-1;blaTEM-169	True
+DRR057925	klebsiella	573	CARBAPENEM	blaIMP-19	blaIMP-19	True
+DRR057925	klebsiella	573	CEPHALOSPORIN	blaIMP-19	blaIMP-19	True
+DRR065615	klebsiella	573	CARBAPENEM	blaVIM-29	blaVIM-29	True
+DRR065615	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaVIM-29	blaCMY-4;blaCTX-M-15;blaVIM-29	True
+DRR065640	klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
+DRR065640	klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaIMP-1	blaCTX-M-2;blaIMP-1	True
+SRR18212572	klebsiella	573	CARBAPENEM	blaKPC-3;blaOXA-48	blaKPC-3;blaOXA-48	True
+SRR18212572	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaKPC-3	blaCTX-M-14;blaCTX-M-15;blaKPC-3	True
+SRR18217171	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+SRR18217171	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaKPC-2;blaNDM-1	blaCMY-6;blaCTX-M-15;blaKPC-2;blaNDM-1	True
+SRR10444509	klebsiella	573	CARBAPENEM	none	none	True
+SRR10444509	klebsiella	573	CEPHALOSPORIN	blaCMY-8b;blaCTX-M-15;blaVEB-1	blaCMY-8b;blaCTX-M-15;blaVEB-1	True
+SRR12506228	klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-48	blaNDM-5;blaOXA-48	True
+SRR12506228	klebsiella	573	CEPHALOSPORIN	blaNDM-5	blaNDM-5	True
+ERR1217173	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR1217173	klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaNDM-1	blaCMY-16;blaNDM-1	True
+SRR16079113	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR16079113	klebsiella	573	CEPHALOSPORIN	blaDHA-15;blaNDM-1	blaDHA-15;blaNDM-1	True
+DRR065582	klebsiella	573	CARBAPENEM	blaVIM-5	blaVIM-5	True
+DRR065582	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaVIM-5	blaCTX-M-3;blaVIM-5	True
+SRR11841803	klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
+SRR11841803	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-31	blaCTX-M-15;blaSHV-31	True
+SRR16610162	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-5	blaKPC-2;blaNDM-5	True
+SRR16610162	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaNDM-5	blaCTX-M-15;blaKPC-2;blaNDM-5	True
+SRR10223886	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR10223886	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2	blaCTX-M-65;blaKPC-2	True
+SRR10394605	klebsiella	573	CARBAPENEM	none	none	True
+SRR10394605	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-51	blaCTX-M-65;blaKPC-51	True
+ERR6293889	klebsiella	573	CARBAPENEM	none	none	True
+ERR6293889	klebsiella	573	CEPHALOSPORIN	blaSHV-24	blaSHV-24	True
+SRR17304551	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+SRR17304551	klebsiella	573	CEPHALOSPORIN	blaSHV-120	blaSHV-120	True
+SRR10116532	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR10116532	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-3;blaSHV-12	blaCMY-2;blaKPC-3;blaSHV-12	True
+SRR14449844	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR14449844	klebsiella	573	CEPHALOSPORIN	blaCTX-M-1;blaNDM-1	blaCTX-M-1;blaNDM-1	True
+SRR4198668	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR4198668	klebsiella	573	CEPHALOSPORIN	blaKLUC-2;blaKPC-3	blaKLUC-2;blaKPC-3	True
+SRR5884866	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR5884866	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-2;blaKPC-2	blaCTX-M-15;blaCTX-M-2;blaKPC-2	True
+SRR16242794	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR16242794	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-65;blaNDM-1	blaCMY-6;blaCTX-M-65;blaNDM-1	True
+DRR198038	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+DRR198038	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7	blaCTX-M-15;blaNDM-7	True
+SRR10028331	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR10028331	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaSHV-38	blaCTX-M-15;blaKPC-2;blaSHV-38	True
+ERR1228361	klebsiella	573	CARBAPENEM	none	none	True
+ERR1228361	klebsiella	573	CEPHALOSPORIN	blaCMY-30	blaCMY-30	True
+SRR14532083	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR14532083	klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaKPC-3;blaSHV-12	blaFOX-5;blaKPC-3;blaSHV-12	True
+SRR10444515	klebsiella	573	CARBAPENEM	none	none	True
+SRR10444515	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaGES-9	blaCTX-M-15;blaGES-9	True
+SRR15254030	klebsiella	573	CARBAPENEM	blaNDM-4;blaOXA-181	blaNDM-4;blaOXA-181	True
+SRR15254030	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaNDM-4	blaCMY-2;blaCTX-M-15;blaNDM-4	True
+DRR065586	klebsiella	573	CARBAPENEM	blaVIM-33	blaVIM-33	True
+DRR065586	klebsiella	573	CEPHALOSPORIN	blaVIM-33	blaVIM-33	True
+SRR12233555	klebsiella	573	CARBAPENEM	none	none	True
+SRR12233555	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaSHV-12	blaDHA-1;blaSHV-12	True
+DRR065575	klebsiella	573	CARBAPENEM	blaIMP-26	blaIMP-26	True
+DRR065575	klebsiella	573	CEPHALOSPORIN	blaIMP-26	blaIMP-26	True
+ERR1216959	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+ERR1216959	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaSHV-12	blaCTX-M-14;blaSHV-12	True
+SRR17308990	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-232	blaNDM-1;blaOXA-232	True
+SRR17308990	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
+SRR14449630	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14449630	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-12	blaKPC-2;blaSHV-12	True
+SRR14611240	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+SRR14611240	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaDHA-1;blaNDM-5	blaCTX-M-55;blaDHA-1;blaNDM-5	True
+ERR1218766	klebsiella	573	CARBAPENEM	none	none	True
+ERR1218766	klebsiella	573	CEPHALOSPORIN	blaCTX-M-40	blaCTX-M-40	True
+DRR150716	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+DRR150716	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5;blaSHV-12	blaCTX-M-15;blaNDM-5;blaSHV-12	True
+ERR8288645	klebsiella	573	CARBAPENEM	none	none	True
+ERR8288645	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaSHV-38	blaCTX-M-27;blaSHV-38	True
+SRR15064938	klebsiella	573	CARBAPENEM	none	none	True
+SRR15064938	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaSHV-2A	blaDHA-1;blaSHV-2A	True
+SRR17304065	klebsiella	573	CARBAPENEM	blaGES-5	blaGES-5	True
+SRR17304065	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaDHA-1;blaGES;blaGES-5	blaCTX-M-55;blaDHA-1;blaGES;blaGES-5	True
+SRR13246623	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+SRR13246623	klebsiella	573	CEPHALOSPORIN	blaNDM-4;blaSHV-12	blaNDM-4;blaSHV-12	True
+DRR065625	klebsiella	573	CARBAPENEM	blaIMP-14	blaIMP-14	True
+DRR065625	klebsiella	573	CEPHALOSPORIN	blaIMP-14;blaSHV-5	blaIMP-14;blaSHV-5	True
+SRR11971460	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+SRR11971460	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaNDM-5	blaCTX-M-14;blaDHA-1;blaNDM-5	True
+SRR18208078	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+SRR18208078	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaTEM-155	blaCTX-M-14;blaCTX-M-15;blaTEM-155	True
+ERR3518846	klebsiella	573	CARBAPENEM	blaKPC;blaKPC-2	blaKPC;blaKPC-2	True
+ERR3518846	klebsiella	573	CEPHALOSPORIN	blaKPC;blaKPC-2	blaKPC;blaKPC-2	True
+DRR178447	klebsiella	573	CARBAPENEM	blaIMP-11	blaIMP-11	True
+DRR178447	klebsiella	573	CEPHALOSPORIN	blaIMP-11	blaIMP-11	True
+SRR12329569	klebsiella	573	CARBAPENEM	none	none	True
+SRR12329569	klebsiella	573	CEPHALOSPORIN	blaKPC-39	blaKPC-39	True
+DRR065578	klebsiella	573	CARBAPENEM	blaIMP-4	blaIMP-4	True
+DRR065578	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-4	blaCTX-M-15;blaIMP-4	True
+ERR3772337	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
+ERR3772337	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaNDM-1	blaCMY-4;blaNDM-1	True
+SRR6844953	klebsiella	573	CARBAPENEM	blaKPC-56	blaKPC-56	True
+SRR6844953	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-56	blaCTX-M-15;blaKPC-56	True
+SRR14433878	klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-7	blaKPC-3;blaNDM-7	True
+SRR14433878	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaNDM-7;blaSHV-12	blaKPC-3;blaNDM-7;blaSHV-12	True
+DRR179999	klebsiella	573	CARBAPENEM	blaGES-24	blaGES-24	True
+DRR179999	klebsiella	573	CEPHALOSPORIN	blaGES-24	blaGES-24	True
+ERR1217275	klebsiella	573	CARBAPENEM	none	none	True
+ERR1217275	klebsiella	573	CEPHALOSPORIN	blaCTX-M-36	blaCTX-M-36	True
+SRR6710929	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR6710929	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaFOX-5;blaKPC-2	blaCTX-M-15;blaFOX-5;blaKPC-2	True
+SRR17304460	klebsiella	573	CARBAPENEM	blaVIM-4	blaVIM-4	True
+SRR17304460	klebsiella	573	CEPHALOSPORIN	blaACC-1;blaVIM-4	blaACC-1;blaVIM-4	True
+ERR3164645	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+ERR3164645	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-3	blaDHA-1;blaKPC-3	True
+SRR16079200	klebsiella	573	CARBAPENEM	blaIMP-1;blaNDM-1	blaIMP-1;blaNDM-1	True
+SRR16079200	klebsiella	573	CEPHALOSPORIN	blaIMP-1;blaNDM-1	blaIMP-1;blaNDM-1	True
+SRR16079034	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR16079034	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-5	blaCTX-M-15;blaNDM-1;blaSHV-5	True
+ERR2743746	klebsiella	573	CARBAPENEM	none	none	True
+ERR2743746	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-8	blaCTX-M-15;blaCTX-M-8	True
+ERR1761538	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+ERR1761538	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3;blaSHV-12	blaCTX-M-15;blaKPC-3;blaSHV-12	True
+DRR101002	klebsiella	573	CARBAPENEM	blaGES-5	blaGES-5	True
+DRR101002	klebsiella	573	CEPHALOSPORIN	blaDHA-17;blaGES-5;blaSHV-12	blaDHA-1;blaGES-5;blaOXA-17;blaSHV-12	False
+SRR2244254	klebsiella	573	CARBAPENEM	blaGES-5	blaGES-5	True
+SRR2244254	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaGES-5	blaCTX-M-15;blaGES-5	True
+SRR14861788	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR14861788	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-2A	blaCTX-M-15;blaNDM-1;blaSHV-2A	True
+ERR1618836	klebsiella	573	CARBAPENEM	none	none	True
+ERR1618836	klebsiella	573	CEPHALOSPORIN	blaCTX-M-32	blaCTX-M-32	True
+SRR12956404	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12956404	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaTEM-191	blaKPC-3;blaTEM-191	True
+ERR775629	klebsiella	573	CARBAPENEM	none	none	True
+ERR775629	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaVEB-5	blaCMY-2;blaCTX-M-15;blaVEB-5	True
+ERR486408	klebsiella	573	CARBAPENEM	blaVIM	blaVIM	True
+ERR486408	klebsiella	573	CEPHALOSPORIN	blaVIM	blaVIM	True
+SRR1561224	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR1561224	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-2A	blaKPC-2;blaSHV-2A	True
+SRR16242798	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+SRR16242798	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-65;blaKPC-2;blaNDM-1	blaCMY-6;blaCTX-M-65;blaKPC-2;blaNDM-1	True
+ERR3713041	klebsiella	573	CARBAPENEM	blaKPC-85	blaKPC-85	True
+ERR3713041	klebsiella	573	CEPHALOSPORIN	blaKPC-85	blaKPC-85	True
+SRR9734768	klebsiella	573	CARBAPENEM	blaIMP-4	blaIMP-4	True
+SRR9734768	klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaIMP-4	blaCTX-M-9;blaIMP-4	True
+SRR5386817	klebsiella	573	CARBAPENEM	none	none	True
+SRR5386817	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaTEM-19	blaCTX-M-15;blaTEM-19	True
+SRR10397953	klebsiella	573	CARBAPENEM	none	none	True
+SRR10397953	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-33	blaDHA-1;blaKPC-33	True
+SRR10116638	klebsiella	573	CARBAPENEM	none	none	True
+SRR10116638	klebsiella	573	CEPHALOSPORIN	blaTEM-26	blaTEM-26	True
+ERR5442531	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+ERR5442531	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-4	blaCTX-M-14;blaCTX-M-15;blaNDM-4	True
+SRR5270325	klebsiella	573	CARBAPENEM	none	none	True
+SRR5270325	klebsiella	573	CEPHALOSPORIN	blaCTX-M-10	blaCTX-M-10	True
+SRR14449786	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14449786	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaCTX-M-65;blaKPC-2;blaSHV-12	blaCTX-M-3;blaCTX-M-65;blaKPC-2;blaSHV-12	True
+SRR14450170	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14450170	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaCTX-M-65;blaKPC-2	blaCTX-M-3;blaCTX-M-65;blaKPC-2	True
+SRR14449822	klebsiella	573	CARBAPENEM	none	none	True
+SRR14449822	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaCTX-M-2	blaCTX-M;blaCTX-M-2	True
+SRR6958787	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR6958787	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaNDM-1	blaCTX-M-55;blaNDM-1	True
+SRR14449325	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14449325	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-65;blaDHA-1;blaKPC-2	blaCTX-M-15;blaCTX-M-65;blaDHA-1;blaKPC-2	True
+SRR6656629	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+SRR6656629	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+SRR13159134	klebsiella	573	CARBAPENEM	none	none	True
+SRR13159134	klebsiella	573	CEPHALOSPORIN	blaKPC-66	blaKPC-66	True
+SRR17302241	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+SRR17302241	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaNDM-1	blaCTX-M-15;blaKPC-2;blaNDM-1	True
+SRR14532073	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR14532073	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaVEB-9	blaKPC-3;blaVEB-9	True
+SRR10397951	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR10397951	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-2;blaSHV-12	blaDHA-1;blaKPC-2;blaSHV-12	True
+SRR12956290	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12956290	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-12;blaVEB-9	blaKPC-3;blaSHV-12;blaVEB-9	True
+SRR9734829	klebsiella	573	CARBAPENEM	blaNDM-4;blaOXA-181	blaNDM-4;blaOXA-181	True
+SRR9734829	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-27;blaNDM-4	blaCTX-M-15;blaCTX-M-27;blaNDM-4	True
+DRR150707	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+DRR150707	klebsiella	573	CEPHALOSPORIN	blaNDM-1;blaSHV-12	blaNDM-1;blaSHV-12	True
+SRR14402653	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR14402653	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaTEM-26	blaKPC-3;blaTEM-26	True
+ERR3162604	klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-232	blaNDM-5;blaOXA-232	True
+ERR3162604	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5	blaCTX-M-15;blaNDM-5	True
+SRR1561362	klebsiella	573	CARBAPENEM	blaVIM-27	blaVIM-27	True
+SRR1561362	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVIM-27	blaCTX-M-15;blaVIM-27	True
+SRR9734549	klebsiella	573	CARBAPENEM	blaVIM-5	blaVIM-5	True
+SRR9734549	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVIM-5	blaCTX-M-15;blaVIM-5	True
+SRR9734577	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+SRR9734577	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaNDM-4	blaCTX-M-14;blaDHA-1;blaNDM-4	True
+SRR16242782	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR16242782	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-2;blaSHV-12	blaCTX-M-65;blaKPC-2;blaSHV-12	True
+ERR5319290	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+ERR5319290	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaVIM-1	blaDHA-1;blaVIM-1	True
+SRR12902690	klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-4	blaKPC-2;blaVIM-4	True
+SRR12902690	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaVIM-4	blaKPC-2;blaVIM-4	True
+SRR12056269	klebsiella	573	CARBAPENEM	none	none	True
+SRR12056269	klebsiella	573	CEPHALOSPORIN	blaFOX-5	blaFOX-5	True
+SRR14707624	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14707624	klebsiella	573	CEPHALOSPORIN	blaCTX-M-24;blaKPC-2	blaCTX-M-24;blaKPC-2	True
+SRR8581242	klebsiella	573	CARBAPENEM	blaNDM-29	blaNDM-29	True
+SRR8581242	klebsiella	573	CEPHALOSPORIN	blaNDM-29	blaNDM-29	True
+DRR125037	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+DRR125037	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaVEB-1	blaCTX-M-15;blaKPC-2;blaVEB-1	True
+ERR2303406	klebsiella	573	CARBAPENEM	none	none	True
+ERR2303406	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaCTX-M-63	blaCTX-M-27;blaCTX-M-63	True
+SRR11362725	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR11362725	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaKPC-2	blaCTX-M-14;blaCTX-M-15;blaKPC-2	True
+SRR14532108	klebsiella	573	CARBAPENEM	blaKPC	blaKPC	True
+SRR14532108	klebsiella	573	CEPHALOSPORIN	blaKPC;blaVEB-9	blaKPC;blaVEB-9	True
+SRR18175620	klebsiella	573	CARBAPENEM	none	none	True
+SRR18175620	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaSHV-5	blaCMY-2;blaCTX-M-15;blaSHV-5	True
+SRR14402363	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR14402363	klebsiella	573	CEPHALOSPORIN	blaNDM-1;blaSHV-7	blaNDM-1;blaSHV-7	True
+SRR13158484	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-181	blaNDM-1;blaOXA-181	True
+SRR13158484	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaNDM-1;blaVEB-5	blaCMY-6;blaNDM-1;blaVEB-5	True
+ERR2303504	klebsiella	573	CARBAPENEM	none	none	True
+ERR2303504	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27	blaCTX-M-27	True
+SRR6710177	klebsiella	573	CARBAPENEM	blaKPC;blaKPC-2	blaKPC;blaKPC-2	True
+SRR6710177	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC;blaKPC-2	blaCTX-M-15;blaKPC;blaKPC-2	True
+SRR6067068	klebsiella	573	CARBAPENEM	none	none	True
+SRR6067068	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaDHA-1	blaCTX-M-55;blaDHA-1	True
+ERR3081548	klebsiella	573	CARBAPENEM	blaNDM-23	blaNDM-23	True
+ERR3081548	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-23	blaCTX-M-15;blaNDM-23	True
+ERR1334737	klebsiella	573	CARBAPENEM	none	none	True
+ERR1334737	klebsiella	573	CEPHALOSPORIN	blaCTX-M-1;blaDHA-1	blaCTX-M-1;blaDHA-1	True
+SRR12956521	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12956521	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-31	blaKPC-3;blaSHV-31	True
+SRR14449809	klebsiella	573	CARBAPENEM	none	none	True
+SRR14449809	klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaCTX-M-3	blaCTX-M-2;blaCTX-M-3	True
+SRR14449998	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR14449998	klebsiella	573	CEPHALOSPORIN	blaCTX-M-1;blaKPC-3	blaCTX-M-1;blaKPC-3	True
+ERR1541263	klebsiella	573	CARBAPENEM	blaOXA-427	blaOXA-427	True
+ERR1541263	klebsiella	573	CEPHALOSPORIN	none	none	True
+DRR199247	klebsiella	573	CARBAPENEM	none	none	True
+DRR199247	klebsiella	573	CEPHALOSPORIN	blaGES-3	blaGES-3	True
+SRR10673210	klebsiella	573	CARBAPENEM	none	none	True
+SRR10673210	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaDHA-1	blaCTX-M-65;blaDHA-1	True
+SRR5386504	klebsiella	573	CARBAPENEM	none	none	True
+SRR5386504	klebsiella	573	CEPHALOSPORIN	blaDHA-15	blaDHA-15	True
+ERR3518851	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+ERR3518851	klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaKPC-2	blaCTX-M-2;blaKPC-2	True
+SRR13081092	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR13081092	klebsiella	573	CEPHALOSPORIN	blaNDM-1;blaTEM-26	blaNDM-1;blaTEM-26	True
+SRR1561318	klebsiella	573	CARBAPENEM	none	none	True
+SRR1561318	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaSHV-12	blaCMY-2;blaSHV-12	True
+SRR9616067	klebsiella	573	CARBAPENEM	none	none	True
+SRR9616067	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-38	blaCTX-M-15;blaSHV-38	True
+SRR15047166	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+SRR15047166	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-5	blaDHA-1;blaNDM-5	True
+ERR2743745	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+ERR2743745	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-8;blaKPC-2	blaCTX-M-15;blaCTX-M-8;blaKPC-2	True
+ERR3562153	klebsiella	573	CARBAPENEM	none	none	True
+ERR3562153	klebsiella	573	CEPHALOSPORIN	blaTEM-12	blaTEM-12	True
+ERR2303482	klebsiella	573	CARBAPENEM	none	none	True
+ERR2303482	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-27	blaCTX-M-15;blaCTX-M-27	True
+SRR12508884	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12508884	klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaKPC-3	blaFOX-5;blaKPC-3	True
+DRR067538	klebsiella	573	CARBAPENEM	none	none	True
+DRR067538	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-8	blaCTX-M-14;blaCTX-M-8	True
+SRR15695670	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR15695670	klebsiella	573	CEPHALOSPORIN	blaGES-9;blaNDM-1	blaGES-9;blaNDM-1	True
+SRR18175604	klebsiella	573	CARBAPENEM	none	none	True
+SRR18175604	klebsiella	573	CEPHALOSPORIN	blaCTX-M-163	blaCTX-M-163	True
+DRR125016	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+DRR125016	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaVEB-1	blaCTX-M-15;blaNDM-1;blaVEB-1	True
+ERR2008089	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR2008089	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM-1	blaCMY-6;blaCTX-M-15;blaNDM-1	True
+SRR6958737	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+SRR6958737	klebsiella	573	CEPHALOSPORIN	blaCTX-M-199;blaNDM-5	blaCTX-M-199;blaNDM-5	True
+SRR10394933	klebsiella	573	CARBAPENEM	none	none	True
+SRR10394933	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-33	blaCTX-M-65;blaKPC-33	True
+SRR12509246	klebsiella	573	CARBAPENEM	blaKPC-8	blaKPC-8	True
+SRR12509246	klebsiella	573	CEPHALOSPORIN	blaKPC-8	blaKPC-8	True
+SRR15362805	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+SRR15362805	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5	blaCTX-M-15;blaNDM-5	True
+ERR6294258	klebsiella	573	CARBAPENEM	none	none	True
+ERR6294258	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaTEM-169	blaCTX-M-15;blaTEM-169	True
+SRR12509236	klebsiella	573	CARBAPENEM	none	none	True
+SRR12509236	klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaSHV-12	blaFOX-5;blaSHV-12	True
+SRR14402464	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR14402464	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC-3	blaCTX-M-14;blaKPC-3	True
+SRR17303731	klebsiella	573	CARBAPENEM	blaVIM-4	blaVIM-4	True
+SRR17303731	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaVIM-4	blaCMY-4;blaVIM-4	True
+SRR5385685	klebsiella	573	CARBAPENEM	none	none	True
+SRR5385685	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-7	blaCTX-M-15;blaSHV-7	True
+SRR11841816	klebsiella	573	CARBAPENEM	blaKPC-2;blaOXA-232	blaKPC-2;blaOXA-232	True
+SRR11841816	klebsiella	573	CEPHALOSPORIN	blaKPC-2	blaKPC-2	True
+SRR8607449	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR8607449	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-12;blaVEB-1	blaKPC-2;blaSHV-12;blaVEB-1	True
+SRR16133938	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR16133938	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaFOX-5;blaNDM-1	blaCTX-M-15;blaFOX-5;blaNDM-1	True
+SRR1561276	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR1561276	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaKPC-3	blaCTX-M-3;blaKPC-3	True
+DRR065589	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+DRR065589	klebsiella	573	CEPHALOSPORIN	blaSHV-5;blaVIM-1	blaSHV-5;blaVIM-1	True
+SRR1561209	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR1561209	klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaKPC-2;blaSHV-2A	blaCTX-M-2;blaKPC-2;blaSHV-2A	True
+ERR6293860	klebsiella	573	CARBAPENEM	none	none	True
+ERR6293860	klebsiella	573	CEPHALOSPORIN	blaCTX-M-24	blaCTX-M-24	True
+SRR13077372	klebsiella	573	CARBAPENEM	none	none	True
+SRR13077372	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-9;blaDHA-1	blaCTX-M-15;blaCTX-M-9;blaDHA-1	True
+SRR18212780	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+SRR18212780	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15	blaCTX-M-14;blaCTX-M-15	True
+SRR17762349	klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-181	blaNDM-5;blaOXA-181	True
+SRR17762349	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5	blaCTX-M-15;blaNDM-5	True
+SRR17303640	klebsiella	573	CARBAPENEM	blaNDM-4;blaOXA-48	blaNDM-4;blaOXA-48	True
+SRR17303640	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-4	blaCTX-M-14;blaNDM-4	True
+ERR486291	klebsiella	573	CARBAPENEM	none	none	True
+ERR486291	klebsiella	573	CEPHALOSPORIN	blaCTX-M-26	blaCTX-M-26	True
+SRR17303641	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR17303641	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-12	blaCTX-M-15;blaNDM-1;blaSHV-12	True
+SRR14197424	klebsiella	573	CARBAPENEM	blaKPC;blaKPC-2;blaNDM-1	blaKPC;blaKPC-2;blaNDM-1	True
+SRR14197424	klebsiella	573	CEPHALOSPORIN	blaKPC;blaKPC-2;blaNDM-1	blaKPC;blaKPC-2;blaNDM-1	True
+SRR10442773	klebsiella	573	CARBAPENEM	none	none	True
+SRR10442773	klebsiella	573	CEPHALOSPORIN	blaCTX-M-115	blaCTX-M-115	True
+DRR150689	klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
+DRR150689	klebsiella	573	CEPHALOSPORIN	blaSHV-12	blaSHV-12	True
+ERR1415759	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
+ERR1415759	klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaCTX-M-15;blaNDM-1	blaCMY-16;blaCTX-M-15;blaNDM-1	True
+SRR14450016	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1;blaVIM-24	blaKPC-2;blaNDM-1;blaVIM-24	True
+SRR14450016	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-1;blaVIM-24	blaKPC-2;blaNDM-1;blaVIM-24	True
+ERR1541544	klebsiella	573	CARBAPENEM	none	none	True
+ERR1541544	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaDHA-1	blaCTX-M;blaDHA-1	True
+ERR6293450	klebsiella	573	CARBAPENEM	blaNDM-23;blaOXA-48	blaNDM-23;blaOXA-48	True
+ERR6293450	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-23	blaCTX-M-15;blaNDM-23	True
+ERR3712405	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR3712405	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1;blaSHV-31	blaCTX-M-15;blaNDM-1;blaSHV-31	True
+SRR10116508	klebsiella	573	CARBAPENEM	blaKPC-5	blaKPC-5	True
+SRR10116508	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-5	blaCMY-2;blaKPC-5	True
+SRR9858854	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR9858854	klebsiella	573	CEPHALOSPORIN	blaFOX-5;blaKPC-2	blaFOX-5;blaKPC-2	True
+ERR5442472	klebsiella	573	CARBAPENEM	none	none	True
+ERR5442472	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaCTX-M-15	blaCTX-M;blaCTX-M-15	True
+SRR12149867	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR12149867	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaDHA-1;blaNDM-1	blaCMY-6;blaDHA-1;blaNDM-1	True
+SRR14450043	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR14450043	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaNDM-1;blaTEM-26	blaCMY-2;blaNDM-1;blaTEM-26	True
+ERR1334603	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+ERR1334603	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaVIM-1	blaCMY-4;blaVIM-1	True
+SRR15507628	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR15507628	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaNDM-1	blaCTX-M-3;blaNDM-1	True
+SRR5386834	klebsiella	573	CARBAPENEM	none	none	True
+SRR5386834	klebsiella	573	CEPHALOSPORIN	blaSHV-7	blaSHV-7	True
+SRR17179518	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+SRR17179518	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-14;blaCTX-M-15	blaCMY-6;blaCTX-M-14;blaCTX-M-15	True
+DRR205599	klebsiella	573	CARBAPENEM	blaNDM-1;blaVIM-1	blaNDM-1;blaVIM-1	True
+DRR205599	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-9;blaNDM-1;blaVIM-1	blaCTX-M-15;blaCTX-M-9;blaNDM-1;blaVIM-1	True
+SRR17308623	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR17308623	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaNDM-1	blaCMY-2;blaNDM-1	True
+SRR16242773	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR16242773	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-3;blaNDM-1	blaCMY-6;blaCTX-M-3;blaNDM-1	True
+ERR5442405	klebsiella	573	CARBAPENEM	none	none	True
+ERR5442405	klebsiella	573	CEPHALOSPORIN	blaSHV-5	blaSHV-5	True
+SRR3222415	klebsiella	573	CARBAPENEM	none	none	True
+SRR3222415	klebsiella	573	CEPHALOSPORIN	blaCTX-M-1563	blaCTX-M-15;blaOXA-163	False
+SRR5082451	klebsiella	573	CARBAPENEM	none	none	True
+SRR5082451	klebsiella	573	CEPHALOSPORIN	blaCTX-M-62	blaCTX-M-62	True
+SRR9858642	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR9858642	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-7	blaKPC-2;blaSHV-7	True
+SRR17308417	klebsiella	573	CARBAPENEM	blaOXA-484	blaOXA-484	True
+SRR17308417	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
+SRR7540320	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR7540320	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-65;blaKPC-2	blaCTX-M-15;blaCTX-M-65;blaKPC-2	True
+SRR5386870	klebsiella	573	CARBAPENEM	none	none	True
+SRR5386870	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaTEM-52	blaCTX-M-15;blaTEM-52	True
+SRR15827919	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+SRR15827919	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-7	blaCTX-M-27;blaNDM-7	True
+ERR2303397	klebsiella	573	CARBAPENEM	none	none	True
+ERR2303397	klebsiella	573	CEPHALOSPORIN	blaCTX-M-63;blaDHA-1	blaCTX-M-63;blaDHA-1	True
+SRR1561215	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR1561215	klebsiella	573	CEPHALOSPORIN	blaCTX-M-12;blaKPC-3	blaCTX-M-12;blaKPC-3	True
+SRR15097936	klebsiella	573	CARBAPENEM	none	none	True
+SRR15097936	klebsiella	573	CEPHALOSPORIN	blaKPC-33	blaKPC-33	True
+DRR065596	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+DRR065596	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVIM-1	blaCTX-M-15;blaVIM-1	True
+SRR12508794	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR12508794	klebsiella	573	CEPHALOSPORIN	blaCTX-M-115;blaCTX-M-15;blaKPC-2	blaCTX-M-115;blaCTX-M-15;blaKPC-2	True
+SRR12783030	klebsiella	573	CARBAPENEM	blaOXA-244	blaOXA-244	True
+SRR12783030	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
+SRR5877516	klebsiella	573	CARBAPENEM	none	none	True
+SRR5877516	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1	blaCTX-M-14;blaDHA-1	True
+SRR14449681	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1	blaKPC-2;blaNDM-1	True
+SRR14449681	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-1;blaTEM-26	blaKPC-2;blaNDM-1;blaTEM-26	True
+SRR1561360	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR1561360	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-31	blaKPC-2;blaSHV-31	True
+SRR3928959	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR3928959	klebsiella	573	CEPHALOSPORIN	blaCTX-M-143;blaNDM-1	blaCTX-M-143;blaNDM-1	True
+SRR18175551	klebsiella	573	CARBAPENEM	none	none	True
+SRR18175551	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55	blaCTX-M-55	True
+SRR10376959	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR10376959	klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaKPC-2	blaCMY-16;blaKPC-2	True
+SRR17302632	klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
+SRR17302632	klebsiella	573	CEPHALOSPORIN	blaIMP-1	blaIMP-1	True
+SRR8286520	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR8286520	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC-2;blaSHV-12	blaCTX-M-14;blaKPC-2;blaSHV-12	True
+ERR1541448	klebsiella	573	CARBAPENEM	blaOXA-48;blaVIM-1	blaOXA-48;blaVIM-1	True
+ERR1541448	klebsiella	573	CEPHALOSPORIN	blaVIM-1	blaVIM-1	True
+DRR199310	klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
+DRR199310	klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaDHA-1;blaIMP-1	blaCTX-M-2;blaDHA-1;blaIMP-1	True
+ERR1541491	klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
+ERR1541491	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-1	blaCTX-M-15;blaIMP-1	True
+ERR1205063	klebsiella	573	CARBAPENEM	blaOXA-204	blaOXA-204	True
+ERR1205063	klebsiella	573	CEPHALOSPORIN	blaCMY-4	blaCMY-4	True
+ERR5685165	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR5685165	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM-1;blaVEB-5	blaCMY-6;blaCTX-M-15;blaNDM-1;blaVEB-5	True
+SRR18212668	klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-5	blaKPC-3;blaNDM-5	True
+SRR18212668	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3;blaNDM-5	blaCTX-M-15;blaKPC-3;blaNDM-5	True
+ERR1334601	klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-1	blaKPC-2;blaVIM-1	True
+ERR1334601	klebsiella	573	CEPHALOSPORIN	blaCMY-13;blaKPC-2;blaVIM-1	blaCMY-13;blaKPC-2;blaVIM-1	True
+DRR065581	klebsiella	573	CARBAPENEM	blaVIM-26	blaVIM-26	True
+DRR065581	klebsiella	573	CEPHALOSPORIN	blaSHV-5;blaVIM-26	blaSHV-5;blaVIM-26	True
+SRR14449941	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR14449941	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaNDM-1	blaCTX-M-14;blaDHA-1;blaNDM-1	True
+SRR2965683	klebsiella	573	CARBAPENEM	blaKPC-4	blaKPC-4	True
+SRR2965683	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-4	blaCTX-M-15;blaKPC-4	True
+SRR15695535	klebsiella	573	CARBAPENEM	blaIMP-26;blaVIM-4	blaIMP-26;blaVIM-4	True
+SRR15695535	klebsiella	573	CEPHALOSPORIN	blaIMP-26;blaVIM-4	blaIMP-26;blaVIM-4	True
+ERR5216591	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+ERR5216591	klebsiella	573	CEPHALOSPORIN	blaCTX-M-58	blaCTX-M-58	True
+SRR6958753	klebsiella	573	CARBAPENEM	blaIMP-4	blaIMP-4	True
+SRR6958753	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaDHA-1;blaIMP-4	blaCTX-M-14;blaDHA-1;blaIMP-4	True
+SRR14449706	klebsiella	573	CARBAPENEM	none	none	True
+SRR14449706	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-2	blaCTX-M-15;blaCTX-M-2	True
+ERR1289773	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+ERR1289773	klebsiella	573	CEPHALOSPORIN	blaCMY;blaVIM-1	blaCMY;blaVIM-1	True
+SRR8607450	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR8607450	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaVEB-1	blaKPC-2;blaVEB-1	True
+ERR1795075	klebsiella	573	CARBAPENEM	blaKPC-23	blaKPC-23	True
+ERR1795075	klebsiella	573	CEPHALOSPORIN	blaKPC-23	blaKPC-23	True
+SRR1561212	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR1561212	klebsiella	573	CEPHALOSPORIN	blaKPC-3	blaKPC-3	True
+SRR14449986	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR14449986	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3	blaCTX-M-15;blaKPC-3	True
+SRR16078937	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR16078937	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-27;blaNDM-1	blaCMY-6;blaCTX-M-27;blaNDM-1	True
+ERR1217254	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+ERR1217254	klebsiella	573	CEPHALOSPORIN	blaCMY-16;blaKPC-3	blaCMY-16;blaKPC-3	True
+SRR16204311	klebsiella	573	CARBAPENEM	blaIMP-8	blaIMP-8	True
+SRR16204311	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaIMP-8	blaCTX-M-3;blaIMP-8	True
+SRR17302855	klebsiella	573	CARBAPENEM	blaVIM-19	blaVIM-19	True
+SRR17302855	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaVIM-19	blaCMY-4;blaVIM-19	True
+SRR16069088	klebsiella	573	CARBAPENEM	blaIMP-4	blaIMP-4	True
+SRR16069088	klebsiella	573	CEPHALOSPORIN	blaIMP-4;blaPER-1;blaSHV-12	blaIMP-4;blaPER-1;blaSHV-12	True
+ERR2743754	klebsiella	573	CARBAPENEM	blaKPC	blaKPC	True
+ERR2743754	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC	blaCTX-M-14;blaKPC	True
+SRR14449469	klebsiella	573	CARBAPENEM	blaKPC	blaKPC	True
+SRR14449469	klebsiella	573	CEPHALOSPORIN	blaKPC;blaSHV-12	blaKPC;blaSHV-12	True
+SRR7828806	klebsiella	573	CARBAPENEM	none	none	True
+SRR7828806	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
+SRR5385857	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR5385857	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2;blaSHV-12	blaCTX-M-15;blaKPC-2;blaSHV-12	True
+SRR16479871	klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-181	blaNDM-5;blaOXA-181	True
+SRR16479871	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-1;blaNDM-5	blaCTX-M-15;blaDHA-1;blaNDM-5	True
+ERR6415319	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
+ERR6415319	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaNDM-1;blaSHV-12	blaCMY-4;blaNDM-1;blaSHV-12	True
+DRR065660	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+DRR065660	klebsiella	573	CEPHALOSPORIN	blaMOX-2;blaVIM-1	blaMOX-2;blaVIM-1	True
+SRR12921207	klebsiella	573	CARBAPENEM	none	none	True
+SRR12921207	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15	blaCMY-2;blaCTX-M-15	True
+DRR238837	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+DRR238837	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaNDM-5	blaCTX-M-27;blaNDM-5	True
+ERR3891161	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+ERR3891161	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaSHV-12	blaCTX-M-15;blaSHV-12	True
+ERR1205067	klebsiella	573	CARBAPENEM	none	none	True
+ERR1205067	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaDHA-1	blaCTX-M-3;blaDHA-1	True
+SRR2244256	klebsiella	573	CARBAPENEM	blaGES-5	blaGES-5	True
+SRR2244256	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaGES-5;blaSHV-12	blaCTX-M-15;blaGES-5;blaSHV-12	True
+SRR15695566	klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
+SRR15695566	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-1;blaSHV-12	blaCTX-M-15;blaIMP-1;blaSHV-12	True
+DRR125025	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+DRR125025	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaNDM-1;blaSHV-2	blaCTX-M-55;blaNDM-1;blaSHV-2	True
+SRR6763944	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR6763944	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC-3;blaSHV-12	blaCTX-M-14;blaKPC-3;blaSHV-12	True
+SRR6836086	klebsiella	573	CARBAPENEM	blaKPC-65	blaKPC-65	True
+SRR6836086	klebsiella	573	CEPHALOSPORIN	blaKPC-65	blaKPC-65	True
+SRR12898955	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR12898955	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaNDM-1	blaCTX-M-14;blaCTX-M-15;blaNDM-1	True
+SRR17818575	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-5	blaKPC-2;blaNDM-5	True
+SRR17818575	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaNDM-5	blaKPC-2;blaNDM-5	True
+ERR264521	klebsiella	573	CARBAPENEM	blaOXA-245	blaOXA-245	True
+ERR264521	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-55	blaCMY-2;blaCTX-M-55	True
+SRR16761281	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR16761281	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaKPC-2;blaSHV-12	blaCMY-2;blaKPC-2;blaSHV-12	True
+SRR4017828	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR4017828	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaSHV-5	blaKPC-2;blaSHV-5	True
+SRR18208172	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR18208172	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-27;blaNDM-1	blaCTX-M-15;blaCTX-M-27;blaNDM-1	True
+SRR10728192	klebsiella	573	CARBAPENEM	none	none	True
+SRR10728192	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14	blaCTX-M-14	True
+SRR14181248	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+SRR14181248	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-7	blaDHA-1;blaNDM-7	True
+SRR12509561	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR12509561	klebsiella	573	CEPHALOSPORIN	blaCTX-M-55;blaKPC-3	blaCTX-M-55;blaKPC-3	True
+ERR3712762	klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
+ERR3712762	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
+DRR065606	klebsiella	573	CARBAPENEM	blaIMP-26	blaIMP-26	True
+DRR065606	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaIMP-26	blaCTX-M-15;blaIMP-26	True
+ERR486768	klebsiella	573	CARBAPENEM	none	none	True
+ERR486768	klebsiella	573	CEPHALOSPORIN	blaACC-1	blaACC-1	True
+SRR16078906	klebsiella	573	CARBAPENEM	blaNDM-9	blaNDM-9	True
+SRR16078906	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-9	blaCTX-M-15;blaNDM-9	True
+SRR10397950	klebsiella	573	CARBAPENEM	none	none	True
+SRR10397950	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaKPC-52	blaDHA-1;blaKPC-52	True
+DRR120599	klebsiella	573	CARBAPENEM	blaIMP-6	blaIMP-6	True
+DRR120599	klebsiella	573	CEPHALOSPORIN	blaCTX-M-2;blaIMP-6	blaCTX-M-2;blaIMP-6	True
+SRR14402803	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR14402803	klebsiella	573	CEPHALOSPORIN	blaNDM-1	blaNDM-1	True
+SRR4198753	klebsiella	573	CARBAPENEM	none	none	True
+SRR4198753	klebsiella	573	CEPHALOSPORIN	blaCTX-M-39	blaCTX-M-39	True
+SRR7716637	klebsiella	573	CARBAPENEM	blaIMP-8	blaIMP-8	True
+SRR7716637	klebsiella	573	CEPHALOSPORIN	blaIMP-8	blaIMP-8	True
+SRR7716640	klebsiella	573	CARBAPENEM	none	none	True
+SRR7716640	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaDHA-1	blaCTX-M-14;blaCTX-M-15;blaDHA-1	True
+ERR5685463	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+ERR5685463	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM-7	blaCMY-6;blaCTX-M-15;blaNDM-7	True
+SRR5666573	klebsiella	573	CARBAPENEM	blaKPC-4	blaKPC-4	True
+SRR5666573	klebsiella	573	CEPHALOSPORIN	blaKPC-4	blaKPC-4	True
+SRR14402603	klebsiella	573	CARBAPENEM	blaKPC-18	blaKPC-18	True
+SRR14402603	klebsiella	573	CEPHALOSPORIN	blaKPC-18	blaKPC-18	True
+SRR14532104	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR14532104	klebsiella	573	CEPHALOSPORIN	blaKPC-3;blaSHV-106	blaKPC-3;blaSHV-106	True
+SRR8796523	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR8796523	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaKPC-2;blaSHV-12	blaCTX-M-27;blaKPC-2;blaSHV-12	True
+SRR15098124	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+SRR15098124	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-4;blaSHV-12	blaCTX-M-14;blaNDM-4;blaSHV-12	True
+SRR12903828	klebsiella	573	CARBAPENEM	blaKPC-2;blaNDM-1;blaOXA-181	blaKPC-2;blaNDM-1;blaOXA-181	True
+SRR12903828	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaKPC-2;blaNDM-1	blaCMY-4;blaCTX-M-15;blaKPC-2;blaNDM-1	True
+DRR065655	klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-1	blaKPC-2;blaVIM-1	True
+DRR065655	klebsiella	573	CEPHALOSPORIN	blaKPC-2;blaVIM-1	blaKPC-2;blaVIM-1	True
+ERR1541504	klebsiella	573	CARBAPENEM	blaOXA-162	blaOXA-162	True
+ERR1541504	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
+SRR6686526	klebsiella	573	CARBAPENEM	none	none	True
+SRR6686526	klebsiella	573	CEPHALOSPORIN	blaTEM-15	blaTEM-15	True
+SRR17302413	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+SRR17302413	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-3;blaVIM-1	blaCTX-M-14;blaCTX-M-3;blaVIM-1	True
+ERR3712661	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+ERR3712661	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaNDM-1	blaCMY-6;blaNDM-1	True
+SRR14292231	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
+SRR14292231	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaNDM-1	blaCTX-M-14;blaNDM-1	True
+ERR3712657	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+ERR3712657	klebsiella	573	CEPHALOSPORIN	blaCMY-4	blaCMY-4	True
+SRR15098009	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+SRR15098009	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-4	blaDHA-1;blaNDM-4	True
+ERR7672090	klebsiella	573	CARBAPENEM	none	none	True
+ERR7672090	klebsiella	573	CEPHALOSPORIN	blaCTX-M-1	blaCTX-M-1	True
+DRR150701	klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
+DRR150701	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-15;blaSHV-12	blaCTX-M-14;blaCTX-M-15;blaSHV-12	True
+ERR1415632	klebsiella	573	CARBAPENEM	blaVIM-4	blaVIM-4	True
+ERR1415632	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaVIM-4	blaCTX-M-3;blaVIM-4	True
+SRR12329568	klebsiella	573	CARBAPENEM	none	none	True
+SRR12329568	klebsiella	573	CEPHALOSPORIN	blaKPC-69	blaKPC-69	True
+SRR14449826	klebsiella	573	CARBAPENEM	blaIMP-1	blaIMP-1	True
+SRR14449826	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaIMP-1	blaDHA-1;blaIMP-1	True
+SRR14449682	klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-2	blaKPC-2;blaVIM-2	True
+SRR14449682	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaKPC-2;blaVIM-2	blaCMY-2;blaCTX-M-15;blaKPC-2;blaVIM-2	True
+ERR5685491	klebsiella	573	CARBAPENEM	blaNDM;blaOXA-181	blaNDM;blaOXA-181	True
+ERR5685491	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM	blaCMY-6;blaCTX-M-15;blaNDM	True
+SRR13088895	klebsiella	573	CARBAPENEM	blaNDM-6	blaNDM-6	True
+SRR13088895	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-6	blaCTX-M-15;blaNDM-6	True
+SRR5666555	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+SRR5666555	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-15;blaNDM-4	blaCMY-6;blaCTX-M-15;blaNDM-4	True
+SRR14449857	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14449857	klebsiella	573	CEPHALOSPORIN	blaCTX-M-1;blaKPC-2	blaCTX-M-1;blaKPC-2	True
+ERR3518869	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+ERR3518869	klebsiella	573	CEPHALOSPORIN	blaCTX-M-8;blaKPC-2	blaCTX-M-8;blaKPC-2	True
+ERR3891222	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+ERR3891222	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaDHA-25	blaCTX-M-15;blaDHA-25	True
+ERR1228391	klebsiella	573	CARBAPENEM	blaNDM-1;blaVIM-1	blaNDM-1;blaVIM-1	True
+ERR1228391	klebsiella	573	CEPHALOSPORIN	blaDHA-1;blaNDM-1;blaVIM-1	blaDHA-1;blaNDM-1;blaVIM-1	True
+SRR5386757	klebsiella	573	CARBAPENEM	blaNDM-1;blaOXA-48	blaNDM-1;blaOXA-48	True
+SRR5386757	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-15;blaNDM-1	blaCMY-4;blaCTX-M-15;blaNDM-1	True
+SRR14450077	klebsiella	573	CARBAPENEM	blaKPC-12	blaKPC-12	True
+SRR14450077	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-12;blaSHV-12	blaCTX-M-65;blaKPC-12;blaSHV-12	True
+SRR18115358	klebsiella	573	CARBAPENEM	blaVIM-1	blaVIM-1	True
+SRR18115358	klebsiella	573	CEPHALOSPORIN	blaVIM-1	blaVIM-1	True
+SRR4198755	klebsiella	573	CARBAPENEM	blaKPC-3	blaKPC-3	True
+SRR4198755	klebsiella	573	CEPHALOSPORIN	blaCTX-M-25;blaKPC-3	blaCTX-M-25;blaKPC-3	True
+SRR11791361	klebsiella	573	CARBAPENEM	none	none	True
+SRR11791361	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaSHV-12	blaCTX-M-3;blaSHV-12	True
+ERR1415609	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+ERR1415609	klebsiella	573	CEPHALOSPORIN	blaACC-4;blaCTX-M-15;blaSHV-5	blaACC-4;blaCTX-M-15;blaSHV-5	True
+SRR14450106	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR14450106	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-3;blaKPC-2;blaSHV-12	blaCTX-M-14;blaCTX-M-3;blaKPC-2;blaSHV-12	True
+SRR17308953	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+SRR17308953	klebsiella	573	CEPHALOSPORIN	blaVEB-1	blaVEB-1	True
+ERR3063466	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+ERR3063466	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-7;blaSHV-12	blaCTX-M-15;blaNDM-7;blaSHV-12	True
+ERR1217186	klebsiella	573	CARBAPENEM	none	none	True
+ERR1217186	klebsiella	573	CEPHALOSPORIN	blaCMY-16	blaCMY-16	True
+SRR15695565	klebsiella	573	CARBAPENEM	blaOXA-181	blaOXA-181	True
+SRR15695565	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-3;blaDHA-1	blaCMY-4;blaCTX-M-3;blaDHA-1	True
+SRR9734794	klebsiella	573	CARBAPENEM	blaIMP-4	blaIMP-4	True
+SRR9734794	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaIMP-4	blaCTX-M-14;blaIMP-4	True
+SRR5893953	klebsiella	573	CARBAPENEM	none	none	True
+SRR5893953	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaDHA-1;blaSHV-12	blaCTX-M-3;blaDHA-1;blaSHV-12	True
+SRR7540295	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR7540295	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaCTX-M-65;blaKPC-2;blaSHV-12	blaCTX-M-15;blaCTX-M-65;blaKPC-2;blaSHV-12	True
+SRR17302369	klebsiella	573	CARBAPENEM	blaVIM-4	blaVIM-4	True
+SRR17302369	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-55;blaSHV-38;blaVIM-4	blaCMY-4;blaCTX-M-55;blaSHV-38;blaVIM-4	True
+SRR6958791	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR6958791	klebsiella	573	CEPHALOSPORIN	blaCMY-2;blaCTX-M-15;blaKPC-2	blaCMY-2;blaCTX-M-15;blaKPC-2	True
+SRR6852552	klebsiella	573	CARBAPENEM	none	none	True
+SRR6852552	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaCTX-M-3	blaCTX-M-14;blaCTX-M-3	True
+SRR1561206	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR1561206	klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaKPC-2;blaSHV-5	blaCTX-M-9;blaKPC-2;blaSHV-5	True
+DRR125014	klebsiella	573	CARBAPENEM	blaNDM-4	blaNDM-4	True
+DRR125014	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-4;blaSHV-5	blaCTX-M-15;blaNDM-4;blaSHV-5	True
+SRR14292222	klebsiella	573	CARBAPENEM	blaNDM-7	blaNDM-7	True
+SRR14292222	klebsiella	573	CEPHALOSPORIN	blaNDM-7	blaNDM-7	True
+SRR11531462	klebsiella	573	CARBAPENEM	blaOXA-232	blaOXA-232	True
+SRR11531462	klebsiella	573	CEPHALOSPORIN	none	none	True
+SRR12329563	klebsiella	573	CARBAPENEM	none	none	True
+SRR12329563	klebsiella	573	CEPHALOSPORIN	blaKPC-68	blaKPC-68	True
+SRR17621157	klebsiella	573	CARBAPENEM	blaKPC-3;blaNDM-1	blaKPC-3;blaNDM-1	True
+SRR17621157	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-3;blaNDM-1	blaCTX-M-15;blaKPC-3;blaNDM-1	True
+SRR18030854	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR18030854	klebsiella	573	CEPHALOSPORIN	blaCTX-M-9;blaKPC-2	blaCTX-M-9;blaKPC-2	True
+SRR5666402	klebsiella	573	CARBAPENEM	blaKPC-38	blaKPC-38	True
+SRR5666402	klebsiella	573	CEPHALOSPORIN	blaKPC-38	blaKPC-38	True
+SRR17303849	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+SRR17303849	klebsiella	573	CEPHALOSPORIN	blaCMY	blaCMY	True
+SRR14181329	klebsiella	573	CARBAPENEM	blaNDM-5	blaNDM-5	True
+SRR14181329	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaNDM-5	blaCTX-M-3;blaNDM-5	True
+SRR10116789	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+SRR10116789	klebsiella	573	CEPHALOSPORIN	blaCTX-M-14;blaKPC-2	blaCTX-M-14;blaKPC-2	True
+SRR17304044	klebsiella	573	CARBAPENEM	blaVIM-4	blaVIM-4	True
+SRR17304044	klebsiella	573	CEPHALOSPORIN	blaVIM-4	blaVIM-4	True
+SRR14449880	klebsiella	573	CARBAPENEM	none	none	True
+SRR14449880	klebsiella	573	CEPHALOSPORIN	blaOXA-163	blaOXA-163	True
+SRR15047159	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR15047159	klebsiella	573	CEPHALOSPORIN	blaCMY-4;blaCTX-M-3;blaNDM-1	blaCMY-4;blaCTX-M-3;blaNDM-1	True
+SRR5973381	klebsiella	573	CARBAPENEM	blaKPC	blaKPC	True
+SRR5973381	klebsiella	573	CEPHALOSPORIN	blaKPC	blaKPC	True
+SRR6442877	klebsiella	573	CARBAPENEM	blaIMP-4;blaNDM-1	blaIMP-4;blaNDM-1	True
+SRR6442877	klebsiella	573	CEPHALOSPORIN	blaCTX-M-3;blaIMP-4;blaNDM-1	blaCTX-M-3;blaIMP-4;blaNDM-1	True
+DRR101008	klebsiella	573	CARBAPENEM	blaGES-5	blaGES-5	True
+DRR101008	klebsiella	573	CEPHALOSPORIN	blaGES-5;blaOXA-17;blaSHV-12	blaGES-5;blaOXA-17;blaSHV-12	True
+SRR17304403	klebsiella	573	CARBAPENEM	blaVIM-4	blaVIM-4	True
+SRR17304403	klebsiella	573	CEPHALOSPORIN	blaCTX-M;blaVIM-4	blaCTX-M;blaVIM-4	True
+ERR264539	klebsiella	573	CARBAPENEM	blaOXA-245	blaOXA-245	True
+ERR264539	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15	blaCTX-M-15	True
+SRR7012051	klebsiella	573	CARBAPENEM	blaKPC-12	blaKPC-12	True
+SRR7012051	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65;blaKPC-12	blaCTX-M-65;blaKPC-12	True
+SRR18212778	klebsiella	573	CARBAPENEM	blaNDM-5;blaOXA-232	blaNDM-5;blaOXA-232	True
+SRR18212778	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-5;blaSHV-31	blaCTX-M-15;blaNDM-5;blaSHV-31	True
+SRR10295058	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR10295058	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaNDM-1	blaCTX-M-15;blaNDM-1	True
+SRR15858622	klebsiella	573	CARBAPENEM	none	none	True
+SRR15858622	klebsiella	573	CEPHALOSPORIN	blaCTX-M-27;blaCTX-M-55	blaCTX-M-27;blaCTX-M-55	True
+ERR1761464	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+ERR1761464	klebsiella	573	CEPHALOSPORIN	blaKPC-2	blaKPC-2	True
+ERR1289775	klebsiella	573	CARBAPENEM	blaKPC-2;blaVIM-1	blaKPC-2;blaVIM-1	True
+ERR1289775	klebsiella	573	CEPHALOSPORIN	blaCMY-13;blaCMY-4;blaKPC-2;blaVIM-1	blaCMY-13;blaCMY-4;blaKPC-2;blaVIM-1	True
+SRR8607460	klebsiella	573	CARBAPENEM	blaOXA-48	blaOXA-48	True
+SRR8607460	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaVEB-1	blaCTX-M-15;blaVEB-1	True
+DRR125033	klebsiella	573	CARBAPENEM	blaKPC-2	blaKPC-2	True
+DRR125033	klebsiella	573	CEPHALOSPORIN	blaCTX-M-15;blaKPC-2	blaCTX-M-15;blaKPC-2	True
+SRR15827818	klebsiella	573	CARBAPENEM	blaNDM-1	blaNDM-1	True
+SRR15827818	klebsiella	573	CEPHALOSPORIN	blaCMY-6;blaCTX-M-14;blaNDM-1	blaCMY-6;blaCTX-M-14;blaNDM-1	True
+SRR14449366	klebsiella	573	CARBAPENEM	none	none	True
+SRR14449366	klebsiella	573	CEPHALOSPORIN	blaCTX-M-65	blaCTX-M-65	True
