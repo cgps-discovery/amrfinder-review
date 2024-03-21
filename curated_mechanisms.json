@@ -978,12 +978,14 @@
     ["1352", "VANCOMYCIN", "vanH-M", ["vanM", "vanH-M"] ],
     ["1352", "VANCOMYCIN", "vanX-M", ["vanM", "vanX-M"] ],
     ["1352", "VANCOMYCIN", "vanR-M", ["vanM", "vanR-M"] ],
-
+    [ "1352", "VANCOMYCIN", "vanS-B", ["vanB", "vanS-B"]],
+    [ "1352", "VANCOMYCIN", "vanR-B", ["vanA", "vanR-B"]],
+    [ "1352", "VANCOMYCIN", "vanR-A", [ "vanB", "vanR-A" ] ],
 
     [ "727", "BETA-LACTAM", "blaTEM",  [ "blaTEM" ] ],
     [ "727", "BETA-LACTAM", "blaTEM-1",  [ "blaTEM-1" ] ],
     [ "727", "BETA-LACTAM", "blaTEM-95",  [ "blaTEM-95" ] ],  
-    [ "727", "BETA-LACTAM", "blaROB-1",  [ "blaROB-1" ] ],    
+    [ "727", ["BETA-LACTAM", "CEPHALOSPORIN"], "blaROB-1",  [ "blaROB-1" ] ],    
 
     [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "gyrA_T86I",  [ "gyrA_T86I" ] ],
     [ "194", ["QUINOLONE","FLUOROQUINOLONE"], "gyrA_D90N",  [ "gyrA_D90N" ] ],
@@ -1101,7 +1103,7 @@
 
     ["562", ["QUINOLONE","FLUOROQUINOLONE", "QUINOLONE/TRICLOSAN", "CIPROFLOXACIN"], "gyrA_D87N", ["gyrA_D87N"] ],
     ["562", ["QUINOLONE","FLUOROQUINOLONE", "QUINOLONE/TRICLOSAN"], "qnrA6", ["qnrA6"] ],
-    ["562", ["QUINOLONE","FLUOROQUINOLONE", "QUINOLONE/TRICLOSAN"], "marR_V96E", ["marR_V96E"] ],
+    ["562", ["QUINOLONE","FLUOROQUINOLONE", "QUINOLONE/TRICLOSAN", "AMPICILLIN/CHLORAMPHENICOL/QUINOLONE/RIFAMPIN/TETRACYCLINE"], "marR_V96E", ["marR_V96E"] ],
     ["562", ["QUINOLONE","FLUOROQUINOLONE", "QUINOLONE/TRICLOSAN"], "qnrS4", ["qnrS4"] ],
     ["562", ["QUINOLONE","FLUOROQUINOLONE", "QUINOLONE/TRICLOSAN"], "qnrS11", ["qnrS11"] ],
     ["562", ["QUINOLONE","FLUOROQUINOLONE", "QUINOLONE/TRICLOSAN", "CIPROFLOXACIN"], "gyrA_S83V", ["gyrA_S83V"] ],

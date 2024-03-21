@@ -13,12 +13,13 @@ def main(args):
     test_data = [x for x in csv.DictReader(open(args.sample_sheet)) if x['taxid'] in args.taxid] 
     # filter with test_results.txt
     filter_list = [] 
-    with open('testing_results/test_results.txt') as f:
-        for line in f.readlines():
-            line = line.strip()
-            if line.split('\t')[7] == 'False' and line.split('\t')[3] in args.taxid:
-                filter_list.append(line.split('\t')[0])
-    test_data = [x for x in test_data if x['sample'] in filter_list]
+    if not args.all:
+        with open(f'{args.dir.split("/")[0]}/test_results.txt') as f:
+            for line in f.readlines():
+                line = line.strip()
+                if line.split('\t')[7] == 'False' and line.split('\t')[3] in args.taxid:
+                    filter_list.append(line.split('\t')[0])
+        test_data = [x for x in test_data if x['sample'] in filter_list]
 
     print(f'Loaded {len(test_data)}', file=sys.stderr)
     print('accession', 'species','taxid', 'drug_class', 'expected', 'actual', 'passed', sep='\t')
@@ -58,13 +59,15 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('--dir', type=str, help='The path to a folder of amrfinder (table results)', default='testing_results/amrfinder_test')
+    parser.add_argument('--dir', type=str, help='The path to a folder of amrfinder (table results)', default='testing_results_v2/amrfinder_test')
     parser.add_argument('--sample_sheet', type=str, help='The path to the samplesheet, with taxids', default='testing_datasets/full_samplesheet_fasta.csv')
     parser.add_argument('--curated_file', type=str, help='The path curated mechanisms filter as a json', default='curated_mechanisms.json')
-    parser.add_argument('--taxid', type=str, help='taxid to filter', nargs='+', default=['562'])
-    parser.add_argument('--failed', help='Show failed only', action='store_true', default=True)
-    parser.add_argument('--script_only', help='dont use the container', action='store_true', default=False)
+    parser.add_argument('--taxid', type=str, help='taxid to filter', nargs='+', default=['562çç'])
+    parser.add_argument('--failed', help='Show failed only', action='store_true', default=False)
+    parser.add_argument('--script_only', help='dont use the container', action='store_true', default=True)
     parser.add_argument('--subsample', type=int, help='Run a subsample', default=1000000)
+    parser.add_argument('--all', help='Do all', action='store_true', default=True)
+
     args = parser.parse_args()
     main(args)
 
