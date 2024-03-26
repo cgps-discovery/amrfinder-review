@@ -6969,7 +6969,7 @@ SRR12762082	escherichia_coli	562	CARBAPENEM	none	none	True
 SRR12762082	escherichia_coli	562	QUINOLONE	none	none	True
 SRR12762082	escherichia_coli	562	CEPHALOSPORIN	none	none	True
 SRR17900287	escherichia_coli	562	CARBAPENEM	none	none	True
-SRR17900287	escherichia_coli	562	QUINOLONE	gyrA_D87N;gyrA_S83L;marR_V96E;parC_S57T;parC_S80I;parE_L416F	gyrA_D87N;gyrA_S83L;parC_S57T;parC_S80I;parE_L416F	False
+SRR17900287	escherichia_coli	562	QUINOLONE	gyrA_D87N;gyrA_S83L;marR_V96E;parC_S57T;parC_S80I;parE_L416F	gyrA_D87N;gyrA_S83L;marR_V96E;parC_S57T;parC_S80I;parE_L416F	True
 SRR17900287	escherichia_coli	562	CEPHALOSPORIN	none	none	True
 SRR9622473	escherichia_coli	562	CARBAPENEM	none	none	True
 SRR9622473	escherichia_coli	562	QUINOLONE	parE_I355T	parE_I355T	True
