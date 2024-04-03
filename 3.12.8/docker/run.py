@@ -157,6 +157,11 @@ def generate_curated_output(curated_mechanisms, result_list, tax_id):
             groups['CEPHALOSPORIN'] += groups['CARBAPENEM']
         else:
             groups['CEPHALOSPORIN'] = groups['CARBAPENEM']
+    if tax_id in ['573'] and groups.get('CEPHALOSPORIN'):    
+        if groups.get('CARBAPENEM'):
+            groups['CARBAPENEM'] += groups['CEPHALOSPORIN']
+        else:
+            groups['CARBAPENEM'] = groups['CEPHALOSPORIN']        
     if tax_id in ['727'] and groups.get('CEPHALOSPORIN'):
         if groups.get('BETA-LACTAM'):
             groups['BETA-LACTAM'] += groups['CEPHALOSPORIN']
