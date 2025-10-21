@@ -1,6 +1,37 @@
 # Docker container for amrfinder
 
-This runs a legacy version of amrfinder. Software versions are:
+### Updated for AMRFINDER 4.0.23
+
+This repo has been updated to use AMRFinderPlus 4.0.23 and the corresponding database snapshot.
+
+Example (private ECR) runtime invocation:
+
+```bash
+docker run -i 902121496535.dkr.ecr.us-east-2.amazonaws.com/cgps-discovery:amrfinder-4.0.0-runtime \
+    --tax-id 1313 < testing_basic/ERR054556.fasta
+```
+
+Example (public) runtime invocation:
+
+```bash
+docker run -i happykhan/amrfinder:amrfinder-4.0.0-runtime \
+    --tax-id 1313 < testing_basic/ERR054556.fasta
+```
+
+Expected behavior:
+- The container streams a JSON-like result to stdout (raw AMRFinder output or curated JSON when `--curated` is used).
+- The container prints AMRFinderPlus version and database info, e.g.:
+    - running AMRFINDERPLUS SOFTWARE VERSION : 4.0.23
+    - DATABASE: https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/4.0/2025-07-16.1/
+
+Dockerfile for this build:  
+https://github.com/cgps-discovery/amrfinder-review/blob/main/4.0.23/docker/Dockerfile
+
+Use the public image above if you need a publicly accessible runtime image.
+
+### Original README below for AMRFINDER 3.12.8
+
+Originally this ran a legacy version of amrfinder. Software versions were:
 
 * AMRFINDER 3.10.23
 * BLAST: 2.12.0
