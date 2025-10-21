@@ -1,5 +1,5 @@
 # Use a specific micromamba image as the base
-FROM mambaorg/micromamba:latest AS base
+FROM --platform=linux/x86_64 mambaorg/micromamba:latest AS base
 
 # Avoid lock issues
 ENV MAMBA_NO_LOCKS=1

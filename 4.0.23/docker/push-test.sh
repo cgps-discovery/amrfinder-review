@@ -4,6 +4,6 @@ read -d $'\x04' ver < "$file" #the content of $file is redirected to stdin from 
 echo $ver          
 DOCKER_DIR="4.0.23/docker"
 cp curated_mechanisms.json "$DOCKER_DIR"/
-python3 "$DOCKER_DIR"/deploy.py --docker-image-version amrfinder-$ver --docker-repo happykhan/amrfinder --docker-dir "$DOCKER_DIR" --image-target base build
-python3 "$DOCKER_DIR"/deploy.py --docker-image-version amrfinder-$ver --docker-repo happykhan/amrfinder --docker-dir "$DOCKER_DIR" --image-target runtime build --push
-python3 "$DOCKER_DIR"/deploy.py --docker-image-version amrfinder-$ver --docker-repo happykhan/amrfinder --docker-dir "$DOCKER_DIR" --image-target nextflow build --push
+python3 "$DOCKER_DIR"/deploy.py build --docker-image-version amrfinder-$ver --docker-repo happykhan/amrfinder --docker-dir "$DOCKER_DIR" --image-target base --push
+python3 "$DOCKER_DIR"/deploy.py build --docker-image-version amrfinder-$ver --docker-repo happykhan/amrfinder --docker-dir "$DOCKER_DIR" --image-target runtime  --push
+python3 "$DOCKER_DIR"/deploy.py build --docker-image-version amrfinder-$ver --docker-repo happykhan/amrfinder --docker-dir "$DOCKER_DIR" --image-target nextflow  --push

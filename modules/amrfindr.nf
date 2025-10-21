@@ -28,37 +28,6 @@ process AMRFINDERPLUS1 {
 
 }
 
-process AMRFINDERPLUS2 {
-    label 'AMRFINDRPLUS_ORIGINAL'
-    label 'process_single'
-    tag {"AMR Prediction ori $sample"}
-
-    publishDir "${params.outdir}/amrfinder_ori", mode: 'copy'
-
-    input:
-    tuple val(sample), file(fasta), val(species)
-
-    script:
-     if (species =~ /None/){ // Species is not defined
-    """
-    amrfinder --plus --threads $task.cpus  -n $fasta > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
-    """
-      } else { // files with _1 and _2
-    """
-    amrfinder --plus --threads $task.cpus -n $fasta --organism $species > ${sample}_amrfinder.txt 2> ${sample}_amrfinder.err
-    """ 
-    }    
-    output:
-    tuple val(sample), file("${sample}_amrfinder.txt"), file("${sample}_amrfinder.err")
-
-    stub:
-        """
-        touch ${sample}_amrfinder.txt
-        touch ${sample}_amrfinder.err
-        """
-
-}
-
 process AMRFINDERPLUS3 {
     label 'AMRFINDRPLUS_RUNTIME'
     label 'process_single'
@@ -71,7 +40,7 @@ process AMRFINDERPLUS3 {
 
     script:
     """
-    python3 /amrfinder/run.py --curated_file /amrfinder/curated_mechanisms.json --curated --tax-id $taxid < $fasta > ${sample}_amrfinder.json 2> ${sample}_amrfinder.err
+    python3 /amrfinder/run.py --curated_file /amrfinder/curated_mechanisms.json --tax-id $taxid < $fasta > ${sample}_amrfinder.json 2> ${sample}_amrfinder.err
     """
 
     output:

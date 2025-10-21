@@ -11,12 +11,12 @@ def check_result(index, sample, samplejson):
     with open(samplejson, 'r') as f:
         sample_results = json.load(f)
         if not sample_results:
-            sample_results = {}
+            sample_results = { 'curated': None, 'raw': None}
 
     for classes, value in expected_result.items():
         if classes in ['CARBAPENEM', 'QUINOLONE', 'CEPHALOSPORIN', 'FLUOROQUINOLONE', 'BETA-LACTAM', 'METHICILLIN', 'VANCOMYCIN'] and expected_result.get(classes):    
             value = ';'.join( sorted( value.split(';') )       )
-            actual_result = ';'.join(sorted(sample_results.get(classes, ['none'])))
+            actual_result = ';'.join(sorted(sample_results['curated'].get(classes, ['none'])))
             passing = value == actual_result
             species = expected_result['species']
             database = expected_result['database']

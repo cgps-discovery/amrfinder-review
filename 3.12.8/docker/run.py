@@ -7,6 +7,7 @@ import argparse
 import csv
 import json 
 import argparse
+import copy
 import os 
 import ast
 from itertools import groupby
@@ -204,26 +205,29 @@ def apply_filters(result, tax_id, curated_file):
     else:
         return None 
 
-def parse_output(result_lines, tax_id, curated_file, curated=False):
+def create_output_dict(info):
+    data = {"protein_identifier": info[0], "contig_id": info[1], "start": info[2], "stop": info[3], "strand": info[4], "gene_symbol": info[5],"sequence_name": info[6], "scope": info[7], "element_type": info[8], "element_subtype": info[9], "class": info[10], "subclass": info[11], "method": info[12], "target_length": info[13], "ref_seq_length": info[14], "percent_cov_of_ref_seq": info[15], "percent_id_to_ref_seq": info[16], 'alignment_length': info[17], "acc_of_closest_sequence": info[18], "name_of_closest_sequence": info[19], "hmm_id": info[20], "hmm_description": info[21]}
+    return data
+
+def parse_output(result_lines, tax_id, curated_file):
     """
     Captures the essential output from Quast
     :param quast_result_path: Path to the AMRFinder output file
     :param tax_id: The tax_id to evaluate
     """
     mod_list = []
+    raw_list = [] 
     for line in result_lines[1:]:  # Skip the first item
         info = line.split("\t")
         if len(info) > 21:
+            raw_list.append(create_output_dict(info))
             info[11] = evaluate_subclass(info[11], tax_id)
-            data = {"protein_identifier": info[0], "contig_id": info[1], "start": info[2], "stop": info[3], "strand": info[4], "gene_symbol": info[5],"sequence_name": info[6], "scope": info[7], "element_type": info[8], "element_subtype": info[9], "class": info[10], "subclass": info[11], "method": info[12], "target_length": info[13], "ref_seq_length": info[14], "percent_cov_of_ref_seq": info[15], "percent_id_to_ref_seq": info[16], 'alignment_length': info[17], "acc_of_closest_sequence": info[18], "name_of_closest_sequence": info[19], "hmm_id": info[20], "hmm_description": info[21]}
-            mod_list.append( data )        
-    result = json.dumps(mod_list) 
-    if curated: 
-        json_ready = json.loads(result)
-        result = json.dumps(apply_filters(json_ready, tax_id, curated_file))
-        if result == 'null':
-            print('Error; no curated rules found' , file=sys.stderr)
-    return result
+            mod_list.append(create_output_dict(info))        
+    raw_result = copy.deepcopy(mod_list)
+    result = apply_filters(mod_list, tax_id, curated_file)
+    if result == 'null':
+        print('Error; no curated rules found' , file=sys.stderr)
+    return result, raw_result
 
 def main(args):
     file_name = get_random_string()
@@ -253,19 +257,16 @@ def main(args):
         result_file = open(output_file_path, 'r')
         amrfinder_results = [x.strip() for x in result_file]
         result_file.close()
+    curated, raw = parse_output(amrfinder_results, tax_id,  args.curated_file)
+    output_dict = { "raw" : raw, "curated": curated } 
+    print(json.dumps(output_dict))
 
-    if args.rawtable:
-        print('\n'.join(amrfinder_results))
-    else:
-        print(parse_output(amrfinder_results, tax_id,  args.curated_file, args.curated))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser() 
     parser.add_argument('--tax-id', help='Taxonomy ID', type=str, required=True) 
-    parser.add_argument('--curated', help='Show curated results', action='store_true', required=False) 
     parser.add_argument('--curated_file', help='curated_mechanisms json path', type=str, default='curated_mechanisms.json') 
     parser.add_argument('--existing', help='STDIN is an existing amrfinder output table (usually fasta)', action='store_true', required=False) 
-    parser.add_argument('--rawtable', help='Show original arfinder output table', action='store_true', required=False) 
     parser.add_argument('--tempdir', help='Change tempdir default is /amrfinder/temp/', type=str, default='/amrfinder/temp/') 
 
     args = parser.parse_args()
