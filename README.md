@@ -4,13 +4,6 @@
 
 This repo has been updated to use AMRFinderPlus 4.0.23 and the corresponding database snapshot.
 
-Example (private ECR) runtime invocation:
-
-```bash
-docker run -i 902121496535.dkr.ecr.us-east-2.amazonaws.com/cgps-discovery:amrfinder-4.0.0-runtime \
-    --tax-id 1313 < testing_basic/ERR054556.fasta
-```
-
 Example (public) runtime invocation:
 
 ```bash

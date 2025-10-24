@@ -23,20 +23,21 @@ database_info = {
 '470':'Acinetobacter_baumannii',
 '562':'Escherichia',
 '1496': 'Clostridioides_difficile',
-'354276': None,
-'573':'Klebsiella', # Klebsiella is split between pneumoniae and oxytoca in one version, and kept as a single Klebsiella database in another
+'354276': 'Enterobacter_cloacae',
+'573':'Klebsiella_pneumoniae', 
+'571': 'Klebsiella_oxytoca',
 '287':'Pseudomonas_aeruginosa',
 '194':'Campylobacter',
 '195':'Campylobacter', # campylobacter_coli
 '197':'Campylobacter', # campylobacter_jejuni
 '547': None, # enterobacter
 '354276': None, # Enterobacter cloacae complex
-'727': None, # hinfluenzae
+'727': 'Haemophilus_influenzae', # hinfluenzae
 '210': None, # hpylori
 '1773': None, # mtuberculosis
 '1351':'Enterococcus_faecalis',
 '1352':'Enterococcus_faecium',
-'485':'Neisseria',
+'485':'Neisseria_gonorrhoeae',
 '1280':'Staphylococcus_aureus',
 '283734': 'Staphylococcus_pseudintermedius',
 '1311':'Streptococcus_agalactiae',
@@ -50,6 +51,20 @@ database_info = {
 '623':'Escherichia', #shigella_flexneri
 '624':'Escherichia', #shigella_sonnei
 '666': 'Vibrio_cholerae',
+
+# Added species
+'520':'Bordetella_pertussis',
+'292':'Burkholderia_cepacia',
+'13373':'Burkholderia_mallei',
+'28450':'Burkholderia_pseudomallei',
+'546':'Citrobacter_freundii',
+'1717':'Corynebacterium_diphtheriae',
+'61645':'Enterobacter_asburiae',
+'487':'Neisseria_meningitidis',
+'615':'Serratia_marcescens',
+'670':'Vibrio_parahaemolyticus',
+'672':'Vibrio_vulnificus',
+
 None:None
 }
 
@@ -230,19 +245,36 @@ def parse_output(result_lines, tax_id, curated_file):
     return result, raw_result
 
 def main(args):
+    import gzip
     file_name = get_random_string()
 
     input_file_path = f'{args.tempdir}/{file_name}.fasta'
     output_file_path = f'{args.tempdir}/{file_name}_output.tsv'
 
-    in_file = open(input_file_path, 'w')
-    lines_of_data = sys.stdin.read() 
-    if not lines_of_data:
+    # Read from stdin and handle both text and binary (gzipped) input
+    raw_input = sys.stdin.buffer.read() if hasattr(sys.stdin, 'buffer') else sys.stdin.read()
+    
+    if not raw_input:
         print('No input data received', file=sys.stderr)
         print('If this is Docker did you remember to use --interactive?', file=sys.stderr)
         sys.exit(1)
-    in_file.write(''.join(lines_of_data))
-    in_file.close()
+    
+    # Try to decompress if gzipped, otherwise use as-is
+    lines_of_data = ""
+    try:
+        if isinstance(raw_input, bytes) and raw_input[:2] == b'\x1f\x8b':  # gzip magic number
+            lines_of_data = gzip.decompress(raw_input).decode('utf-8', errors='replace')
+        elif isinstance(raw_input, bytes):
+            lines_of_data = raw_input.decode('utf-8', errors='replace')
+        else:
+            lines_of_data = raw_input
+    except Exception as e:
+        print(f'Error processing input: {e}', file=sys.stderr)
+        sys.exit(1)
+    
+    # Write to file
+    with open(input_file_path, 'w') as in_file:
+        in_file.write(lines_of_data)
 
     tax_id = tax_id_mapping.get(args.tax_id, args.tax_id)
     organism = database_info.get(tax_id, None)
@@ -255,6 +287,12 @@ def main(args):
         else:
             amrfinder_output = subprocess.run(['amrfinder', '--plus', '-n', input_file_path, '-o', output_file_path], capture_output=True)
 
+        # Print amrfinder output for debugging
+        # if amrfinder_output.stdout:
+        #     print(f"amrfinder stdout: {amrfinder_output.stdout.decode('utf-8', errors='replace')}", file=sys.stderr)
+        # if amrfinder_output.stderr:
+        #     print(f"amrfinder stderr: {amrfinder_output.stderr.decode('utf-8', errors='replace')}", file=sys.stderr)
+        
         # If the process failed, note the return code
         if getattr(amrfinder_output, "returncode", 0) != 0:
             print(f"amrfinder exited with return code {amrfinder_output.returncode}", file=sys.stderr)
